@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 using System.IO;
+using Newtonsoft.Json;
 
 
 namespace cia.factbook.parse
@@ -11,6 +12,7 @@ namespace cia.factbook.parse
     {
         public static void CreateCountriesList()
         {
+            TextWriter tw = new StreamWriter("countrieslist.json", false);
             try
             {
                 List<Country> Countries = new List<Country>();
@@ -37,9 +39,12 @@ namespace cia.factbook.parse
                         Countries.Add(c);
                     }
                 }
-                Console.WriteLine($"{Countries.Count} Countries");                
+                Console.WriteLine($"{Countries.Count} Countries");
+                string json = JsonConvert.SerializeObject(Countries, Formatting.Indented);
+                tw.WriteLine(json);
             }
             catch (Exception e) { Console.WriteLine(e.Message); }
+            finally { tw.Close(); }
         }
     }
 }

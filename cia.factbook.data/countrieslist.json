@@ -1,0 +1,2722 @@
+[
+  {
+    "Name": "Afghanistan",
+    "GEC": "AF",
+    "ISO_3166_1_Alpha2": "AF",
+    "ISO_3166_1_Alpha3": "AFG",
+    "ISO_3166_1_Numeric": "004",
+    "STANAG": "AFG",
+    "Internet": ".af",
+    "Comment": ""
+  },
+  {
+    "Name": "Akrotiri",
+    "GEC": "AX",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": ""
+  },
+  {
+    "Name": "Albania",
+    "GEC": "AL",
+    "ISO_3166_1_Alpha2": "AL",
+    "ISO_3166_1_Alpha3": "ALB",
+    "ISO_3166_1_Numeric": "008",
+    "STANAG": "ALB",
+    "Internet": ".al",
+    "Comment": ""
+  },
+  {
+    "Name": "Algeria",
+    "GEC": "AG",
+    "ISO_3166_1_Alpha2": "DZ",
+    "ISO_3166_1_Alpha3": "DZA",
+    "ISO_3166_1_Numeric": "012",
+    "STANAG": "DZA",
+    "Internet": ".dz",
+    "Comment": ""
+  },
+  {
+    "Name": "American Samoa",
+    "GEC": "AQ",
+    "ISO_3166_1_Alpha2": "AS",
+    "ISO_3166_1_Alpha3": "ASM",
+    "ISO_3166_1_Numeric": "016",
+    "STANAG": "ASM",
+    "Internet": ".as",
+    "Comment": ""
+  },
+  {
+    "Name": "Andorra",
+    "GEC": "AN",
+    "ISO_3166_1_Alpha2": "AD",
+    "ISO_3166_1_Alpha3": "AND",
+    "ISO_3166_1_Numeric": "020",
+    "STANAG": "AND",
+    "Internet": ".ad",
+    "Comment": ""
+  },
+  {
+    "Name": "Angola",
+    "GEC": "AO",
+    "ISO_3166_1_Alpha2": "AO",
+    "ISO_3166_1_Alpha3": "AGO",
+    "ISO_3166_1_Numeric": "024",
+    "STANAG": "AGO",
+    "Internet": ".ao",
+    "Comment": ""
+  },
+  {
+    "Name": "Anguilla",
+    "GEC": "AV",
+    "ISO_3166_1_Alpha2": "AI",
+    "ISO_3166_1_Alpha3": "AIA",
+    "ISO_3166_1_Numeric": "660",
+    "STANAG": "AIA",
+    "Internet": ".ai",
+    "Comment": ""
+  },
+  {
+    "Name": "Antarctica",
+    "GEC": "AY",
+    "ISO_3166_1_Alpha2": "AQ",
+    "ISO_3166_1_Alpha3": "ATA",
+    "ISO_3166_1_Numeric": "010",
+    "STANAG": "ATA",
+    "Internet": ".aq",
+    "Comment": "ISO defines as the territory south of 60 degrees south latitude"
+  },
+  {
+    "Name": "Antigua and Barbuda",
+    "GEC": "AC",
+    "ISO_3166_1_Alpha2": "AG",
+    "ISO_3166_1_Alpha3": "ATG",
+    "ISO_3166_1_Numeric": "028",
+    "STANAG": "ATG",
+    "Internet": ".ag",
+    "Comment": ""
+  },
+  {
+    "Name": "Argentina",
+    "GEC": "AR",
+    "ISO_3166_1_Alpha2": "AR",
+    "ISO_3166_1_Alpha3": "ARG",
+    "ISO_3166_1_Numeric": "032",
+    "STANAG": "ARG",
+    "Internet": ".ar",
+    "Comment": ""
+  },
+  {
+    "Name": "Armenia",
+    "GEC": "AM",
+    "ISO_3166_1_Alpha2": "AM",
+    "ISO_3166_1_Alpha3": "ARM",
+    "ISO_3166_1_Numeric": "051",
+    "STANAG": "ARM",
+    "Internet": ".am",
+    "Comment": ""
+  },
+  {
+    "Name": "Aruba",
+    "GEC": "AA",
+    "ISO_3166_1_Alpha2": "AW",
+    "ISO_3166_1_Alpha3": "ABW",
+    "ISO_3166_1_Numeric": "533",
+    "STANAG": "ABW",
+    "Internet": ".aw",
+    "Comment": ""
+  },
+  {
+    "Name": "Ashmore and Cartier Islands",
+    "GEC": "AT",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "AUS",
+    "Internet": "-",
+    "Comment": "ISO includes with Australia"
+  },
+  {
+    "Name": "Australia",
+    "GEC": "AS",
+    "ISO_3166_1_Alpha2": "AU",
+    "ISO_3166_1_Alpha3": "AUS",
+    "ISO_3166_1_Numeric": "036",
+    "STANAG": "AUS",
+    "Internet": ".au",
+    "Comment": "\"ISO includes Ashmore and Cartier Islands"
+  },
+  {
+    "Name": "Austria",
+    "GEC": "AU",
+    "ISO_3166_1_Alpha2": "AT",
+    "ISO_3166_1_Alpha3": "AUT",
+    "ISO_3166_1_Numeric": "040",
+    "STANAG": "AUT",
+    "Internet": ".at",
+    "Comment": ""
+  },
+  {
+    "Name": "Azerbaijan",
+    "GEC": "AJ",
+    "ISO_3166_1_Alpha2": "AZ",
+    "ISO_3166_1_Alpha3": "AZE",
+    "ISO_3166_1_Numeric": "031",
+    "STANAG": "AZE",
+    "Internet": ".az",
+    "Comment": ""
+  },
+  {
+    "Name": "\"Bahamas",
+    "GEC": "The\"",
+    "ISO_3166_1_Alpha2": "BF",
+    "ISO_3166_1_Alpha3": "BS",
+    "ISO_3166_1_Numeric": "BHS",
+    "STANAG": "044",
+    "Internet": "BHS",
+    "Comment": ".bs"
+  },
+  {
+    "Name": "Bahrain",
+    "GEC": "BA",
+    "ISO_3166_1_Alpha2": "BH",
+    "ISO_3166_1_Alpha3": "BHR",
+    "ISO_3166_1_Numeric": "048",
+    "STANAG": "BHR",
+    "Internet": ".bh",
+    "Comment": ""
+  },
+  {
+    "Name": "Baker Island",
+    "GEC": "FQ",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "UMI",
+    "Internet": "-",
+    "Comment": "ISO includes with the US Minor Outlying Islands"
+  },
+  {
+    "Name": "Bangladesh",
+    "GEC": "BG",
+    "ISO_3166_1_Alpha2": "BD",
+    "ISO_3166_1_Alpha3": "BGD",
+    "ISO_3166_1_Numeric": "050",
+    "STANAG": "BGD",
+    "Internet": ".bd",
+    "Comment": ""
+  },
+  {
+    "Name": "Barbados",
+    "GEC": "BB",
+    "ISO_3166_1_Alpha2": "BB",
+    "ISO_3166_1_Alpha3": "BRB",
+    "ISO_3166_1_Numeric": "052",
+    "STANAG": "BRB",
+    "Internet": ".bb",
+    "Comment": ""
+  },
+  {
+    "Name": "Bassas da India",
+    "GEC": "BS",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned"
+  },
+  {
+    "Name": "Belarus",
+    "GEC": "BO",
+    "ISO_3166_1_Alpha2": "BY",
+    "ISO_3166_1_Alpha3": "BLR",
+    "ISO_3166_1_Numeric": "112",
+    "STANAG": "BLR",
+    "Internet": ".by",
+    "Comment": ""
+  },
+  {
+    "Name": "Belgium",
+    "GEC": "BE",
+    "ISO_3166_1_Alpha2": "BE",
+    "ISO_3166_1_Alpha3": "BEL",
+    "ISO_3166_1_Numeric": "056",
+    "STANAG": "BEL",
+    "Internet": ".be",
+    "Comment": ""
+  },
+  {
+    "Name": "Belize",
+    "GEC": "BH",
+    "ISO_3166_1_Alpha2": "BZ",
+    "ISO_3166_1_Alpha3": "BLZ",
+    "ISO_3166_1_Numeric": "084",
+    "STANAG": "BLZ",
+    "Internet": ".bz",
+    "Comment": ""
+  },
+  {
+    "Name": "Benin",
+    "GEC": "BN",
+    "ISO_3166_1_Alpha2": "BJ",
+    "ISO_3166_1_Alpha3": "BEN",
+    "ISO_3166_1_Numeric": "204",
+    "STANAG": "BEN",
+    "Internet": ".bj",
+    "Comment": ""
+  },
+  {
+    "Name": "Bermuda",
+    "GEC": "BD",
+    "ISO_3166_1_Alpha2": "BM",
+    "ISO_3166_1_Alpha3": "BMU",
+    "ISO_3166_1_Numeric": "060",
+    "STANAG": "BMU",
+    "Internet": ".bm",
+    "Comment": ""
+  },
+  {
+    "Name": "Bhutan",
+    "GEC": "BT",
+    "ISO_3166_1_Alpha2": "BT",
+    "ISO_3166_1_Alpha3": "BTN",
+    "ISO_3166_1_Numeric": "064",
+    "STANAG": "BTN",
+    "Internet": ".bt",
+    "Comment": ""
+  },
+  {
+    "Name": "Bolivia",
+    "GEC": "BL",
+    "ISO_3166_1_Alpha2": "BO",
+    "ISO_3166_1_Alpha3": "BOL",
+    "ISO_3166_1_Numeric": "068",
+    "STANAG": "BOL",
+    "Internet": ".bo",
+    "Comment": ""
+  },
+  {
+    "Name": "Bosnia and Herzegovina",
+    "GEC": "BK",
+    "ISO_3166_1_Alpha2": "BA",
+    "ISO_3166_1_Alpha3": "BIH",
+    "ISO_3166_1_Numeric": "070",
+    "STANAG": "BIH",
+    "Internet": ".ba",
+    "Comment": ""
+  },
+  {
+    "Name": "Botswana",
+    "GEC": "BC",
+    "ISO_3166_1_Alpha2": "BW",
+    "ISO_3166_1_Alpha3": "BWA",
+    "ISO_3166_1_Numeric": "072",
+    "STANAG": "BWA",
+    "Internet": ".bw",
+    "Comment": ""
+  },
+  {
+    "Name": "Bouvet Island",
+    "GEC": "BV",
+    "ISO_3166_1_Alpha2": "BV",
+    "ISO_3166_1_Alpha3": "BVT",
+    "ISO_3166_1_Numeric": "074",
+    "STANAG": "BVT",
+    "Internet": ".bv",
+    "Comment": ""
+  },
+  {
+    "Name": "Brazil",
+    "GEC": "BR",
+    "ISO_3166_1_Alpha2": "BR",
+    "ISO_3166_1_Alpha3": "BRA",
+    "ISO_3166_1_Numeric": "076",
+    "STANAG": "BRA",
+    "Internet": ".br",
+    "Comment": ""
+  },
+  {
+    "Name": "British Indian Ocean Territory",
+    "GEC": "IO",
+    "ISO_3166_1_Alpha2": "IO",
+    "ISO_3166_1_Alpha3": "IOT",
+    "ISO_3166_1_Numeric": "086",
+    "STANAG": "IOT",
+    "Internet": ".io",
+    "Comment": ""
+  },
+  {
+    "Name": "British Virgin Islands",
+    "GEC": "VI",
+    "ISO_3166_1_Alpha2": "VG",
+    "ISO_3166_1_Alpha3": "VGB",
+    "ISO_3166_1_Numeric": "092",
+    "STANAG": "VGB",
+    "Internet": ".vg",
+    "Comment": ""
+  },
+  {
+    "Name": "Brunei",
+    "GEC": "BX",
+    "ISO_3166_1_Alpha2": "BN",
+    "ISO_3166_1_Alpha3": "BRN",
+    "ISO_3166_1_Numeric": "096",
+    "STANAG": "BRN",
+    "Internet": ".bn",
+    "Comment": ""
+  },
+  {
+    "Name": "Bulgaria",
+    "GEC": "BU",
+    "ISO_3166_1_Alpha2": "BG",
+    "ISO_3166_1_Alpha3": "BGR",
+    "ISO_3166_1_Numeric": "100",
+    "STANAG": "BGR",
+    "Internet": ".bg",
+    "Comment": ""
+  },
+  {
+    "Name": "Burkina Faso",
+    "GEC": "UV",
+    "ISO_3166_1_Alpha2": "BF",
+    "ISO_3166_1_Alpha3": "BFA",
+    "ISO_3166_1_Numeric": "854",
+    "STANAG": "BFA",
+    "Internet": ".bf",
+    "Comment": ""
+  },
+  {
+    "Name": "Burma",
+    "GEC": "BM",
+    "ISO_3166_1_Alpha2": "MM",
+    "ISO_3166_1_Alpha3": "MMR",
+    "ISO_3166_1_Numeric": "104",
+    "STANAG": "MMR",
+    "Internet": ".mm",
+    "Comment": "ISO uses the name Myanmar"
+  },
+  {
+    "Name": "Burundi",
+    "GEC": "BY",
+    "ISO_3166_1_Alpha2": "BI",
+    "ISO_3166_1_Alpha3": "BDI",
+    "ISO_3166_1_Numeric": "108",
+    "STANAG": "BDI",
+    "Internet": ".bi",
+    "Comment": ""
+  },
+  {
+    "Name": "Cabo Verde",
+    "GEC": "CV",
+    "ISO_3166_1_Alpha2": "CV",
+    "ISO_3166_1_Alpha3": "CPV",
+    "ISO_3166_1_Numeric": "132",
+    "STANAG": "CPV",
+    "Internet": ".cv",
+    "Comment": ""
+  },
+  {
+    "Name": "Cambodia",
+    "GEC": "CB",
+    "ISO_3166_1_Alpha2": "KH",
+    "ISO_3166_1_Alpha3": "KHM",
+    "ISO_3166_1_Numeric": "116",
+    "STANAG": "KHM",
+    "Internet": ".kh",
+    "Comment": ""
+  },
+  {
+    "Name": "Cameroon",
+    "GEC": "CM",
+    "ISO_3166_1_Alpha2": "CM",
+    "ISO_3166_1_Alpha3": "CMR",
+    "ISO_3166_1_Numeric": "120",
+    "STANAG": "CMR",
+    "Internet": ".cm",
+    "Comment": ""
+  },
+  {
+    "Name": "Canada",
+    "GEC": "CA",
+    "ISO_3166_1_Alpha2": "CA",
+    "ISO_3166_1_Alpha3": "CAN",
+    "ISO_3166_1_Numeric": "124",
+    "STANAG": "CAN",
+    "Internet": ".ca",
+    "Comment": ""
+  },
+  {
+    "Name": "Cayman Islands",
+    "GEC": "CJ",
+    "ISO_3166_1_Alpha2": "KY",
+    "ISO_3166_1_Alpha3": "CYM",
+    "ISO_3166_1_Numeric": "136",
+    "STANAG": "CYM",
+    "Internet": ".ky",
+    "Comment": ""
+  },
+  {
+    "Name": "Central African Republic",
+    "GEC": "CT",
+    "ISO_3166_1_Alpha2": "CF",
+    "ISO_3166_1_Alpha3": "CAF",
+    "ISO_3166_1_Numeric": "140",
+    "STANAG": "CAF",
+    "Internet": ".cf",
+    "Comment": ""
+  },
+  {
+    "Name": "Chad",
+    "GEC": "CD",
+    "ISO_3166_1_Alpha2": "TD",
+    "ISO_3166_1_Alpha3": "TCD",
+    "ISO_3166_1_Numeric": "148",
+    "STANAG": "TCD",
+    "Internet": ".td",
+    "Comment": ""
+  },
+  {
+    "Name": "Chile",
+    "GEC": "CI",
+    "ISO_3166_1_Alpha2": "CL",
+    "ISO_3166_1_Alpha3": "CHL",
+    "ISO_3166_1_Numeric": "152",
+    "STANAG": "CHL",
+    "Internet": ".cl",
+    "Comment": ""
+  },
+  {
+    "Name": "China",
+    "GEC": "CH",
+    "ISO_3166_1_Alpha2": "CN",
+    "ISO_3166_1_Alpha3": "CHN",
+    "ISO_3166_1_Numeric": "156",
+    "STANAG": "CHN",
+    "Internet": ".cn",
+    "Comment": "see also Taiwan"
+  },
+  {
+    "Name": "Christmas Island",
+    "GEC": "KT",
+    "ISO_3166_1_Alpha2": "CX",
+    "ISO_3166_1_Alpha3": "CXR",
+    "ISO_3166_1_Numeric": "162",
+    "STANAG": "CXR",
+    "Internet": ".cx",
+    "Comment": ""
+  },
+  {
+    "Name": "Clipperton Island",
+    "GEC": "IP",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "FYP",
+    "Internet": "-",
+    "Comment": "ISO includes with France"
+  },
+  {
+    "Name": "Cocos (Keeling) Islands",
+    "GEC": "CK",
+    "ISO_3166_1_Alpha2": "CC",
+    "ISO_3166_1_Alpha3": "CCK",
+    "ISO_3166_1_Numeric": "166",
+    "STANAG": "AUS",
+    "Internet": ".cc",
+    "Comment": ""
+  },
+  {
+    "Name": "Colombia",
+    "GEC": "CO",
+    "ISO_3166_1_Alpha2": "CO",
+    "ISO_3166_1_Alpha3": "COL",
+    "ISO_3166_1_Numeric": "170",
+    "STANAG": "COL",
+    "Internet": ".co",
+    "Comment": ""
+  },
+  {
+    "Name": "Comoros",
+    "GEC": "CN",
+    "ISO_3166_1_Alpha2": "KM",
+    "ISO_3166_1_Alpha3": "COM",
+    "ISO_3166_1_Numeric": "174",
+    "STANAG": "COM",
+    "Internet": ".km",
+    "Comment": ""
+  },
+  {
+    "Name": "\"Congo",
+    "GEC": "Democratic Republic of the\"",
+    "ISO_3166_1_Alpha2": "CG",
+    "ISO_3166_1_Alpha3": "CD",
+    "ISO_3166_1_Numeric": "COD",
+    "STANAG": "180",
+    "Internet": "COD",
+    "Comment": ".cd"
+  },
+  {
+    "Name": "\"Congo",
+    "GEC": "Republic of the\"",
+    "ISO_3166_1_Alpha2": "CF",
+    "ISO_3166_1_Alpha3": "CG",
+    "ISO_3166_1_Numeric": "COG",
+    "STANAG": "178",
+    "Internet": "COG",
+    "Comment": ".cg"
+  },
+  {
+    "Name": "Cook Islands",
+    "GEC": "CW",
+    "ISO_3166_1_Alpha2": "CK",
+    "ISO_3166_1_Alpha3": "COK",
+    "ISO_3166_1_Numeric": "184",
+    "STANAG": "COK",
+    "Internet": ".ck",
+    "Comment": ""
+  },
+  {
+    "Name": "Coral Sea Islands",
+    "GEC": "CR",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "AUS",
+    "Internet": "-",
+    "Comment": "ISO includes with Australia"
+  },
+  {
+    "Name": "Costa Rica",
+    "GEC": "CS",
+    "ISO_3166_1_Alpha2": "CR",
+    "ISO_3166_1_Alpha3": "CRI",
+    "ISO_3166_1_Numeric": "188",
+    "STANAG": "CRI",
+    "Internet": ".cr",
+    "Comment": ""
+  },
+  {
+    "Name": "Cote d'Ivoire",
+    "GEC": "IV",
+    "ISO_3166_1_Alpha2": "CI",
+    "ISO_3166_1_Alpha3": "CIV",
+    "ISO_3166_1_Numeric": "384",
+    "STANAG": "CIV",
+    "Internet": ".ci",
+    "Comment": ""
+  },
+  {
+    "Name": "Croatia",
+    "GEC": "HR",
+    "ISO_3166_1_Alpha2": "HR",
+    "ISO_3166_1_Alpha3": "HRV",
+    "ISO_3166_1_Numeric": "191",
+    "STANAG": "HRV",
+    "Internet": ".hr",
+    "Comment": ""
+  },
+  {
+    "Name": "Cuba",
+    "GEC": "CU",
+    "ISO_3166_1_Alpha2": "CU",
+    "ISO_3166_1_Alpha3": "CUB",
+    "ISO_3166_1_Numeric": "192",
+    "STANAG": "CUB",
+    "Internet": ".cu",
+    "Comment": ""
+  },
+  {
+    "Name": "Curacao",
+    "GEC": "UC",
+    "ISO_3166_1_Alpha2": "CW",
+    "ISO_3166_1_Alpha3": "CUW",
+    "ISO_3166_1_Numeric": "531",
+    "STANAG": "-",
+    "Internet": ".cw",
+    "Comment": ""
+  },
+  {
+    "Name": "Cyprus",
+    "GEC": "CY",
+    "ISO_3166_1_Alpha2": "CY",
+    "ISO_3166_1_Alpha3": "CYP",
+    "ISO_3166_1_Numeric": "196",
+    "STANAG": "CYP",
+    "Internet": ".cy",
+    "Comment": ""
+  },
+  {
+    "Name": "Czechia",
+    "GEC": "EZ",
+    "ISO_3166_1_Alpha2": "CZ",
+    "ISO_3166_1_Alpha3": "CZE",
+    "ISO_3166_1_Numeric": "203",
+    "STANAG": "CZE",
+    "Internet": ".cz",
+    "Comment": ""
+  },
+  {
+    "Name": "Denmark",
+    "GEC": "DA",
+    "ISO_3166_1_Alpha2": "DK",
+    "ISO_3166_1_Alpha3": "DNK",
+    "ISO_3166_1_Numeric": "208",
+    "STANAG": "DNK",
+    "Internet": ".dk",
+    "Comment": ""
+  },
+  {
+    "Name": "Dhekelia",
+    "GEC": "DX",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": ""
+  },
+  {
+    "Name": "Djibouti",
+    "GEC": "DJ",
+    "ISO_3166_1_Alpha2": "DJ",
+    "ISO_3166_1_Alpha3": "DJI",
+    "ISO_3166_1_Numeric": "262",
+    "STANAG": "DJI",
+    "Internet": ".dj",
+    "Comment": ""
+  },
+  {
+    "Name": "Dominica",
+    "GEC": "DO",
+    "ISO_3166_1_Alpha2": "DM",
+    "ISO_3166_1_Alpha3": "DMA",
+    "ISO_3166_1_Numeric": "212",
+    "STANAG": "DMA",
+    "Internet": ".dm",
+    "Comment": ""
+  },
+  {
+    "Name": "Dominican Republic",
+    "GEC": "DR",
+    "ISO_3166_1_Alpha2": "DO",
+    "ISO_3166_1_Alpha3": "DOM",
+    "ISO_3166_1_Numeric": "214",
+    "STANAG": "DOM",
+    "Internet": ".do",
+    "Comment": ""
+  },
+  {
+    "Name": "Ecuador",
+    "GEC": "EC",
+    "ISO_3166_1_Alpha2": "EC",
+    "ISO_3166_1_Alpha3": "ECU",
+    "ISO_3166_1_Numeric": "218",
+    "STANAG": "ECU",
+    "Internet": ".ec",
+    "Comment": ""
+  },
+  {
+    "Name": "Egypt",
+    "GEC": "EG",
+    "ISO_3166_1_Alpha2": "EG",
+    "ISO_3166_1_Alpha3": "EGY",
+    "ISO_3166_1_Numeric": "818",
+    "STANAG": "EGY",
+    "Internet": ".eg",
+    "Comment": ""
+  },
+  {
+    "Name": "El Salvador",
+    "GEC": "ES",
+    "ISO_3166_1_Alpha2": "SV",
+    "ISO_3166_1_Alpha3": "SLV",
+    "ISO_3166_1_Numeric": "222",
+    "STANAG": "SLV",
+    "Internet": ".sv",
+    "Comment": ""
+  },
+  {
+    "Name": "Equatorial Guinea",
+    "GEC": "EK",
+    "ISO_3166_1_Alpha2": "GQ",
+    "ISO_3166_1_Alpha3": "GNQ",
+    "ISO_3166_1_Numeric": "226",
+    "STANAG": "GNQ",
+    "Internet": ".gq",
+    "Comment": ""
+  },
+  {
+    "Name": "Eritrea",
+    "GEC": "ER",
+    "ISO_3166_1_Alpha2": "ER",
+    "ISO_3166_1_Alpha3": "ERI",
+    "ISO_3166_1_Numeric": "232",
+    "STANAG": "ERI",
+    "Internet": ".er",
+    "Comment": ""
+  },
+  {
+    "Name": "Estonia",
+    "GEC": "EN",
+    "ISO_3166_1_Alpha2": "EE",
+    "ISO_3166_1_Alpha3": "EST",
+    "ISO_3166_1_Numeric": "233",
+    "STANAG": "EST",
+    "Internet": ".ee",
+    "Comment": ""
+  },
+  {
+    "Name": "Ethiopia",
+    "GEC": "ET",
+    "ISO_3166_1_Alpha2": "ET",
+    "ISO_3166_1_Alpha3": "ETH",
+    "ISO_3166_1_Numeric": "231",
+    "STANAG": "ETH",
+    "Internet": ".et",
+    "Comment": ""
+  },
+  {
+    "Name": "Europa Island",
+    "GEC": "EU",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned"
+  },
+  {
+    "Name": "Falkland Islands (Islas Malvinas)",
+    "GEC": "FK",
+    "ISO_3166_1_Alpha2": "FK",
+    "ISO_3166_1_Alpha3": "FLK",
+    "ISO_3166_1_Numeric": "238",
+    "STANAG": "FLK",
+    "Internet": ".fk",
+    "Comment": ""
+  },
+  {
+    "Name": "Faroe Islands",
+    "GEC": "FO",
+    "ISO_3166_1_Alpha2": "FO",
+    "ISO_3166_1_Alpha3": "FRO",
+    "ISO_3166_1_Numeric": "234",
+    "STANAG": "FRO",
+    "Internet": ".fo",
+    "Comment": ""
+  },
+  {
+    "Name": "Fiji",
+    "GEC": "FJ",
+    "ISO_3166_1_Alpha2": "FJ",
+    "ISO_3166_1_Alpha3": "FJI",
+    "ISO_3166_1_Numeric": "242",
+    "STANAG": "FJI",
+    "Internet": ".fj",
+    "Comment": ""
+  },
+  {
+    "Name": "Finland",
+    "GEC": "FI",
+    "ISO_3166_1_Alpha2": "FI",
+    "ISO_3166_1_Alpha3": "FIN",
+    "ISO_3166_1_Numeric": "246",
+    "STANAG": "FIN",
+    "Internet": ".fi",
+    "Comment": ""
+  },
+  {
+    "Name": "France",
+    "GEC": "FR",
+    "ISO_3166_1_Alpha2": "FR",
+    "ISO_3166_1_Alpha3": "FRA",
+    "ISO_3166_1_Numeric": "250",
+    "STANAG": "FRA",
+    "Internet": ".fr",
+    "Comment": "\"ISO includes metropolitan France along with the dependencies of Clipperton Island"
+  },
+  {
+    "Name": "\"France",
+    "GEC": "Metropolitan\"",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "FX",
+    "ISO_3166_1_Numeric": "FXX",
+    "STANAG": "249",
+    "Internet": "-",
+    "Comment": ".fx"
+  },
+  {
+    "Name": "French Guiana",
+    "GEC": "FG",
+    "ISO_3166_1_Alpha2": "GF",
+    "ISO_3166_1_Alpha3": "GUF",
+    "ISO_3166_1_Numeric": "254",
+    "STANAG": "GUF",
+    "Internet": ".gf",
+    "Comment": ""
+  },
+  {
+    "Name": "French Polynesia",
+    "GEC": "FP",
+    "ISO_3166_1_Alpha2": "PF",
+    "ISO_3166_1_Alpha3": "PYF",
+    "ISO_3166_1_Numeric": "258",
+    "STANAG": "PYF",
+    "Internet": ".pf",
+    "Comment": ""
+  },
+  {
+    "Name": "French Southern and Antarctic Lands",
+    "GEC": "FS",
+    "ISO_3166_1_Alpha2": "TF",
+    "ISO_3166_1_Alpha3": "ATF",
+    "ISO_3166_1_Numeric": "260",
+    "STANAG": "ATF",
+    "Internet": ".tf",
+    "Comment": "GEC does not include the French-claimed portion of Antarctica (Terre Adelie)"
+  },
+  {
+    "Name": "Gabon",
+    "GEC": "GB",
+    "ISO_3166_1_Alpha2": "GA",
+    "ISO_3166_1_Alpha3": "GAB",
+    "ISO_3166_1_Numeric": "266",
+    "STANAG": "GAB",
+    "Internet": ".ga",
+    "Comment": ""
+  },
+  {
+    "Name": "\"Gambia",
+    "GEC": "The\"",
+    "ISO_3166_1_Alpha2": "GA",
+    "ISO_3166_1_Alpha3": "GM",
+    "ISO_3166_1_Numeric": "GMB",
+    "STANAG": "270",
+    "Internet": "GMB",
+    "Comment": ".gm"
+  },
+  {
+    "Name": "Gaza Strip",
+    "GEC": "GZ",
+    "ISO_3166_1_Alpha2": "PS",
+    "ISO_3166_1_Alpha3": "PSE",
+    "ISO_3166_1_Numeric": "275",
+    "STANAG": "PSE",
+    "Internet": ".ps",
+    "Comment": "ISO identifies as Occupied Palestinian Territory"
+  },
+  {
+    "Name": "Georgia",
+    "GEC": "GG",
+    "ISO_3166_1_Alpha2": "GE",
+    "ISO_3166_1_Alpha3": "GEO",
+    "ISO_3166_1_Numeric": "268",
+    "STANAG": "GEO",
+    "Internet": ".ge",
+    "Comment": ""
+  },
+  {
+    "Name": "Germany",
+    "GEC": "GM",
+    "ISO_3166_1_Alpha2": "DE",
+    "ISO_3166_1_Alpha3": "DEU",
+    "ISO_3166_1_Numeric": "276",
+    "STANAG": "DEU",
+    "Internet": ".de",
+    "Comment": ""
+  },
+  {
+    "Name": "Ghana",
+    "GEC": "GH",
+    "ISO_3166_1_Alpha2": "GH",
+    "ISO_3166_1_Alpha3": "GHA",
+    "ISO_3166_1_Numeric": "288",
+    "STANAG": "GHA",
+    "Internet": ".gh",
+    "Comment": ""
+  },
+  {
+    "Name": "Gibraltar",
+    "GEC": "GI",
+    "ISO_3166_1_Alpha2": "GI",
+    "ISO_3166_1_Alpha3": "GIB",
+    "ISO_3166_1_Numeric": "292",
+    "STANAG": "GIB",
+    "Internet": ".gi",
+    "Comment": ""
+  },
+  {
+    "Name": "Glorioso Islands",
+    "GEC": "GO",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned"
+  },
+  {
+    "Name": "Greece",
+    "GEC": "GR",
+    "ISO_3166_1_Alpha2": "GR",
+    "ISO_3166_1_Alpha3": "GRC",
+    "ISO_3166_1_Numeric": "300",
+    "STANAG": "GRC",
+    "Internet": ".gr",
+    "Comment": "\"For its internal communications"
+  },
+  {
+    "Name": "Greenland",
+    "GEC": "GL",
+    "ISO_3166_1_Alpha2": "GL",
+    "ISO_3166_1_Alpha3": "GRL",
+    "ISO_3166_1_Numeric": "304",
+    "STANAG": "GRL",
+    "Internet": ".gl",
+    "Comment": ""
+  },
+  {
+    "Name": "Grenada",
+    "GEC": "GJ",
+    "ISO_3166_1_Alpha2": "GD",
+    "ISO_3166_1_Alpha3": "GRD",
+    "ISO_3166_1_Numeric": "308",
+    "STANAG": "GRD",
+    "Internet": ".gd",
+    "Comment": ""
+  },
+  {
+    "Name": "Guadeloupe",
+    "GEC": "GP",
+    "ISO_3166_1_Alpha2": "GP",
+    "ISO_3166_1_Alpha3": "GLP",
+    "ISO_3166_1_Numeric": "312",
+    "STANAG": "GLP",
+    "Internet": ".gp",
+    "Comment": ""
+  },
+  {
+    "Name": "Guam",
+    "GEC": "GQ",
+    "ISO_3166_1_Alpha2": "GU",
+    "ISO_3166_1_Alpha3": "GUM",
+    "ISO_3166_1_Numeric": "316",
+    "STANAG": "GUM",
+    "Internet": ".gu",
+    "Comment": ""
+  },
+  {
+    "Name": "Guatemala",
+    "GEC": "GT",
+    "ISO_3166_1_Alpha2": "GT",
+    "ISO_3166_1_Alpha3": "GTM",
+    "ISO_3166_1_Numeric": "320",
+    "STANAG": "GTM",
+    "Internet": ".gt",
+    "Comment": ""
+  },
+  {
+    "Name": "Guernsey",
+    "GEC": "GK",
+    "ISO_3166_1_Alpha2": "GG",
+    "ISO_3166_1_Alpha3": "GGY",
+    "ISO_3166_1_Numeric": "831",
+    "STANAG": "UK",
+    "Internet": ".gg",
+    "Comment": ""
+  },
+  {
+    "Name": "Guinea",
+    "GEC": "GV",
+    "ISO_3166_1_Alpha2": "GN",
+    "ISO_3166_1_Alpha3": "GIN",
+    "ISO_3166_1_Numeric": "324",
+    "STANAG": "GIN",
+    "Internet": ".gn",
+    "Comment": ""
+  },
+  {
+    "Name": "Guinea-Bissau",
+    "GEC": "PU",
+    "ISO_3166_1_Alpha2": "GW",
+    "ISO_3166_1_Alpha3": "GNB",
+    "ISO_3166_1_Numeric": "624",
+    "STANAG": "GNB",
+    "Internet": ".gw",
+    "Comment": ""
+  },
+  {
+    "Name": "Guyana",
+    "GEC": "GY",
+    "ISO_3166_1_Alpha2": "GY",
+    "ISO_3166_1_Alpha3": "GUY",
+    "ISO_3166_1_Numeric": "328",
+    "STANAG": "GUY",
+    "Internet": ".gy",
+    "Comment": ""
+  },
+  {
+    "Name": "Haiti",
+    "GEC": "HA",
+    "ISO_3166_1_Alpha2": "HT",
+    "ISO_3166_1_Alpha3": "HTI",
+    "ISO_3166_1_Numeric": "332",
+    "STANAG": "HTI",
+    "Internet": ".ht",
+    "Comment": ""
+  },
+  {
+    "Name": "Heard Island and McDonald Islands",
+    "GEC": "HM",
+    "ISO_3166_1_Alpha2": "HM",
+    "ISO_3166_1_Alpha3": "HMD",
+    "ISO_3166_1_Numeric": "334",
+    "STANAG": "HMD",
+    "Internet": ".hm",
+    "Comment": ""
+  },
+  {
+    "Name": "Holy See (Vatican City)",
+    "GEC": "VT",
+    "ISO_3166_1_Alpha2": "VA",
+    "ISO_3166_1_Alpha3": "VAT",
+    "ISO_3166_1_Numeric": "336",
+    "STANAG": "VAT",
+    "Internet": ".va",
+    "Comment": ""
+  },
+  {
+    "Name": "Honduras",
+    "GEC": "HO",
+    "ISO_3166_1_Alpha2": "HN",
+    "ISO_3166_1_Alpha3": "HND",
+    "ISO_3166_1_Numeric": "340",
+    "STANAG": "HND",
+    "Internet": ".hn",
+    "Comment": ""
+  },
+  {
+    "Name": "Hong Kong",
+    "GEC": "HK",
+    "ISO_3166_1_Alpha2": "HK",
+    "ISO_3166_1_Alpha3": "HKG",
+    "ISO_3166_1_Numeric": "344",
+    "STANAG": "HKG",
+    "Internet": ".hk",
+    "Comment": ""
+  },
+  {
+    "Name": "Howland Island",
+    "GEC": "HQ",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "UMI",
+    "Internet": "-",
+    "Comment": "ISO includes with the US Minor Outlying Islands"
+  },
+  {
+    "Name": "Hungary",
+    "GEC": "HU",
+    "ISO_3166_1_Alpha2": "HU",
+    "ISO_3166_1_Alpha3": "HUN",
+    "ISO_3166_1_Numeric": "348",
+    "STANAG": "HUN",
+    "Internet": ".hu",
+    "Comment": ""
+  },
+  {
+    "Name": "Iceland",
+    "GEC": "IC",
+    "ISO_3166_1_Alpha2": "IS",
+    "ISO_3166_1_Alpha3": "ISL",
+    "ISO_3166_1_Numeric": "352",
+    "STANAG": "ISL",
+    "Internet": ".is",
+    "Comment": ""
+  },
+  {
+    "Name": "India",
+    "GEC": "IN",
+    "ISO_3166_1_Alpha2": "IN",
+    "ISO_3166_1_Alpha3": "IND",
+    "ISO_3166_1_Numeric": "356",
+    "STANAG": "IND",
+    "Internet": ".in",
+    "Comment": ""
+  },
+  {
+    "Name": "Indonesia",
+    "GEC": "ID",
+    "ISO_3166_1_Alpha2": "ID",
+    "ISO_3166_1_Alpha3": "IDN",
+    "ISO_3166_1_Numeric": "360",
+    "STANAG": "IDN",
+    "Internet": ".id",
+    "Comment": ""
+  },
+  {
+    "Name": "Iran",
+    "GEC": "IR",
+    "ISO_3166_1_Alpha2": "IR",
+    "ISO_3166_1_Alpha3": "IRN",
+    "ISO_3166_1_Numeric": "364",
+    "STANAG": "IRN",
+    "Internet": ".ir",
+    "Comment": ""
+  },
+  {
+    "Name": "Iraq",
+    "GEC": "IZ",
+    "ISO_3166_1_Alpha2": "IQ",
+    "ISO_3166_1_Alpha3": "IRQ",
+    "ISO_3166_1_Numeric": "368",
+    "STANAG": "IRQ",
+    "Internet": ".iq",
+    "Comment": ""
+  },
+  {
+    "Name": "Ireland",
+    "GEC": "EI",
+    "ISO_3166_1_Alpha2": "IE",
+    "ISO_3166_1_Alpha3": "IRL",
+    "ISO_3166_1_Numeric": "372",
+    "STANAG": "IRL",
+    "Internet": ".ie",
+    "Comment": ""
+  },
+  {
+    "Name": "Isle of Man",
+    "GEC": "IM",
+    "ISO_3166_1_Alpha2": "IM",
+    "ISO_3166_1_Alpha3": "IMN",
+    "ISO_3166_1_Numeric": "833",
+    "STANAG": "UK",
+    "Internet": ".im",
+    "Comment": ""
+  },
+  {
+    "Name": "Israel",
+    "GEC": "IS",
+    "ISO_3166_1_Alpha2": "IL",
+    "ISO_3166_1_Alpha3": "ISR",
+    "ISO_3166_1_Numeric": "376",
+    "STANAG": "ISR",
+    "Internet": ".il",
+    "Comment": ""
+  },
+  {
+    "Name": "Italy",
+    "GEC": "IT",
+    "ISO_3166_1_Alpha2": "IT",
+    "ISO_3166_1_Alpha3": "ITA",
+    "ISO_3166_1_Numeric": "380",
+    "STANAG": "ITA",
+    "Internet": ".it",
+    "Comment": ""
+  },
+  {
+    "Name": "Jamaica",
+    "GEC": "JM",
+    "ISO_3166_1_Alpha2": "JM",
+    "ISO_3166_1_Alpha3": "JAM",
+    "ISO_3166_1_Numeric": "388",
+    "STANAG": "JAM",
+    "Internet": ".jm",
+    "Comment": ""
+  },
+  {
+    "Name": "Jan Mayen",
+    "GEC": "JN",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "SJM",
+    "Internet": "-",
+    "Comment": "ISO includes with Svalbard"
+  },
+  {
+    "Name": "Japan",
+    "GEC": "JA",
+    "ISO_3166_1_Alpha2": "JP",
+    "ISO_3166_1_Alpha3": "JPN",
+    "ISO_3166_1_Numeric": "392",
+    "STANAG": "JPN",
+    "Internet": ".jp",
+    "Comment": ""
+  },
+  {
+    "Name": "Jarvis Island",
+    "GEC": "DQ",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "UMI",
+    "Internet": "-",
+    "Comment": "ISO includes with the US Minor Outlying Islands"
+  },
+  {
+    "Name": "Jersey",
+    "GEC": "JE",
+    "ISO_3166_1_Alpha2": "JE",
+    "ISO_3166_1_Alpha3": "JEY",
+    "ISO_3166_1_Numeric": "832",
+    "STANAG": "UK",
+    "Internet": ".je",
+    "Comment": ""
+  },
+  {
+    "Name": "Johnston Atoll",
+    "GEC": "JQ",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "UMI",
+    "Internet": "-",
+    "Comment": "ISO includes with the US Minor Outlying Islands"
+  },
+  {
+    "Name": "Jordan",
+    "GEC": "JO",
+    "ISO_3166_1_Alpha2": "JO",
+    "ISO_3166_1_Alpha3": "JOR",
+    "ISO_3166_1_Numeric": "400",
+    "STANAG": "JOR",
+    "Internet": ".jo",
+    "Comment": ""
+  },
+  {
+    "Name": "Juan de Nova Island",
+    "GEC": "JU",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned"
+  },
+  {
+    "Name": "Kazakhstan",
+    "GEC": "KZ",
+    "ISO_3166_1_Alpha2": "KZ",
+    "ISO_3166_1_Alpha3": "KAZ",
+    "ISO_3166_1_Numeric": "398",
+    "STANAG": "KAZ",
+    "Internet": ".kz",
+    "Comment": ""
+  },
+  {
+    "Name": "Kenya",
+    "GEC": "KE",
+    "ISO_3166_1_Alpha2": "KE",
+    "ISO_3166_1_Alpha3": "KEN",
+    "ISO_3166_1_Numeric": "404",
+    "STANAG": "KEN",
+    "Internet": ".ke",
+    "Comment": ""
+  },
+  {
+    "Name": "Kingman Reef",
+    "GEC": "KQ",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "UMI",
+    "Internet": "-",
+    "Comment": "ISO includes with the US Minor Outlying Islands"
+  },
+  {
+    "Name": "Kiribati",
+    "GEC": "KR",
+    "ISO_3166_1_Alpha2": "KI",
+    "ISO_3166_1_Alpha3": "KIR",
+    "ISO_3166_1_Numeric": "296",
+    "STANAG": "KIR",
+    "Internet": ".ki",
+    "Comment": ""
+  },
+  {
+    "Name": "\"Korea",
+    "GEC": "North\"",
+    "ISO_3166_1_Alpha2": "KN",
+    "ISO_3166_1_Alpha3": "KP",
+    "ISO_3166_1_Numeric": "PRK",
+    "STANAG": "408",
+    "Internet": "PRK",
+    "Comment": ".kp"
+  },
+  {
+    "Name": "\"Korea",
+    "GEC": "South\"",
+    "ISO_3166_1_Alpha2": "KS",
+    "ISO_3166_1_Alpha3": "KR",
+    "ISO_3166_1_Numeric": "KOR",
+    "STANAG": "410",
+    "Internet": "KOR",
+    "Comment": ".kr"
+  },
+  {
+    "Name": "Kosovo",
+    "GEC": "KV",
+    "ISO_3166_1_Alpha2": "XK",
+    "ISO_3166_1_Alpha3": "XKS",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": "XK and XKS are ISO 3166 user assigned codes; ISO 3166 Maintenace Authority has not assigned codes"
+  },
+  {
+    "Name": "Kuwait",
+    "GEC": "KU",
+    "ISO_3166_1_Alpha2": "KW",
+    "ISO_3166_1_Alpha3": "KWT",
+    "ISO_3166_1_Numeric": "414",
+    "STANAG": "KWT",
+    "Internet": ".kw",
+    "Comment": ""
+  },
+  {
+    "Name": "Kyrgyzstan",
+    "GEC": "KG",
+    "ISO_3166_1_Alpha2": "KG",
+    "ISO_3166_1_Alpha3": "KGZ",
+    "ISO_3166_1_Numeric": "417",
+    "STANAG": "KGZ",
+    "Internet": ".kg",
+    "Comment": ""
+  },
+  {
+    "Name": "Laos",
+    "GEC": "LA",
+    "ISO_3166_1_Alpha2": "LA",
+    "ISO_3166_1_Alpha3": "LAO",
+    "ISO_3166_1_Numeric": "418",
+    "STANAG": "LAO",
+    "Internet": ".la",
+    "Comment": ""
+  },
+  {
+    "Name": "Latvia",
+    "GEC": "LG",
+    "ISO_3166_1_Alpha2": "LV",
+    "ISO_3166_1_Alpha3": "LVA",
+    "ISO_3166_1_Numeric": "428",
+    "STANAG": "LVA",
+    "Internet": ".lv",
+    "Comment": ""
+  },
+  {
+    "Name": "Lebanon",
+    "GEC": "LE",
+    "ISO_3166_1_Alpha2": "LB",
+    "ISO_3166_1_Alpha3": "LBN",
+    "ISO_3166_1_Numeric": "422",
+    "STANAG": "LBN",
+    "Internet": ".lb",
+    "Comment": ""
+  },
+  {
+    "Name": "Lesotho",
+    "GEC": "LT",
+    "ISO_3166_1_Alpha2": "LS",
+    "ISO_3166_1_Alpha3": "LSO",
+    "ISO_3166_1_Numeric": "426",
+    "STANAG": "LSO",
+    "Internet": ".ls",
+    "Comment": ""
+  },
+  {
+    "Name": "Liberia",
+    "GEC": "LI",
+    "ISO_3166_1_Alpha2": "LR",
+    "ISO_3166_1_Alpha3": "LBR",
+    "ISO_3166_1_Numeric": "430",
+    "STANAG": "LBR",
+    "Internet": ".lr",
+    "Comment": ""
+  },
+  {
+    "Name": "Libya",
+    "GEC": "LY",
+    "ISO_3166_1_Alpha2": "LY",
+    "ISO_3166_1_Alpha3": "LBY",
+    "ISO_3166_1_Numeric": "434",
+    "STANAG": "LBY",
+    "Internet": ".ly",
+    "Comment": ""
+  },
+  {
+    "Name": "Liechtenstein",
+    "GEC": "LS",
+    "ISO_3166_1_Alpha2": "LI",
+    "ISO_3166_1_Alpha3": "LIE",
+    "ISO_3166_1_Numeric": "438",
+    "STANAG": "LIE",
+    "Internet": ".li",
+    "Comment": ""
+  },
+  {
+    "Name": "Lithuania",
+    "GEC": "LH",
+    "ISO_3166_1_Alpha2": "LT",
+    "ISO_3166_1_Alpha3": "LTU",
+    "ISO_3166_1_Numeric": "440",
+    "STANAG": "LTU",
+    "Internet": ".lt",
+    "Comment": ""
+  },
+  {
+    "Name": "Luxembourg",
+    "GEC": "LU",
+    "ISO_3166_1_Alpha2": "LU",
+    "ISO_3166_1_Alpha3": "LUX",
+    "ISO_3166_1_Numeric": "442",
+    "STANAG": "LUX",
+    "Internet": ".lu",
+    "Comment": ""
+  },
+  {
+    "Name": "Macau",
+    "GEC": "MC",
+    "ISO_3166_1_Alpha2": "MO",
+    "ISO_3166_1_Alpha3": "MAC",
+    "ISO_3166_1_Numeric": "446",
+    "STANAG": "MAC",
+    "Internet": ".mo",
+    "Comment": ""
+  },
+  {
+    "Name": "Macedonia",
+    "GEC": "MK",
+    "ISO_3166_1_Alpha2": "MK",
+    "ISO_3166_1_Alpha3": "MKD",
+    "ISO_3166_1_Numeric": "807",
+    "STANAG": "FYR",
+    "Internet": ".mk",
+    "Comment": ""
+  },
+  {
+    "Name": "Madagascar",
+    "GEC": "MA",
+    "ISO_3166_1_Alpha2": "MG",
+    "ISO_3166_1_Alpha3": "MDG",
+    "ISO_3166_1_Numeric": "450",
+    "STANAG": "MDG",
+    "Internet": ".mg",
+    "Comment": ""
+  },
+  {
+    "Name": "Malawi",
+    "GEC": "MI",
+    "ISO_3166_1_Alpha2": "MW",
+    "ISO_3166_1_Alpha3": "MWI",
+    "ISO_3166_1_Numeric": "454",
+    "STANAG": "MWI",
+    "Internet": ".mw",
+    "Comment": ""
+  },
+  {
+    "Name": "Malaysia",
+    "GEC": "MY",
+    "ISO_3166_1_Alpha2": "MY",
+    "ISO_3166_1_Alpha3": "MYS",
+    "ISO_3166_1_Numeric": "458",
+    "STANAG": "MYS",
+    "Internet": ".my",
+    "Comment": ""
+  },
+  {
+    "Name": "Maldives",
+    "GEC": "MV",
+    "ISO_3166_1_Alpha2": "MV",
+    "ISO_3166_1_Alpha3": "MDV",
+    "ISO_3166_1_Numeric": "462",
+    "STANAG": "MDV",
+    "Internet": ".mv",
+    "Comment": ""
+  },
+  {
+    "Name": "Mali",
+    "GEC": "ML",
+    "ISO_3166_1_Alpha2": "ML",
+    "ISO_3166_1_Alpha3": "MLI",
+    "ISO_3166_1_Numeric": "466",
+    "STANAG": "MLI",
+    "Internet": ".ml",
+    "Comment": ""
+  },
+  {
+    "Name": "Malta",
+    "GEC": "MT",
+    "ISO_3166_1_Alpha2": "MT",
+    "ISO_3166_1_Alpha3": "MLT",
+    "ISO_3166_1_Numeric": "470",
+    "STANAG": "MLT",
+    "Internet": ".mt",
+    "Comment": ""
+  },
+  {
+    "Name": "Marshall Islands",
+    "GEC": "RM",
+    "ISO_3166_1_Alpha2": "MH",
+    "ISO_3166_1_Alpha3": "MHL",
+    "ISO_3166_1_Numeric": "584",
+    "STANAG": "MHL",
+    "Internet": ".mh",
+    "Comment": ""
+  },
+  {
+    "Name": "Martinique",
+    "GEC": "MB",
+    "ISO_3166_1_Alpha2": "MQ",
+    "ISO_3166_1_Alpha3": "MTQ",
+    "ISO_3166_1_Numeric": "474",
+    "STANAG": "MTQ",
+    "Internet": ".mq",
+    "Comment": ""
+  },
+  {
+    "Name": "Mauritania",
+    "GEC": "MR",
+    "ISO_3166_1_Alpha2": "MR",
+    "ISO_3166_1_Alpha3": "MRT",
+    "ISO_3166_1_Numeric": "478",
+    "STANAG": "MRT",
+    "Internet": ".mr",
+    "Comment": ""
+  },
+  {
+    "Name": "Mauritius",
+    "GEC": "MP",
+    "ISO_3166_1_Alpha2": "MU",
+    "ISO_3166_1_Alpha3": "MUS",
+    "ISO_3166_1_Numeric": "480",
+    "STANAG": "MUS",
+    "Internet": ".mu",
+    "Comment": ""
+  },
+  {
+    "Name": "Mayotte",
+    "GEC": "MF",
+    "ISO_3166_1_Alpha2": "YT",
+    "ISO_3166_1_Alpha3": "MYT",
+    "ISO_3166_1_Numeric": "175",
+    "STANAG": "FRA",
+    "Internet": ".yt",
+    "Comment": ""
+  },
+  {
+    "Name": "Mexico",
+    "GEC": "MX",
+    "ISO_3166_1_Alpha2": "MX",
+    "ISO_3166_1_Alpha3": "MEX",
+    "ISO_3166_1_Numeric": "484",
+    "STANAG": "MEX",
+    "Internet": ".mx",
+    "Comment": ""
+  },
+  {
+    "Name": "\"Micronesia",
+    "GEC": "Federated States of\"",
+    "ISO_3166_1_Alpha2": "FM",
+    "ISO_3166_1_Alpha3": "FM",
+    "ISO_3166_1_Numeric": "FSM",
+    "STANAG": "583",
+    "Internet": "FSM",
+    "Comment": ".fm"
+  },
+  {
+    "Name": "Midway Islands",
+    "GEC": "MQ",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "UMI",
+    "Internet": "-",
+    "Comment": "ISO includes with the US Minor Outlying Islands"
+  },
+  {
+    "Name": "Moldova",
+    "GEC": "MD",
+    "ISO_3166_1_Alpha2": "MD",
+    "ISO_3166_1_Alpha3": "MDA",
+    "ISO_3166_1_Numeric": "498",
+    "STANAG": "MDA",
+    "Internet": ".md",
+    "Comment": ""
+  },
+  {
+    "Name": "Monaco",
+    "GEC": "MN",
+    "ISO_3166_1_Alpha2": "MC",
+    "ISO_3166_1_Alpha3": "MCO",
+    "ISO_3166_1_Numeric": "492",
+    "STANAG": "MCO",
+    "Internet": ".mc",
+    "Comment": ""
+  },
+  {
+    "Name": "Mongolia",
+    "GEC": "MG",
+    "ISO_3166_1_Alpha2": "MN",
+    "ISO_3166_1_Alpha3": "MNG",
+    "ISO_3166_1_Numeric": "496",
+    "STANAG": "MNG",
+    "Internet": ".mn",
+    "Comment": ""
+  },
+  {
+    "Name": "Montenegro",
+    "GEC": "MJ",
+    "ISO_3166_1_Alpha2": "ME",
+    "ISO_3166_1_Alpha3": "MNE",
+    "ISO_3166_1_Numeric": "499",
+    "STANAG": "MNE",
+    "Internet": ".me",
+    "Comment": ""
+  },
+  {
+    "Name": "Montserrat",
+    "GEC": "MH",
+    "ISO_3166_1_Alpha2": "MS",
+    "ISO_3166_1_Alpha3": "MSR",
+    "ISO_3166_1_Numeric": "500",
+    "STANAG": "MSR",
+    "Internet": ".ms",
+    "Comment": ""
+  },
+  {
+    "Name": "Morocco",
+    "GEC": "MO",
+    "ISO_3166_1_Alpha2": "MA",
+    "ISO_3166_1_Alpha3": "MAR",
+    "ISO_3166_1_Numeric": "504",
+    "STANAG": "MAR",
+    "Internet": ".ma",
+    "Comment": ""
+  },
+  {
+    "Name": "Mozambique",
+    "GEC": "MZ",
+    "ISO_3166_1_Alpha2": "MZ",
+    "ISO_3166_1_Alpha3": "MOZ",
+    "ISO_3166_1_Numeric": "508",
+    "STANAG": "MOZ",
+    "Internet": ".mz",
+    "Comment": ""
+  },
+  {
+    "Name": "Namibia",
+    "GEC": "WA",
+    "ISO_3166_1_Alpha2": "NA",
+    "ISO_3166_1_Alpha3": "NAM",
+    "ISO_3166_1_Numeric": "516",
+    "STANAG": "NAM",
+    "Internet": ".na",
+    "Comment": ""
+  },
+  {
+    "Name": "Nauru",
+    "GEC": "NR",
+    "ISO_3166_1_Alpha2": "NR",
+    "ISO_3166_1_Alpha3": "NRU",
+    "ISO_3166_1_Numeric": "520",
+    "STANAG": "NRU",
+    "Internet": ".nr",
+    "Comment": ""
+  },
+  {
+    "Name": "Navassa Island",
+    "GEC": "BQ",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "UMI",
+    "Internet": "-",
+    "Comment": "ISO includes with the US Minor Outlying Islands"
+  },
+  {
+    "Name": "Nepal",
+    "GEC": "NP",
+    "ISO_3166_1_Alpha2": "NP",
+    "ISO_3166_1_Alpha3": "NPL",
+    "ISO_3166_1_Numeric": "524",
+    "STANAG": "NPL",
+    "Internet": ".np",
+    "Comment": ""
+  },
+  {
+    "Name": "Netherlands",
+    "GEC": "NL",
+    "ISO_3166_1_Alpha2": "NL",
+    "ISO_3166_1_Alpha3": "NLD",
+    "ISO_3166_1_Numeric": "528",
+    "STANAG": "NLD",
+    "Internet": ".nl",
+    "Comment": ""
+  },
+  {
+    "Name": "Netherlands Antilles",
+    "GEC": "NT",
+    "ISO_3166_1_Alpha2": "",
+    "ISO_3166_1_Alpha3": "",
+    "ISO_3166_1_Numeric": "",
+    "STANAG": "ANT",
+    "Internet": ".an",
+    "Comment": "disestablished in October 2010 this entity no longer exists; ISO deleted the codes in December 2010"
+  },
+  {
+    "Name": "New Caledonia",
+    "GEC": "NC",
+    "ISO_3166_1_Alpha2": "NC",
+    "ISO_3166_1_Alpha3": "NCL",
+    "ISO_3166_1_Numeric": "540",
+    "STANAG": "NCL",
+    "Internet": ".nc",
+    "Comment": ""
+  },
+  {
+    "Name": "New Zealand",
+    "GEC": "NZ",
+    "ISO_3166_1_Alpha2": "NZ",
+    "ISO_3166_1_Alpha3": "NZL",
+    "ISO_3166_1_Numeric": "554",
+    "STANAG": "NZL",
+    "Internet": ".nz",
+    "Comment": ""
+  },
+  {
+    "Name": "Nicaragua",
+    "GEC": "NU",
+    "ISO_3166_1_Alpha2": "NI",
+    "ISO_3166_1_Alpha3": "NIC",
+    "ISO_3166_1_Numeric": "558",
+    "STANAG": "NIC",
+    "Internet": ".ni",
+    "Comment": ""
+  },
+  {
+    "Name": "Niger",
+    "GEC": "NG",
+    "ISO_3166_1_Alpha2": "NE",
+    "ISO_3166_1_Alpha3": "NER",
+    "ISO_3166_1_Numeric": "562",
+    "STANAG": "NER",
+    "Internet": ".ne",
+    "Comment": ""
+  },
+  {
+    "Name": "Nigeria",
+    "GEC": "NI",
+    "ISO_3166_1_Alpha2": "NG",
+    "ISO_3166_1_Alpha3": "NGA",
+    "ISO_3166_1_Numeric": "566",
+    "STANAG": "NGA",
+    "Internet": ".ng",
+    "Comment": ""
+  },
+  {
+    "Name": "Niue",
+    "GEC": "NE",
+    "ISO_3166_1_Alpha2": "NU",
+    "ISO_3166_1_Alpha3": "NIU",
+    "ISO_3166_1_Numeric": "570",
+    "STANAG": "NIU",
+    "Internet": ".nu",
+    "Comment": ""
+  },
+  {
+    "Name": "Norfolk Island",
+    "GEC": "NF",
+    "ISO_3166_1_Alpha2": "NF",
+    "ISO_3166_1_Alpha3": "NFK",
+    "ISO_3166_1_Numeric": "574",
+    "STANAG": "NFK",
+    "Internet": ".nf",
+    "Comment": ""
+  },
+  {
+    "Name": "Northern Mariana Islands",
+    "GEC": "CQ",
+    "ISO_3166_1_Alpha2": "MP",
+    "ISO_3166_1_Alpha3": "MNP",
+    "ISO_3166_1_Numeric": "580",
+    "STANAG": "MNP",
+    "Internet": ".mp",
+    "Comment": ""
+  },
+  {
+    "Name": "Norway",
+    "GEC": "NO",
+    "ISO_3166_1_Alpha2": "NO",
+    "ISO_3166_1_Alpha3": "NOR",
+    "ISO_3166_1_Numeric": "578",
+    "STANAG": "NOR",
+    "Internet": ".no",
+    "Comment": ""
+  },
+  {
+    "Name": "Oman",
+    "GEC": "MU",
+    "ISO_3166_1_Alpha2": "OM",
+    "ISO_3166_1_Alpha3": "OMN",
+    "ISO_3166_1_Numeric": "512",
+    "STANAG": "OMN",
+    "Internet": ".om",
+    "Comment": ""
+  },
+  {
+    "Name": "Pakistan",
+    "GEC": "PK",
+    "ISO_3166_1_Alpha2": "PK",
+    "ISO_3166_1_Alpha3": "PAK",
+    "ISO_3166_1_Numeric": "586",
+    "STANAG": "PAK",
+    "Internet": ".pk",
+    "Comment": ""
+  },
+  {
+    "Name": "Palau",
+    "GEC": "PS",
+    "ISO_3166_1_Alpha2": "PW",
+    "ISO_3166_1_Alpha3": "PLW",
+    "ISO_3166_1_Numeric": "585",
+    "STANAG": "PLW",
+    "Internet": ".pw",
+    "Comment": ""
+  },
+  {
+    "Name": "Palmyra Atoll",
+    "GEC": "LQ",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "UMI",
+    "Internet": "-",
+    "Comment": "ISO includes with the US Minor Outlying Islands"
+  },
+  {
+    "Name": "Panama",
+    "GEC": "PM",
+    "ISO_3166_1_Alpha2": "PA",
+    "ISO_3166_1_Alpha3": "PAN",
+    "ISO_3166_1_Numeric": "591",
+    "STANAG": "PAN",
+    "Internet": ".pa",
+    "Comment": ""
+  },
+  {
+    "Name": "Papua New Guinea",
+    "GEC": "PP",
+    "ISO_3166_1_Alpha2": "PG",
+    "ISO_3166_1_Alpha3": "PNG",
+    "ISO_3166_1_Numeric": "598",
+    "STANAG": "PNG",
+    "Internet": ".pg",
+    "Comment": ""
+  },
+  {
+    "Name": "Paracel Islands",
+    "GEC": "PF",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": ""
+  },
+  {
+    "Name": "Paraguay",
+    "GEC": "PA",
+    "ISO_3166_1_Alpha2": "PY",
+    "ISO_3166_1_Alpha3": "PRY",
+    "ISO_3166_1_Numeric": "600",
+    "STANAG": "PRY",
+    "Internet": ".py",
+    "Comment": ""
+  },
+  {
+    "Name": "Peru",
+    "GEC": "PE",
+    "ISO_3166_1_Alpha2": "PE",
+    "ISO_3166_1_Alpha3": "PER",
+    "ISO_3166_1_Numeric": "604",
+    "STANAG": "PER",
+    "Internet": ".pe",
+    "Comment": ""
+  },
+  {
+    "Name": "Philippines",
+    "GEC": "RP",
+    "ISO_3166_1_Alpha2": "PH",
+    "ISO_3166_1_Alpha3": "PHL",
+    "ISO_3166_1_Numeric": "608",
+    "STANAG": "PHL",
+    "Internet": ".ph",
+    "Comment": ""
+  },
+  {
+    "Name": "Pitcairn Islands",
+    "GEC": "PC",
+    "ISO_3166_1_Alpha2": "PN",
+    "ISO_3166_1_Alpha3": "PCN",
+    "ISO_3166_1_Numeric": "612",
+    "STANAG": "PCN",
+    "Internet": ".pn",
+    "Comment": ""
+  },
+  {
+    "Name": "Poland",
+    "GEC": "PL",
+    "ISO_3166_1_Alpha2": "PL",
+    "ISO_3166_1_Alpha3": "POL",
+    "ISO_3166_1_Numeric": "616",
+    "STANAG": "POL",
+    "Internet": ".pl",
+    "Comment": ""
+  },
+  {
+    "Name": "Portugal",
+    "GEC": "PO",
+    "ISO_3166_1_Alpha2": "PT",
+    "ISO_3166_1_Alpha3": "PRT",
+    "ISO_3166_1_Numeric": "620",
+    "STANAG": "PRT",
+    "Internet": ".pt",
+    "Comment": ""
+  },
+  {
+    "Name": "Puerto Rico",
+    "GEC": "RQ",
+    "ISO_3166_1_Alpha2": "PR",
+    "ISO_3166_1_Alpha3": "PRI",
+    "ISO_3166_1_Numeric": "630",
+    "STANAG": "PRI",
+    "Internet": ".pr",
+    "Comment": ""
+  },
+  {
+    "Name": "Qatar",
+    "GEC": "QA",
+    "ISO_3166_1_Alpha2": "QA",
+    "ISO_3166_1_Alpha3": "QAT",
+    "ISO_3166_1_Numeric": "634",
+    "STANAG": "QAT",
+    "Internet": ".qa",
+    "Comment": ""
+  },
+  {
+    "Name": "Reunion",
+    "GEC": "RE",
+    "ISO_3166_1_Alpha2": "RE",
+    "ISO_3166_1_Alpha3": "REU",
+    "ISO_3166_1_Numeric": "638",
+    "STANAG": "REU",
+    "Internet": ".re",
+    "Comment": ""
+  },
+  {
+    "Name": "Romania",
+    "GEC": "RO",
+    "ISO_3166_1_Alpha2": "RO",
+    "ISO_3166_1_Alpha3": "ROU",
+    "ISO_3166_1_Numeric": "642",
+    "STANAG": "ROU",
+    "Internet": ".ro",
+    "Comment": ""
+  },
+  {
+    "Name": "Russia",
+    "GEC": "RS",
+    "ISO_3166_1_Alpha2": "RU",
+    "ISO_3166_1_Alpha3": "RUS",
+    "ISO_3166_1_Numeric": "643",
+    "STANAG": "RUS",
+    "Internet": ".ru",
+    "Comment": ""
+  },
+  {
+    "Name": "Rwanda",
+    "GEC": "RW",
+    "ISO_3166_1_Alpha2": "RW",
+    "ISO_3166_1_Alpha3": "RWA",
+    "ISO_3166_1_Numeric": "646",
+    "STANAG": "RWA",
+    "Internet": ".rw",
+    "Comment": ""
+  },
+  {
+    "Name": "Saint Barthelemy",
+    "GEC": "TB",
+    "ISO_3166_1_Alpha2": "BL",
+    "ISO_3166_1_Alpha3": "BLM",
+    "ISO_3166_1_Numeric": "652",
+    "STANAG": "-",
+    "Internet": ".bl",
+    "Comment": "ccTLD .fr and .gp may also be used"
+  },
+  {
+    "Name": "\"Saint Helena",
+    "GEC": "Ascension",
+    "ISO_3166_1_Alpha2": "and Tristan da Cunha\"",
+    "ISO_3166_1_Alpha3": "SH",
+    "ISO_3166_1_Numeric": "SH",
+    "STANAG": "SHN",
+    "Internet": "654",
+    "Comment": "SHN"
+  },
+  {
+    "Name": "Saint Kitts and Nevis",
+    "GEC": "SC",
+    "ISO_3166_1_Alpha2": "KN",
+    "ISO_3166_1_Alpha3": "KNA",
+    "ISO_3166_1_Numeric": "659",
+    "STANAG": "KNA",
+    "Internet": ".kn",
+    "Comment": ""
+  },
+  {
+    "Name": "Saint Lucia",
+    "GEC": "ST",
+    "ISO_3166_1_Alpha2": "LC",
+    "ISO_3166_1_Alpha3": "LCA",
+    "ISO_3166_1_Numeric": "662",
+    "STANAG": "LCA",
+    "Internet": ".lc",
+    "Comment": ""
+  },
+  {
+    "Name": "Saint Martin",
+    "GEC": "RN",
+    "ISO_3166_1_Alpha2": "MF",
+    "ISO_3166_1_Alpha3": "MAF",
+    "ISO_3166_1_Numeric": "663",
+    "STANAG": "-",
+    "Internet": ".mf",
+    "Comment": "ccTLD .fr and .gp may also be used"
+  },
+  {
+    "Name": "Saint Pierre and Miquelon",
+    "GEC": "SB",
+    "ISO_3166_1_Alpha2": "PM",
+    "ISO_3166_1_Alpha3": "SPM",
+    "ISO_3166_1_Numeric": "666",
+    "STANAG": "SPM",
+    "Internet": ".pm",
+    "Comment": ""
+  },
+  {
+    "Name": "Saint Vincent and the Grenadines",
+    "GEC": "VC",
+    "ISO_3166_1_Alpha2": "VC",
+    "ISO_3166_1_Alpha3": "VCT",
+    "ISO_3166_1_Numeric": "670",
+    "STANAG": "VCT",
+    "Internet": ".vc",
+    "Comment": ""
+  },
+  {
+    "Name": "Samoa",
+    "GEC": "WS",
+    "ISO_3166_1_Alpha2": "WS",
+    "ISO_3166_1_Alpha3": "WSM",
+    "ISO_3166_1_Numeric": "882",
+    "STANAG": "WSM",
+    "Internet": ".ws",
+    "Comment": ""
+  },
+  {
+    "Name": "San Marino",
+    "GEC": "SM",
+    "ISO_3166_1_Alpha2": "SM",
+    "ISO_3166_1_Alpha3": "SMR",
+    "ISO_3166_1_Numeric": "674",
+    "STANAG": "SMR",
+    "Internet": ".sm",
+    "Comment": ""
+  },
+  {
+    "Name": "Sao Tome and Principe",
+    "GEC": "TP",
+    "ISO_3166_1_Alpha2": "ST",
+    "ISO_3166_1_Alpha3": "STP",
+    "ISO_3166_1_Numeric": "678",
+    "STANAG": "STP",
+    "Internet": ".st",
+    "Comment": ""
+  },
+  {
+    "Name": "Saudi Arabia",
+    "GEC": "SA",
+    "ISO_3166_1_Alpha2": "SA",
+    "ISO_3166_1_Alpha3": "SAU",
+    "ISO_3166_1_Numeric": "682",
+    "STANAG": "SAU",
+    "Internet": ".sa",
+    "Comment": ""
+  },
+  {
+    "Name": "Senegal",
+    "GEC": "SG",
+    "ISO_3166_1_Alpha2": "SN",
+    "ISO_3166_1_Alpha3": "SEN",
+    "ISO_3166_1_Numeric": "686",
+    "STANAG": "SEN",
+    "Internet": ".sn",
+    "Comment": ""
+  },
+  {
+    "Name": "Serbia",
+    "GEC": "RI",
+    "ISO_3166_1_Alpha2": "RS",
+    "ISO_3166_1_Alpha3": "SRB",
+    "ISO_3166_1_Numeric": "688",
+    "STANAG": "-",
+    "Internet": ".rs",
+    "Comment": ""
+  },
+  {
+    "Name": "Seychelles",
+    "GEC": "SE",
+    "ISO_3166_1_Alpha2": "SC",
+    "ISO_3166_1_Alpha3": "SYC",
+    "ISO_3166_1_Numeric": "690",
+    "STANAG": "SYC",
+    "Internet": ".sc",
+    "Comment": ""
+  },
+  {
+    "Name": "Sierra Leone",
+    "GEC": "SL",
+    "ISO_3166_1_Alpha2": "SL",
+    "ISO_3166_1_Alpha3": "SLE",
+    "ISO_3166_1_Numeric": "694",
+    "STANAG": "SLE",
+    "Internet": ".sl",
+    "Comment": ""
+  },
+  {
+    "Name": "Singapore",
+    "GEC": "SN",
+    "ISO_3166_1_Alpha2": "SG",
+    "ISO_3166_1_Alpha3": "SGP",
+    "ISO_3166_1_Numeric": "702",
+    "STANAG": "SGP",
+    "Internet": ".sg",
+    "Comment": ""
+  },
+  {
+    "Name": "Sint Maarten",
+    "GEC": "NN",
+    "ISO_3166_1_Alpha2": "SX",
+    "ISO_3166_1_Alpha3": "SXM",
+    "ISO_3166_1_Numeric": "534",
+    "STANAG": "-",
+    "Internet": ".sx",
+    "Comment": ""
+  },
+  {
+    "Name": "Slovakia",
+    "GEC": "LO",
+    "ISO_3166_1_Alpha2": "SK",
+    "ISO_3166_1_Alpha3": "SVK",
+    "ISO_3166_1_Numeric": "703",
+    "STANAG": "SVK",
+    "Internet": ".sk",
+    "Comment": ""
+  },
+  {
+    "Name": "Slovenia",
+    "GEC": "SI",
+    "ISO_3166_1_Alpha2": "SI",
+    "ISO_3166_1_Alpha3": "SVN",
+    "ISO_3166_1_Numeric": "705",
+    "STANAG": "SVN",
+    "Internet": ".si",
+    "Comment": ""
+  },
+  {
+    "Name": "Solomon Islands",
+    "GEC": "BP",
+    "ISO_3166_1_Alpha2": "SB",
+    "ISO_3166_1_Alpha3": "SLB",
+    "ISO_3166_1_Numeric": "90",
+    "STANAG": "SLB",
+    "Internet": ".sb",
+    "Comment": ""
+  },
+  {
+    "Name": "Somalia",
+    "GEC": "SO",
+    "ISO_3166_1_Alpha2": "SO",
+    "ISO_3166_1_Alpha3": "SOM",
+    "ISO_3166_1_Numeric": "706",
+    "STANAG": "SOM",
+    "Internet": ".so",
+    "Comment": ""
+  },
+  {
+    "Name": "South Africa",
+    "GEC": "SF",
+    "ISO_3166_1_Alpha2": "ZA",
+    "ISO_3166_1_Alpha3": "ZAF",
+    "ISO_3166_1_Numeric": "710",
+    "STANAG": "ZAF",
+    "Internet": ".za",
+    "Comment": ""
+  },
+  {
+    "Name": "South Georgia and the Islands",
+    "GEC": "SX",
+    "ISO_3166_1_Alpha2": "GS",
+    "ISO_3166_1_Alpha3": "SGS",
+    "ISO_3166_1_Numeric": "239",
+    "STANAG": "SGS",
+    "Internet": ".gs",
+    "Comment": ""
+  },
+  {
+    "Name": "South Sudan",
+    "GEC": "OD",
+    "ISO_3166_1_Alpha2": "SS",
+    "ISO_3166_1_Alpha3": "SSD",
+    "ISO_3166_1_Numeric": "728",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": "\"IANA has designated .ss as the ccTLD for South Sudan"
+  },
+  {
+    "Name": "Spain",
+    "GEC": "SP",
+    "ISO_3166_1_Alpha2": "ES",
+    "ISO_3166_1_Alpha3": "ESP",
+    "ISO_3166_1_Numeric": "724",
+    "STANAG": "ESP",
+    "Internet": ".es",
+    "Comment": ""
+  },
+  {
+    "Name": "Spratly Islands",
+    "GEC": "PG",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": ""
+  },
+  {
+    "Name": "Sri Lanka",
+    "GEC": "CE",
+    "ISO_3166_1_Alpha2": "LK",
+    "ISO_3166_1_Alpha3": "LKA",
+    "ISO_3166_1_Numeric": "144",
+    "STANAG": "LKA",
+    "Internet": ".lk",
+    "Comment": ""
+  },
+  {
+    "Name": "Sudan",
+    "GEC": "SU",
+    "ISO_3166_1_Alpha2": "SD",
+    "ISO_3166_1_Alpha3": "SDN",
+    "ISO_3166_1_Numeric": "729",
+    "STANAG": "SDN",
+    "Internet": ".sd",
+    "Comment": ""
+  },
+  {
+    "Name": "Suriname",
+    "GEC": "NS",
+    "ISO_3166_1_Alpha2": "SR",
+    "ISO_3166_1_Alpha3": "SUR",
+    "ISO_3166_1_Numeric": "740",
+    "STANAG": "SUR",
+    "Internet": ".sr",
+    "Comment": ""
+  },
+  {
+    "Name": "Svalbard",
+    "GEC": "SV",
+    "ISO_3166_1_Alpha2": "SJ",
+    "ISO_3166_1_Alpha3": "SJM",
+    "ISO_3166_1_Numeric": "744",
+    "STANAG": "SJM",
+    "Internet": ".sj",
+    "Comment": "ISO includes Jan Mayen"
+  },
+  {
+    "Name": "Swaziland",
+    "GEC": "WZ",
+    "ISO_3166_1_Alpha2": "SZ",
+    "ISO_3166_1_Alpha3": "SWZ",
+    "ISO_3166_1_Numeric": "748",
+    "STANAG": "SWZ",
+    "Internet": ".sz",
+    "Comment": ""
+  },
+  {
+    "Name": "Sweden",
+    "GEC": "SW",
+    "ISO_3166_1_Alpha2": "SE",
+    "ISO_3166_1_Alpha3": "SWE",
+    "ISO_3166_1_Numeric": "752",
+    "STANAG": "SWE",
+    "Internet": ".se",
+    "Comment": ""
+  },
+  {
+    "Name": "Switzerland",
+    "GEC": "SZ",
+    "ISO_3166_1_Alpha2": "CH",
+    "ISO_3166_1_Alpha3": "CHE",
+    "ISO_3166_1_Numeric": "756",
+    "STANAG": "CHE",
+    "Internet": ".ch",
+    "Comment": ""
+  },
+  {
+    "Name": "Syria",
+    "GEC": "SY",
+    "ISO_3166_1_Alpha2": "SY",
+    "ISO_3166_1_Alpha3": "SYR",
+    "ISO_3166_1_Numeric": "760",
+    "STANAG": "SYR",
+    "Internet": ".sy",
+    "Comment": ""
+  },
+  {
+    "Name": "Taiwan",
+    "GEC": "TW",
+    "ISO_3166_1_Alpha2": "TW",
+    "ISO_3166_1_Alpha3": "TWN",
+    "ISO_3166_1_Numeric": "158",
+    "STANAG": "TWN",
+    "Internet": ".tw",
+    "Comment": ""
+  },
+  {
+    "Name": "Tajikistan",
+    "GEC": "TI",
+    "ISO_3166_1_Alpha2": "TJ",
+    "ISO_3166_1_Alpha3": "TJK",
+    "ISO_3166_1_Numeric": "762",
+    "STANAG": "TJK",
+    "Internet": ".tj",
+    "Comment": ""
+  },
+  {
+    "Name": "Tanzania",
+    "GEC": "TZ",
+    "ISO_3166_1_Alpha2": "TZ",
+    "ISO_3166_1_Alpha3": "TZA",
+    "ISO_3166_1_Numeric": "834",
+    "STANAG": "TZA",
+    "Internet": ".tz",
+    "Comment": ""
+  },
+  {
+    "Name": "Thailand",
+    "GEC": "TH",
+    "ISO_3166_1_Alpha2": "TH",
+    "ISO_3166_1_Alpha3": "THA",
+    "ISO_3166_1_Numeric": "764",
+    "STANAG": "THA",
+    "Internet": ".th",
+    "Comment": ""
+  },
+  {
+    "Name": "Timor-Leste",
+    "GEC": "TT",
+    "ISO_3166_1_Alpha2": "TL",
+    "ISO_3166_1_Alpha3": "TLS",
+    "ISO_3166_1_Numeric": "626",
+    "STANAG": "TLS",
+    "Internet": ".tl",
+    "Comment": ""
+  },
+  {
+    "Name": "Togo",
+    "GEC": "TO",
+    "ISO_3166_1_Alpha2": "TG",
+    "ISO_3166_1_Alpha3": "TGO",
+    "ISO_3166_1_Numeric": "768",
+    "STANAG": "TGO",
+    "Internet": ".tg",
+    "Comment": ""
+  },
+  {
+    "Name": "Tokelau",
+    "GEC": "TL",
+    "ISO_3166_1_Alpha2": "TK",
+    "ISO_3166_1_Alpha3": "TKL",
+    "ISO_3166_1_Numeric": "772",
+    "STANAG": "TKL",
+    "Internet": ".tk",
+    "Comment": ""
+  },
+  {
+    "Name": "Tonga",
+    "GEC": "TN",
+    "ISO_3166_1_Alpha2": "TO",
+    "ISO_3166_1_Alpha3": "TON",
+    "ISO_3166_1_Numeric": "776",
+    "STANAG": "TON",
+    "Internet": ".to",
+    "Comment": ""
+  },
+  {
+    "Name": "Trinidad and Tobago",
+    "GEC": "TD",
+    "ISO_3166_1_Alpha2": "TT",
+    "ISO_3166_1_Alpha3": "TTO",
+    "ISO_3166_1_Numeric": "780",
+    "STANAG": "TTO",
+    "Internet": ".tt",
+    "Comment": ""
+  },
+  {
+    "Name": "Tromelin Island",
+    "GEC": "TE",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "-",
+    "Internet": "-",
+    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned"
+  },
+  {
+    "Name": "Tunisia",
+    "GEC": "TS",
+    "ISO_3166_1_Alpha2": "TN",
+    "ISO_3166_1_Alpha3": "TUN",
+    "ISO_3166_1_Numeric": "788",
+    "STANAG": "TUN",
+    "Internet": ".tn",
+    "Comment": ""
+  },
+  {
+    "Name": "Turkey",
+    "GEC": "TU",
+    "ISO_3166_1_Alpha2": "TR",
+    "ISO_3166_1_Alpha3": "TUR",
+    "ISO_3166_1_Numeric": "792",
+    "STANAG": "TUR",
+    "Internet": ".tr",
+    "Comment": ""
+  },
+  {
+    "Name": "Turkmenistan",
+    "GEC": "TX",
+    "ISO_3166_1_Alpha2": "TM",
+    "ISO_3166_1_Alpha3": "TKM",
+    "ISO_3166_1_Numeric": "795",
+    "STANAG": "TKM",
+    "Internet": ".tm",
+    "Comment": ""
+  },
+  {
+    "Name": "Turks and Caicos Islands",
+    "GEC": "TK",
+    "ISO_3166_1_Alpha2": "TC",
+    "ISO_3166_1_Alpha3": "TCA",
+    "ISO_3166_1_Numeric": "796",
+    "STANAG": "TCA",
+    "Internet": ".tc",
+    "Comment": ""
+  },
+  {
+    "Name": "Tuvalu",
+    "GEC": "TV",
+    "ISO_3166_1_Alpha2": "TV",
+    "ISO_3166_1_Alpha3": "TUV",
+    "ISO_3166_1_Numeric": "798",
+    "STANAG": "TUV",
+    "Internet": ".tv",
+    "Comment": ""
+  },
+  {
+    "Name": "Uganda",
+    "GEC": "UG",
+    "ISO_3166_1_Alpha2": "UG",
+    "ISO_3166_1_Alpha3": "UGA",
+    "ISO_3166_1_Numeric": "800",
+    "STANAG": "UGA",
+    "Internet": ".ug",
+    "Comment": ""
+  },
+  {
+    "Name": "Ukraine",
+    "GEC": "UP",
+    "ISO_3166_1_Alpha2": "UA",
+    "ISO_3166_1_Alpha3": "UKR",
+    "ISO_3166_1_Numeric": "804",
+    "STANAG": "UKR",
+    "Internet": ".ua",
+    "Comment": ""
+  },
+  {
+    "Name": "United Arab Emirates",
+    "GEC": "AE",
+    "ISO_3166_1_Alpha2": "AE",
+    "ISO_3166_1_Alpha3": "ARE",
+    "ISO_3166_1_Numeric": "784",
+    "STANAG": "ARE",
+    "Internet": ".ae",
+    "Comment": ""
+  },
+  {
+    "Name": "United Kingdom",
+    "GEC": "UK",
+    "ISO_3166_1_Alpha2": "GB",
+    "ISO_3166_1_Alpha3": "GBR",
+    "ISO_3166_1_Numeric": "826",
+    "STANAG": "GBR",
+    "Internet": ".uk",
+    "Comment": "\"for its internal communications"
+  },
+  {
+    "Name": "United States",
+    "GEC": "US",
+    "ISO_3166_1_Alpha2": "US",
+    "ISO_3166_1_Alpha3": "USA",
+    "ISO_3166_1_Numeric": "840",
+    "STANAG": "USA",
+    "Internet": ".us",
+    "Comment": ""
+  },
+  {
+    "Name": "Uruguay",
+    "GEC": "UY",
+    "ISO_3166_1_Alpha2": "UY",
+    "ISO_3166_1_Alpha3": "URY",
+    "ISO_3166_1_Numeric": "858",
+    "STANAG": "URY",
+    "Internet": ".uy",
+    "Comment": ""
+  },
+  {
+    "Name": "Uzbekistan",
+    "GEC": "UZ",
+    "ISO_3166_1_Alpha2": "UZ",
+    "ISO_3166_1_Alpha3": "UZB",
+    "ISO_3166_1_Numeric": "860",
+    "STANAG": "UZB",
+    "Internet": ".uz",
+    "Comment": ""
+  },
+  {
+    "Name": "Vanuatu",
+    "GEC": "NH",
+    "ISO_3166_1_Alpha2": "VU",
+    "ISO_3166_1_Alpha3": "VUT",
+    "ISO_3166_1_Numeric": "548",
+    "STANAG": "VUT",
+    "Internet": ".vu",
+    "Comment": ""
+  },
+  {
+    "Name": "Venezuela",
+    "GEC": "VE",
+    "ISO_3166_1_Alpha2": "VE",
+    "ISO_3166_1_Alpha3": "VEN",
+    "ISO_3166_1_Numeric": "862",
+    "STANAG": "VEN",
+    "Internet": ".ve",
+    "Comment": ""
+  },
+  {
+    "Name": "Vietnam",
+    "GEC": "VM",
+    "ISO_3166_1_Alpha2": "VN",
+    "ISO_3166_1_Alpha3": "VNM",
+    "ISO_3166_1_Numeric": "704",
+    "STANAG": "VNM",
+    "Internet": ".vn",
+    "Comment": ""
+  },
+  {
+    "Name": "Virgin Islands",
+    "GEC": "VQ",
+    "ISO_3166_1_Alpha2": "VI",
+    "ISO_3166_1_Alpha3": "VIR",
+    "ISO_3166_1_Numeric": "850",
+    "STANAG": "VIR",
+    "Internet": ".vi",
+    "Comment": ""
+  },
+  {
+    "Name": "Wake Island",
+    "GEC": "WQ",
+    "ISO_3166_1_Alpha2": "-",
+    "ISO_3166_1_Alpha3": "-",
+    "ISO_3166_1_Numeric": "-",
+    "STANAG": "UMI",
+    "Internet": "-",
+    "Comment": "ISO includes with the US Minor Outlying Islands"
+  },
+  {
+    "Name": "Wallis and Futuna",
+    "GEC": "WF",
+    "ISO_3166_1_Alpha2": "WF",
+    "ISO_3166_1_Alpha3": "WLF",
+    "ISO_3166_1_Numeric": "876",
+    "STANAG": "WLF",
+    "Internet": ".wf",
+    "Comment": ""
+  },
+  {
+    "Name": "West Bank",
+    "GEC": "WE",
+    "ISO_3166_1_Alpha2": "PS",
+    "ISO_3166_1_Alpha3": "PSE",
+    "ISO_3166_1_Numeric": "275",
+    "STANAG": "PSE",
+    "Internet": ".ps",
+    "Comment": "ISO identifies as Occupied Palestinian Territory"
+  },
+  {
+    "Name": "Western Sahara",
+    "GEC": "WI",
+    "ISO_3166_1_Alpha2": "EH",
+    "ISO_3166_1_Alpha3": "ESH",
+    "ISO_3166_1_Numeric": "732",
+    "STANAG": "ESH",
+    "Internet": ".eh",
+    "Comment": ""
+  },
+  {
+    "Name": "Yemen",
+    "GEC": "YM",
+    "ISO_3166_1_Alpha2": "YE",
+    "ISO_3166_1_Alpha3": "YEM",
+    "ISO_3166_1_Numeric": "887",
+    "STANAG": "YEM",
+    "Internet": ".ye",
+    "Comment": ""
+  },
+  {
+    "Name": "Zambia",
+    "GEC": "ZA",
+    "ISO_3166_1_Alpha2": "ZM",
+    "ISO_3166_1_Alpha3": "ZMB",
+    "ISO_3166_1_Numeric": "894",
+    "STANAG": "ZMB",
+    "Internet": ".zm",
+    "Comment": ""
+  },
+  {
+    "Name": "Zimbabwe",
+    "GEC": "ZI",
+    "ISO_3166_1_Alpha2": "ZW",
+    "ISO_3166_1_Alpha3": "ZWE",
+    "ISO_3166_1_Numeric": "716",
+    "STANAG": "ZWE",
+    "Internet": ".zw",
+    "Comment": ""
+  }
+]
