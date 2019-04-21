@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 using Newtonsoft.Json;
-
+using AngleSharp.Html.Parser;
 
 namespace cia.factbook.parse
 {
@@ -72,7 +72,7 @@ namespace cia.factbook.parse
                 int verified = 0;
                 foreach(var file in dataFiles)
                 {
-                    CountryData data = JsonConvert.DeserializeObject<CountryData>(File.ReadAllText(file.FullName));
+                    CountryData data = JsonConvert.DeserializeObject<CountryData>(File.ReadAllText(file.FullName));                    
                     Console.WriteLine(data);
                     if (data.code!=string.Empty && data.code.Length==2&&data.name!= string.Empty && data.html != string.Empty)
                     {
@@ -87,6 +87,27 @@ namespace cia.factbook.parse
             catch (Exception e) { Console.WriteLine(e.Message); }
             finally { tw.Close(); }
         }
+
+
+        public static void ParseHTMLContent(string content)
+        {
+            var parser = new HtmlParser();          
+            try
+            {
+                var doc = parser.ParseDocument(content);
+              
+                //Reading background info
+                var bgelements = doc.QuerySelectorAll("div").Where(x => x.GetAttribute("id") == "field-background");
+                if (bgelements.Count() != 0)
+                {
+                    //Console.WriteLine(bgelements.First().FirstElementChild.InnerHtml);                    
+                    Console.WriteLine(bgelements.First().TextContent);
+                }
+
+            }
+            catch (Exception e) { Console.WriteLine(e.Message); }
+        }
+
 
 
     }

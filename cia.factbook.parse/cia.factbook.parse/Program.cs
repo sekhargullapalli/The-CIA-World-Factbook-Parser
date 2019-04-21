@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace cia.factbook.parse
 {
@@ -6,9 +10,11 @@ namespace cia.factbook.parse
     {
         static void Main(string[] args)
         {
-            FactbookParser.CreateCountryDataList();
-
-
+            List<CountryData> CountryDataList =
+                JsonConvert.DeserializeObject<List<CountryData>>(File.ReadAllText(@"countrydetailslist.json"));
+            CountryData data = CountryDataList.Where(x => x.code == "SE").First();
+            Console.WriteLine(data);
+            FactbookParser.ParseHTMLContent(data.html);
         }
     }
 }
