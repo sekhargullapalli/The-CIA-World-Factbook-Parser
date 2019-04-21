@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-
 using System.Linq;
 using System.IO;
 using Newtonsoft.Json;
@@ -61,12 +59,36 @@ namespace cia.factbook.parse
             catch (Exception e) { Console.WriteLine(e.Message); }
             finally { tw.Close(); }
         }    
+        /// <summary>
+        /// Collect data from factbook json folder into one json file
+        /// </summary>
+        public static void CreateCountryDataList()
+        {
+            TextWriter tw = new StreamWriter("countrydetailslist.json",false);
+            try
+            {
+                List<CountryData> CountryDataList = new List<CountryData>();
+                var dataFiles = new DirectoryInfo(@"C:\Users\sekha\Desktop\factbook\json").EnumerateFiles("*.json");
+                int verified = 0;
+                foreach(var file in dataFiles)
+                {
+                    CountryData data = JsonConvert.DeserializeObject<CountryData>(File.ReadAllText(file.FullName));
+                    Console.WriteLine(data);
+                    if (data.code!=string.Empty && data.code.Length==2&&data.name!= string.Empty && data.html != string.Empty)
+                    {
+                        CountryDataList.Add(data);verified++;
+                    }                   
+                }
+                Console.WriteLine($"Total files processed: {dataFiles.Count()}");
+                Console.WriteLine($"Total files verified: {verified}");
+                string json = JsonConvert.SerializeObject(CountryDataList, Formatting.Indented);
+                tw.WriteLine(json);
+            }
+            catch (Exception e) { Console.WriteLine(e.Message); }
+            finally { tw.Close(); }
+        }
+
+
     }
-    public class CountryData
-    {
-        public string name { get; set; }="";
-        public string code { get; set; } = "";
-        public string publish_date { get; set; } = "";
-        public string html { get; set; } = "";
-    }
+   
 }
