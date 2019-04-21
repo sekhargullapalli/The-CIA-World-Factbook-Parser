@@ -12,7 +12,7 @@ namespace cia.factbook.parse
         {
             List<CountryData> CountryDataList =
                 JsonConvert.DeserializeObject<List<CountryData>>(File.ReadAllText(@"countrydetailslist.json"));
-            CountryData data = CountryDataList.Where(x => x.code == "SE").First();
+            CountryData data = CountryDataList.Where(x => x.code == "IN").First();
             Console.WriteLine(data);
             FactbookParser.ParseHTMLContent(data.html);
         }

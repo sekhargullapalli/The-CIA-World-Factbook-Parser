@@ -103,6 +103,84 @@ namespace cia.factbook.parse
                     //Console.WriteLine(bgelements.First().FirstElementChild.InnerHtml);                    
                     Console.WriteLine(bgelements.First().TextContent);
                 }
+                Console.WriteLine("----------------");
+                bgelements = doc.QuerySelectorAll("div").Where(x => x.GetAttribute("id") == "field-capital");
+                if (bgelements.Count() != 0)
+                {
+                    foreach (var elem in bgelements.First().Children.Where(x => x.HasAttribute("class")
+                     && x.GetAttribute("class").Contains("category_data")
+                     && (x.GetAttribute("class").Contains("text") || x.GetAttribute("class").Contains("note"))))
+                    {
+                        foreach (var child in elem.Children)
+                        {
+                            Console.Write(child.TextContent);
+
+                        }
+                        elem.RemoveChild(elem.Children.First());
+                        Console.WriteLine(elem.TextContent);
+                    }
+                }
+                Console.WriteLine("------------------");
+                bgelements = doc.QuerySelectorAll("div").Where(x => x.GetAttribute("id") == "field-national-anthem");
+                if (bgelements.Count() != 0)
+                {
+                    foreach (var elem in bgelements.First().Children.Where(x => x.HasAttribute("class")
+                    && x.GetAttribute("class").Contains("category_data")
+                    && (x.GetAttribute("class").Contains("text") || x.GetAttribute("class").Contains("note"))))
+                    {
+                        foreach (var child in elem.Children)
+                        {
+                            Console.Write(child.TextContent);
+                        }
+                        elem.RemoveChild(elem.Children.First());
+                        Console.WriteLine(elem.TextContent);
+                    }
+                }
+                Console.WriteLine("------------------");
+                bgelements = doc.QuerySelectorAll("div").Where(x => x.GetAttribute("id") == "field-country-name");
+                if (bgelements.Count() != 0)
+                {
+                    foreach (var elem in bgelements.First().Children.Where(x => x.HasAttribute("class")
+                    && x.GetAttribute("class").Contains("category_data")
+                    && (x.GetAttribute("class").Contains("text") || x.GetAttribute("class").Contains("note"))))
+                    {
+                        foreach (var child in elem.Children)
+                        {
+                            Console.Write(child.TextContent);
+                        }
+                        elem.RemoveChild(elem.Children.First());
+                        Console.WriteLine(elem.TextContent);
+                    }
+                }
+                Console.WriteLine("------------------");
+                bgelements = doc.QuerySelectorAll("div").Where(x => x.GetAttribute("id") == "field-area");
+                if (bgelements.Count() != 0)
+                {
+                    foreach (var elem in bgelements.First().Children.Where(x => x.HasAttribute("class")
+                    && x.GetAttribute("class").Contains("category_data")
+                    && (x.GetAttribute("class").Contains("text") || x.GetAttribute("class").Contains("note") || x.GetAttribute("class").Contains("numeric"))))
+                    {
+                        Console.Write(elem.Children.First().TextContent);
+                        elem.RemoveChild(elem.Children.First());
+                        Console.WriteLine(elem.TextContent);
+                    }
+                }
+                Console.WriteLine("------------------");
+                bgelements = doc.QuerySelectorAll("div").Where(x => x.GetAttribute("id") == "field-land-use");
+                if (bgelements.Count() != 0)
+                {
+                    foreach (var elem in bgelements.First().Children.Where(x => x.HasAttribute("class")
+                    && x.GetAttribute("class").Contains("category_data")
+                    && (x.GetAttribute("class").Contains("text") || x.GetAttribute("class").Contains("note") || x.GetAttribute("class").Contains("numeric"))))
+                    {
+                        Console.Write(elem.Children.First().TextContent);
+                        elem.RemoveChild(elem.Children.First());
+                        Console.WriteLine(elem.TextContent);
+                    }
+                }
+
+
+
 
             }
             catch (Exception e) { Console.WriteLine(e.Message); }
