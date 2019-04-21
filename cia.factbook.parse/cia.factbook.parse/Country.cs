@@ -20,5 +20,8 @@ namespace cia.factbook.parse
         public string STANAG { get; set; } = "";
         /// <summary>Internet country code</summary>        
         public string Internet{ get; set; } = "";
+        /// <summary>Additional Comment</summary>        
+        public string Comment { get; set; } = "";
+
     }
 }

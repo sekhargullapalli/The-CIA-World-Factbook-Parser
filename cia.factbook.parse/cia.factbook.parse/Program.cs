@@ -6,10 +6,7 @@ namespace cia.factbook.parse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            Country c = new Country();
-            
+            FactbookParser.CreateCountriesList();           
             
         }
     }
