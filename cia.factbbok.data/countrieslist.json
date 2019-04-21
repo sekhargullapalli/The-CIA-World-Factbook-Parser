@@ -4,10 +4,13 @@
     "GEC": "AF",
     "ISO_3166_1_Alpha2": "AF",
     "ISO_3166_1_Alpha3": "AFG",
-    "ISO_3166_1_Numeric": "004",
+    "ISO_3166_1_Numeric": "4",
     "STANAG": "AFG",
     "Internet": ".af",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AF-flag.gif",
+    "AnthemFile": "AF.mp3",
+    "Datafile": "af.json"
   },
   {
     "Name": "Akrotiri",
@@ -17,57 +20,75 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AX-flag.gif",
+    "AnthemFile": "AX.mp3",
+    "Datafile": "ax.json"
   },
   {
     "Name": "Albania",
     "GEC": "AL",
     "ISO_3166_1_Alpha2": "AL",
     "ISO_3166_1_Alpha3": "ALB",
-    "ISO_3166_1_Numeric": "008",
+    "ISO_3166_1_Numeric": "8",
     "STANAG": "ALB",
     "Internet": ".al",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AL-flag.gif",
+    "AnthemFile": "AL.mp3",
+    "Datafile": "al.json"
   },
   {
     "Name": "Algeria",
     "GEC": "AG",
     "ISO_3166_1_Alpha2": "DZ",
     "ISO_3166_1_Alpha3": "DZA",
-    "ISO_3166_1_Numeric": "012",
+    "ISO_3166_1_Numeric": "12",
     "STANAG": "DZA",
     "Internet": ".dz",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AG-flag.gif",
+    "AnthemFile": "AG.mp3",
+    "Datafile": "ag.json"
   },
   {
     "Name": "American Samoa",
     "GEC": "AQ",
     "ISO_3166_1_Alpha2": "AS",
     "ISO_3166_1_Alpha3": "ASM",
-    "ISO_3166_1_Numeric": "016",
+    "ISO_3166_1_Numeric": "16",
     "STANAG": "ASM",
     "Internet": ".as",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "aq.json"
   },
   {
     "Name": "Andorra",
     "GEC": "AN",
     "ISO_3166_1_Alpha2": "AD",
     "ISO_3166_1_Alpha3": "AND",
-    "ISO_3166_1_Numeric": "020",
+    "ISO_3166_1_Numeric": "20",
     "STANAG": "AND",
     "Internet": ".ad",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AN-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "an.json"
   },
   {
     "Name": "Angola",
     "GEC": "AO",
     "ISO_3166_1_Alpha2": "AO",
     "ISO_3166_1_Alpha3": "AGO",
-    "ISO_3166_1_Numeric": "024",
+    "ISO_3166_1_Numeric": "24",
     "STANAG": "AGO",
     "Internet": ".ao",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AO-flag.gif",
+    "AnthemFile": "AO.mp3",
+    "Datafile": "ao.json"
   },
   {
     "Name": "Anguilla",
@@ -77,47 +98,62 @@
     "ISO_3166_1_Numeric": "660",
     "STANAG": "AIA",
     "Internet": ".ai",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AV-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "av.json"
   },
   {
     "Name": "Antarctica",
     "GEC": "AY",
     "ISO_3166_1_Alpha2": "AQ",
     "ISO_3166_1_Alpha3": "ATA",
-    "ISO_3166_1_Numeric": "010",
+    "ISO_3166_1_Numeric": "10",
     "STANAG": "ATA",
     "Internet": ".aq",
-    "Comment": "ISO defines as the territory south of 60 degrees south latitude"
+    "Comment": "ISO defines as the territory south of 60 degrees south latitude",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": "ay.json"
   },
   {
     "Name": "Antigua and Barbuda",
     "GEC": "AC",
     "ISO_3166_1_Alpha2": "AG",
     "ISO_3166_1_Alpha3": "ATG",
-    "ISO_3166_1_Numeric": "028",
+    "ISO_3166_1_Numeric": "28",
     "STANAG": "ATG",
     "Internet": ".ag",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AC-flag.gif",
+    "AnthemFile": "AC.mp3",
+    "Datafile": "ac.json"
   },
   {
     "Name": "Argentina",
     "GEC": "AR",
     "ISO_3166_1_Alpha2": "AR",
     "ISO_3166_1_Alpha3": "ARG",
-    "ISO_3166_1_Numeric": "032",
+    "ISO_3166_1_Numeric": "32",
     "STANAG": "ARG",
     "Internet": ".ar",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AR-flag.gif",
+    "AnthemFile": "AR.mp3",
+    "Datafile": "ar.json"
   },
   {
     "Name": "Armenia",
     "GEC": "AM",
     "ISO_3166_1_Alpha2": "AM",
     "ISO_3166_1_Alpha3": "ARM",
-    "ISO_3166_1_Numeric": "051",
+    "ISO_3166_1_Numeric": "51",
     "STANAG": "ARM",
     "Internet": ".am",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AM-flag.gif",
+    "AnthemFile": "AM.mp3",
+    "Datafile": "am.json"
   },
   {
     "Name": "Aruba",
@@ -127,7 +163,10 @@
     "ISO_3166_1_Numeric": "533",
     "STANAG": "ABW",
     "Internet": ".aw",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AA-flag.gif",
+    "AnthemFile": "AA.mp3",
+    "Datafile": "aa.json"
   },
   {
     "Name": "Ashmore and Cartier Islands",
@@ -137,57 +176,75 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "AUS",
     "Internet": "-",
-    "Comment": "ISO includes with Australia"
+    "Comment": "ISO includes with Australia",
+    "Flagfile": "AT-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "at.json"
   },
   {
     "Name": "Australia",
     "GEC": "AS",
     "ISO_3166_1_Alpha2": "AU",
     "ISO_3166_1_Alpha3": "AUS",
-    "ISO_3166_1_Numeric": "036",
+    "ISO_3166_1_Numeric": "36",
     "STANAG": "AUS",
     "Internet": ".au",
-    "Comment": "\"ISO includes Ashmore and Cartier Islands"
+    "Comment": "\"ISO includes Ashmore and Cartier Islands",
+    "Flagfile": "AS-flag.gif",
+    "AnthemFile": "AS.mp3",
+    "Datafile": "as.json"
   },
   {
     "Name": "Austria",
     "GEC": "AU",
     "ISO_3166_1_Alpha2": "AT",
     "ISO_3166_1_Alpha3": "AUT",
-    "ISO_3166_1_Numeric": "040",
+    "ISO_3166_1_Numeric": "40",
     "STANAG": "AUT",
     "Internet": ".at",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AU-flag.gif",
+    "AnthemFile": "AU.mp3",
+    "Datafile": "au.json"
   },
   {
     "Name": "Azerbaijan",
     "GEC": "AJ",
     "ISO_3166_1_Alpha2": "AZ",
     "ISO_3166_1_Alpha3": "AZE",
-    "ISO_3166_1_Numeric": "031",
+    "ISO_3166_1_Numeric": "31",
     "STANAG": "AZE",
     "Internet": ".az",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AJ-flag.gif",
+    "AnthemFile": "AJ.mp3",
+    "Datafile": "aj.json"
   },
   {
-    "Name": "\"Bahamas",
-    "GEC": "The\"",
-    "ISO_3166_1_Alpha2": "BF",
-    "ISO_3166_1_Alpha3": "BS",
-    "ISO_3166_1_Numeric": "BHS",
-    "STANAG": "044",
-    "Internet": "BHS",
-    "Comment": ".bs"
+    "Name": "Bahamas, The",
+    "GEC": "BF",
+    "ISO_3166_1_Alpha2": "BS",
+    "ISO_3166_1_Alpha3": "BHS",
+    "ISO_3166_1_Numeric": "44",
+    "STANAG": "BHS",
+    "Internet": ".bs",
+    "Comment": "",
+    "Flagfile": "BF-flag.gif",
+    "AnthemFile": "BF.mp3",
+    "Datafile": "bf.json"
   },
   {
     "Name": "Bahrain",
     "GEC": "BA",
     "ISO_3166_1_Alpha2": "BH",
     "ISO_3166_1_Alpha3": "BHR",
-    "ISO_3166_1_Numeric": "048",
+    "ISO_3166_1_Numeric": "48",
     "STANAG": "BHR",
     "Internet": ".bh",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BA-flag.gif",
+    "AnthemFile": "BA.mp3",
+    "Datafile": "ba.json"
   },
   {
     "Name": "Baker Island",
@@ -197,27 +254,36 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "UMI",
     "Internet": "-",
-    "Comment": "ISO includes with the US Minor Outlying Islands"
+    "Comment": "ISO includes with the US Minor Outlying Islands",
+    "Flagfile": "FQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "fq.json"
   },
   {
     "Name": "Bangladesh",
     "GEC": "BG",
     "ISO_3166_1_Alpha2": "BD",
     "ISO_3166_1_Alpha3": "BGD",
-    "ISO_3166_1_Numeric": "050",
+    "ISO_3166_1_Numeric": "50",
     "STANAG": "BGD",
     "Internet": ".bd",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BG-flag.gif",
+    "AnthemFile": "BG.mp3",
+    "Datafile": "bg.json"
   },
   {
     "Name": "Barbados",
     "GEC": "BB",
     "ISO_3166_1_Alpha2": "BB",
     "ISO_3166_1_Alpha3": "BRB",
-    "ISO_3166_1_Numeric": "052",
+    "ISO_3166_1_Numeric": "52",
     "STANAG": "BRB",
     "Internet": ".bb",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BB-flag.gif",
+    "AnthemFile": "BB.mp3",
+    "Datafile": "bb.json"
   },
   {
     "Name": "Bassas da India",
@@ -227,7 +293,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned"
+    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "Belarus",
@@ -237,27 +306,36 @@
     "ISO_3166_1_Numeric": "112",
     "STANAG": "BLR",
     "Internet": ".by",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BO-flag.gif",
+    "AnthemFile": "BO.mp3",
+    "Datafile": "bo.json"
   },
   {
     "Name": "Belgium",
     "GEC": "BE",
     "ISO_3166_1_Alpha2": "BE",
     "ISO_3166_1_Alpha3": "BEL",
-    "ISO_3166_1_Numeric": "056",
+    "ISO_3166_1_Numeric": "56",
     "STANAG": "BEL",
     "Internet": ".be",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BE-flag.gif",
+    "AnthemFile": "BE.mp3",
+    "Datafile": "be.json"
   },
   {
     "Name": "Belize",
     "GEC": "BH",
     "ISO_3166_1_Alpha2": "BZ",
     "ISO_3166_1_Alpha3": "BLZ",
-    "ISO_3166_1_Numeric": "084",
+    "ISO_3166_1_Numeric": "84",
     "STANAG": "BLZ",
     "Internet": ".bz",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BH-flag.gif",
+    "AnthemFile": "BH.mp3",
+    "Datafile": "bh.json"
   },
   {
     "Name": "Benin",
@@ -267,107 +345,140 @@
     "ISO_3166_1_Numeric": "204",
     "STANAG": "BEN",
     "Internet": ".bj",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BN-flag.gif",
+    "AnthemFile": "BN.mp3",
+    "Datafile": "bn.json"
   },
   {
     "Name": "Bermuda",
     "GEC": "BD",
     "ISO_3166_1_Alpha2": "BM",
     "ISO_3166_1_Alpha3": "BMU",
-    "ISO_3166_1_Numeric": "060",
+    "ISO_3166_1_Numeric": "60",
     "STANAG": "BMU",
     "Internet": ".bm",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BD-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "bd.json"
   },
   {
     "Name": "Bhutan",
     "GEC": "BT",
     "ISO_3166_1_Alpha2": "BT",
     "ISO_3166_1_Alpha3": "BTN",
-    "ISO_3166_1_Numeric": "064",
+    "ISO_3166_1_Numeric": "64",
     "STANAG": "BTN",
     "Internet": ".bt",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BT-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "bt.json"
   },
   {
     "Name": "Bolivia",
     "GEC": "BL",
     "ISO_3166_1_Alpha2": "BO",
     "ISO_3166_1_Alpha3": "BOL",
-    "ISO_3166_1_Numeric": "068",
+    "ISO_3166_1_Numeric": "68",
     "STANAG": "BOL",
     "Internet": ".bo",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BL-flag.gif",
+    "AnthemFile": "BL.mp3",
+    "Datafile": "bl.json"
   },
   {
     "Name": "Bosnia and Herzegovina",
     "GEC": "BK",
     "ISO_3166_1_Alpha2": "BA",
     "ISO_3166_1_Alpha3": "BIH",
-    "ISO_3166_1_Numeric": "070",
+    "ISO_3166_1_Numeric": "70",
     "STANAG": "BIH",
     "Internet": ".ba",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BK-flag.gif",
+    "AnthemFile": "BK.mp3",
+    "Datafile": "bk.json"
   },
   {
     "Name": "Botswana",
     "GEC": "BC",
     "ISO_3166_1_Alpha2": "BW",
     "ISO_3166_1_Alpha3": "BWA",
-    "ISO_3166_1_Numeric": "072",
+    "ISO_3166_1_Numeric": "72",
     "STANAG": "BWA",
     "Internet": ".bw",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BC-flag.gif",
+    "AnthemFile": "BC.mp3",
+    "Datafile": "bc.json"
   },
   {
     "Name": "Bouvet Island",
     "GEC": "BV",
     "ISO_3166_1_Alpha2": "BV",
     "ISO_3166_1_Alpha3": "BVT",
-    "ISO_3166_1_Numeric": "074",
+    "ISO_3166_1_Numeric": "74",
     "STANAG": "BVT",
     "Internet": ".bv",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BV-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "bv.json"
   },
   {
     "Name": "Brazil",
     "GEC": "BR",
     "ISO_3166_1_Alpha2": "BR",
     "ISO_3166_1_Alpha3": "BRA",
-    "ISO_3166_1_Numeric": "076",
+    "ISO_3166_1_Numeric": "76",
     "STANAG": "BRA",
     "Internet": ".br",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BR-flag.gif",
+    "AnthemFile": "BR.mp3",
+    "Datafile": "br.json"
   },
   {
     "Name": "British Indian Ocean Territory",
     "GEC": "IO",
     "ISO_3166_1_Alpha2": "IO",
     "ISO_3166_1_Alpha3": "IOT",
-    "ISO_3166_1_Numeric": "086",
+    "ISO_3166_1_Numeric": "86",
     "STANAG": "IOT",
     "Internet": ".io",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "IO-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "io.json"
   },
   {
     "Name": "British Virgin Islands",
     "GEC": "VI",
     "ISO_3166_1_Alpha2": "VG",
     "ISO_3166_1_Alpha3": "VGB",
-    "ISO_3166_1_Numeric": "092",
+    "ISO_3166_1_Numeric": "92",
     "STANAG": "VGB",
     "Internet": ".vg",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "VI-flag.gif",
+    "AnthemFile": "VI.mp3",
+    "Datafile": "vi.json"
   },
   {
     "Name": "Brunei",
     "GEC": "BX",
     "ISO_3166_1_Alpha2": "BN",
     "ISO_3166_1_Alpha3": "BRN",
-    "ISO_3166_1_Numeric": "096",
+    "ISO_3166_1_Numeric": "96",
     "STANAG": "BRN",
     "Internet": ".bn",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BX-flag.gif",
+    "AnthemFile": "BX.mp3",
+    "Datafile": "bx.json"
   },
   {
     "Name": "Bulgaria",
@@ -377,7 +488,10 @@
     "ISO_3166_1_Numeric": "100",
     "STANAG": "BGR",
     "Internet": ".bg",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BU-flag.gif",
+    "AnthemFile": "BU.mp3",
+    "Datafile": "bu.json"
   },
   {
     "Name": "Burkina Faso",
@@ -387,7 +501,10 @@
     "ISO_3166_1_Numeric": "854",
     "STANAG": "BFA",
     "Internet": ".bf",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "UV-flag.gif",
+    "AnthemFile": "UV.mp3",
+    "Datafile": "uv.json"
   },
   {
     "Name": "Burma",
@@ -397,7 +514,10 @@
     "ISO_3166_1_Numeric": "104",
     "STANAG": "MMR",
     "Internet": ".mm",
-    "Comment": "ISO uses the name Myanmar"
+    "Comment": "ISO uses the name Myanmar",
+    "Flagfile": "BM-flag.gif",
+    "AnthemFile": "BM.mp3",
+    "Datafile": "bm.json"
   },
   {
     "Name": "Burundi",
@@ -407,7 +527,10 @@
     "ISO_3166_1_Numeric": "108",
     "STANAG": "BDI",
     "Internet": ".bi",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BY-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "by.json"
   },
   {
     "Name": "Cabo Verde",
@@ -417,7 +540,10 @@
     "ISO_3166_1_Numeric": "132",
     "STANAG": "CPV",
     "Internet": ".cv",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CV-flag.gif",
+    "AnthemFile": "CV.mp3",
+    "Datafile": "cv.json"
   },
   {
     "Name": "Cambodia",
@@ -427,7 +553,10 @@
     "ISO_3166_1_Numeric": "116",
     "STANAG": "KHM",
     "Internet": ".kh",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CB-flag.gif",
+    "AnthemFile": "CB.mp3",
+    "Datafile": "cb.json"
   },
   {
     "Name": "Cameroon",
@@ -437,7 +566,10 @@
     "ISO_3166_1_Numeric": "120",
     "STANAG": "CMR",
     "Internet": ".cm",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CM-flag.gif",
+    "AnthemFile": "CM.mp3",
+    "Datafile": "cm.json"
   },
   {
     "Name": "Canada",
@@ -447,7 +579,10 @@
     "ISO_3166_1_Numeric": "124",
     "STANAG": "CAN",
     "Internet": ".ca",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CA-flag.gif",
+    "AnthemFile": "CA.mp3",
+    "Datafile": "ca.json"
   },
   {
     "Name": "Cayman Islands",
@@ -457,7 +592,10 @@
     "ISO_3166_1_Numeric": "136",
     "STANAG": "CYM",
     "Internet": ".ky",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CJ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "cj.json"
   },
   {
     "Name": "Central African Republic",
@@ -467,7 +605,10 @@
     "ISO_3166_1_Numeric": "140",
     "STANAG": "CAF",
     "Internet": ".cf",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CT-flag.gif",
+    "AnthemFile": "CT.mp3",
+    "Datafile": "ct.json"
   },
   {
     "Name": "Chad",
@@ -477,7 +618,10 @@
     "ISO_3166_1_Numeric": "148",
     "STANAG": "TCD",
     "Internet": ".td",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CD-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "cd.json"
   },
   {
     "Name": "Chile",
@@ -487,7 +631,10 @@
     "ISO_3166_1_Numeric": "152",
     "STANAG": "CHL",
     "Internet": ".cl",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CI-flag.gif",
+    "AnthemFile": "CI.mp3",
+    "Datafile": "ci.json"
   },
   {
     "Name": "China",
@@ -497,7 +644,10 @@
     "ISO_3166_1_Numeric": "156",
     "STANAG": "CHN",
     "Internet": ".cn",
-    "Comment": "see also Taiwan"
+    "Comment": "see also Taiwan",
+    "Flagfile": "CH-flag.gif",
+    "AnthemFile": "CH.mp3",
+    "Datafile": "ch.json"
   },
   {
     "Name": "Christmas Island",
@@ -507,7 +657,10 @@
     "ISO_3166_1_Numeric": "162",
     "STANAG": "CXR",
     "Internet": ".cx",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "KT-flag.gif",
+    "AnthemFile": "KT.mp3",
+    "Datafile": "kt.json"
   },
   {
     "Name": "Clipperton Island",
@@ -517,7 +670,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "FYP",
     "Internet": "-",
-    "Comment": "ISO includes with France"
+    "Comment": "ISO includes with France",
+    "Flagfile": "IP-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "ip.json"
   },
   {
     "Name": "Cocos (Keeling) Islands",
@@ -527,7 +683,10 @@
     "ISO_3166_1_Numeric": "166",
     "STANAG": "AUS",
     "Internet": ".cc",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CK-flag.gif",
+    "AnthemFile": "CK.mp3",
+    "Datafile": "ck.json"
   },
   {
     "Name": "Colombia",
@@ -537,7 +696,10 @@
     "ISO_3166_1_Numeric": "170",
     "STANAG": "COL",
     "Internet": ".co",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CO-flag.gif",
+    "AnthemFile": "CO.mp3",
+    "Datafile": "co.json"
   },
   {
     "Name": "Comoros",
@@ -547,27 +709,36 @@
     "ISO_3166_1_Numeric": "174",
     "STANAG": "COM",
     "Internet": ".km",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CN-flag.gif",
+    "AnthemFile": "CN.mp3",
+    "Datafile": "cn.json"
   },
   {
-    "Name": "\"Congo",
-    "GEC": "Democratic Republic of the\"",
+    "Name": "Congo, Democratic Republic of the",
+    "GEC": "CG",
+    "ISO_3166_1_Alpha2": "CD",
+    "ISO_3166_1_Alpha3": "COD",
+    "ISO_3166_1_Numeric": "180",
+    "STANAG": "COD",
+    "Internet": ".cd",
+    "Comment": "formerly Zaire",
+    "Flagfile": "CG-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "cg.json"
+  },
+  {
+    "Name": "Congo, Republic of the",
+    "GEC": "CF",
     "ISO_3166_1_Alpha2": "CG",
-    "ISO_3166_1_Alpha3": "CD",
-    "ISO_3166_1_Numeric": "COD",
-    "STANAG": "180",
-    "Internet": "COD",
-    "Comment": ".cd"
-  },
-  {
-    "Name": "\"Congo",
-    "GEC": "Republic of the\"",
-    "ISO_3166_1_Alpha2": "CF",
-    "ISO_3166_1_Alpha3": "CG",
-    "ISO_3166_1_Numeric": "COG",
-    "STANAG": "178",
-    "Internet": "COG",
-    "Comment": ".cg"
+    "ISO_3166_1_Alpha3": "COG",
+    "ISO_3166_1_Numeric": "178",
+    "STANAG": "COG",
+    "Internet": ".cg",
+    "Comment": "",
+    "Flagfile": "CF-flag.gif",
+    "AnthemFile": "CF.mp3",
+    "Datafile": "cf.json"
   },
   {
     "Name": "Cook Islands",
@@ -577,7 +748,10 @@
     "ISO_3166_1_Numeric": "184",
     "STANAG": "COK",
     "Internet": ".ck",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CW-flag.gif",
+    "AnthemFile": "CW.mp3",
+    "Datafile": "cw.json"
   },
   {
     "Name": "Coral Sea Islands",
@@ -587,7 +761,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "AUS",
     "Internet": "-",
-    "Comment": "ISO includes with Australia"
+    "Comment": "ISO includes with Australia",
+    "Flagfile": "CR-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "cr.json"
   },
   {
     "Name": "Costa Rica",
@@ -597,7 +774,10 @@
     "ISO_3166_1_Numeric": "188",
     "STANAG": "CRI",
     "Internet": ".cr",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CS-flag.gif",
+    "AnthemFile": "CS.mp3",
+    "Datafile": "cs.json"
   },
   {
     "Name": "Cote d'Ivoire",
@@ -607,7 +787,10 @@
     "ISO_3166_1_Numeric": "384",
     "STANAG": "CIV",
     "Internet": ".ci",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "IV-flag.gif",
+    "AnthemFile": "IV.mp3",
+    "Datafile": "iv.json"
   },
   {
     "Name": "Croatia",
@@ -617,7 +800,10 @@
     "ISO_3166_1_Numeric": "191",
     "STANAG": "HRV",
     "Internet": ".hr",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "HR-flag.gif",
+    "AnthemFile": "HR.mp3",
+    "Datafile": "hr.json"
   },
   {
     "Name": "Cuba",
@@ -627,7 +813,10 @@
     "ISO_3166_1_Numeric": "192",
     "STANAG": "CUB",
     "Internet": ".cu",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CU-flag.gif",
+    "AnthemFile": "CU.mp3",
+    "Datafile": "cu.json"
   },
   {
     "Name": "Curacao",
@@ -637,7 +826,10 @@
     "ISO_3166_1_Numeric": "531",
     "STANAG": "-",
     "Internet": ".cw",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "UC-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "uc.json"
   },
   {
     "Name": "Cyprus",
@@ -647,7 +839,10 @@
     "ISO_3166_1_Numeric": "196",
     "STANAG": "CYP",
     "Internet": ".cy",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CY-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "cy.json"
   },
   {
     "Name": "Czechia",
@@ -657,7 +852,10 @@
     "ISO_3166_1_Numeric": "203",
     "STANAG": "CZE",
     "Internet": ".cz",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "EZ-flag.gif",
+    "AnthemFile": "EZ.mp3",
+    "Datafile": "ez.json"
   },
   {
     "Name": "Denmark",
@@ -667,7 +865,10 @@
     "ISO_3166_1_Numeric": "208",
     "STANAG": "DNK",
     "Internet": ".dk",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "DA-flag.gif",
+    "AnthemFile": "DA.mp3",
+    "Datafile": "da.json"
   },
   {
     "Name": "Dhekelia",
@@ -677,7 +878,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "DX-flag.gif",
+    "AnthemFile": "DX.mp3",
+    "Datafile": "dx.json"
   },
   {
     "Name": "Djibouti",
@@ -687,7 +891,10 @@
     "ISO_3166_1_Numeric": "262",
     "STANAG": "DJI",
     "Internet": ".dj",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "DJ-flag.gif",
+    "AnthemFile": "DJ.mp3",
+    "Datafile": "dj.json"
   },
   {
     "Name": "Dominica",
@@ -697,7 +904,10 @@
     "ISO_3166_1_Numeric": "212",
     "STANAG": "DMA",
     "Internet": ".dm",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "DO-flag.gif",
+    "AnthemFile": "DO.mp3",
+    "Datafile": "do.json"
   },
   {
     "Name": "Dominican Republic",
@@ -707,7 +917,10 @@
     "ISO_3166_1_Numeric": "214",
     "STANAG": "DOM",
     "Internet": ".do",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "DR-flag.gif",
+    "AnthemFile": "DR.mp3",
+    "Datafile": "dr.json"
   },
   {
     "Name": "Ecuador",
@@ -717,7 +930,10 @@
     "ISO_3166_1_Numeric": "218",
     "STANAG": "ECU",
     "Internet": ".ec",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "EC-flag.gif",
+    "AnthemFile": "EC.mp3",
+    "Datafile": "ec.json"
   },
   {
     "Name": "Egypt",
@@ -727,7 +943,10 @@
     "ISO_3166_1_Numeric": "818",
     "STANAG": "EGY",
     "Internet": ".eg",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "EG-flag.gif",
+    "AnthemFile": "EG.mp3",
+    "Datafile": "eg.json"
   },
   {
     "Name": "El Salvador",
@@ -737,7 +956,10 @@
     "ISO_3166_1_Numeric": "222",
     "STANAG": "SLV",
     "Internet": ".sv",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "ES-flag.gif",
+    "AnthemFile": "ES.mp3",
+    "Datafile": "es.json"
   },
   {
     "Name": "Equatorial Guinea",
@@ -747,7 +969,10 @@
     "ISO_3166_1_Numeric": "226",
     "STANAG": "GNQ",
     "Internet": ".gq",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "EK-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "ek.json"
   },
   {
     "Name": "Eritrea",
@@ -757,7 +982,10 @@
     "ISO_3166_1_Numeric": "232",
     "STANAG": "ERI",
     "Internet": ".er",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "ER-flag.gif",
+    "AnthemFile": "ER.mp3",
+    "Datafile": "er.json"
   },
   {
     "Name": "Estonia",
@@ -767,7 +995,10 @@
     "ISO_3166_1_Numeric": "233",
     "STANAG": "EST",
     "Internet": ".ee",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "EN-flag.gif",
+    "AnthemFile": "EN.mp3",
+    "Datafile": "en.json"
   },
   {
     "Name": "Ethiopia",
@@ -777,7 +1008,10 @@
     "ISO_3166_1_Numeric": "231",
     "STANAG": "ETH",
     "Internet": ".et",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "ET-flag.gif",
+    "AnthemFile": "ET.mp3",
+    "Datafile": "et.json"
   },
   {
     "Name": "Europa Island",
@@ -787,7 +1021,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned"
+    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "Falkland Islands (Islas Malvinas)",
@@ -797,7 +1034,10 @@
     "ISO_3166_1_Numeric": "238",
     "STANAG": "FLK",
     "Internet": ".fk",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "FK-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "fk.json"
   },
   {
     "Name": "Faroe Islands",
@@ -807,7 +1047,10 @@
     "ISO_3166_1_Numeric": "234",
     "STANAG": "FRO",
     "Internet": ".fo",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "FO-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "fo.json"
   },
   {
     "Name": "Fiji",
@@ -817,7 +1060,10 @@
     "ISO_3166_1_Numeric": "242",
     "STANAG": "FJI",
     "Internet": ".fj",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "FJ-flag.gif",
+    "AnthemFile": "FJ.mp3",
+    "Datafile": "fj.json"
   },
   {
     "Name": "Finland",
@@ -827,7 +1073,10 @@
     "ISO_3166_1_Numeric": "246",
     "STANAG": "FIN",
     "Internet": ".fi",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "FI-flag.gif",
+    "AnthemFile": "FI.mp3",
+    "Datafile": "fi.json"
   },
   {
     "Name": "France",
@@ -837,17 +1086,10 @@
     "ISO_3166_1_Numeric": "250",
     "STANAG": "FRA",
     "Internet": ".fr",
-    "Comment": "\"ISO includes metropolitan France along with the dependencies of Clipperton Island"
-  },
-  {
-    "Name": "\"France",
-    "GEC": "Metropolitan\"",
-    "ISO_3166_1_Alpha2": "-",
-    "ISO_3166_1_Alpha3": "FX",
-    "ISO_3166_1_Numeric": "FXX",
-    "STANAG": "249",
-    "Internet": "-",
-    "Comment": ".fx"
+    "Comment": "\"ISO includes metropolitan France along with the dependencies of Clipperton Island",
+    "Flagfile": "FR-flag.gif",
+    "AnthemFile": "FR.mp3",
+    "Datafile": "fr.json"
   },
   {
     "Name": "French Guiana",
@@ -857,7 +1099,10 @@
     "ISO_3166_1_Numeric": "254",
     "STANAG": "GUF",
     "Internet": ".gf",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "French Polynesia",
@@ -867,7 +1112,10 @@
     "ISO_3166_1_Numeric": "258",
     "STANAG": "PYF",
     "Internet": ".pf",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "FP-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "fp.json"
   },
   {
     "Name": "French Southern and Antarctic Lands",
@@ -877,7 +1125,10 @@
     "ISO_3166_1_Numeric": "260",
     "STANAG": "ATF",
     "Internet": ".tf",
-    "Comment": "GEC does not include the French-claimed portion of Antarctica (Terre Adelie)"
+    "Comment": "GEC does not include the French-claimed portion of Antarctica (Terre Adelie)",
+    "Flagfile": "FS-flag.gif",
+    "AnthemFile": "FS.mp3",
+    "Datafile": "fs.json"
   },
   {
     "Name": "Gabon",
@@ -887,17 +1138,23 @@
     "ISO_3166_1_Numeric": "266",
     "STANAG": "GAB",
     "Internet": ".ga",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GB-flag.gif",
+    "AnthemFile": "GB.mp3",
+    "Datafile": "gb.json"
   },
   {
-    "Name": "\"Gambia",
-    "GEC": "The\"",
-    "ISO_3166_1_Alpha2": "GA",
-    "ISO_3166_1_Alpha3": "GM",
-    "ISO_3166_1_Numeric": "GMB",
-    "STANAG": "270",
-    "Internet": "GMB",
-    "Comment": ".gm"
+    "Name": "Gambia, The",
+    "GEC": "GA",
+    "ISO_3166_1_Alpha2": "GM",
+    "ISO_3166_1_Alpha3": "GMB",
+    "ISO_3166_1_Numeric": "270",
+    "STANAG": "GMB",
+    "Internet": ".gm",
+    "Comment": "",
+    "Flagfile": "GA-flag.gif",
+    "AnthemFile": "GA.mp3",
+    "Datafile": "ga.json"
   },
   {
     "Name": "Gaza Strip",
@@ -907,7 +1164,10 @@
     "ISO_3166_1_Numeric": "275",
     "STANAG": "PSE",
     "Internet": ".ps",
-    "Comment": "ISO identifies as Occupied Palestinian Territory"
+    "Comment": "ISO identifies as Occupied Palestinian Territory",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": "gz.json"
   },
   {
     "Name": "Georgia",
@@ -917,7 +1177,10 @@
     "ISO_3166_1_Numeric": "268",
     "STANAG": "GEO",
     "Internet": ".ge",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GG-flag.gif",
+    "AnthemFile": "GG.mp3",
+    "Datafile": "gg.json"
   },
   {
     "Name": "Germany",
@@ -927,7 +1190,10 @@
     "ISO_3166_1_Numeric": "276",
     "STANAG": "DEU",
     "Internet": ".de",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GM-flag.gif",
+    "AnthemFile": "GM.mp3",
+    "Datafile": "gm.json"
   },
   {
     "Name": "Ghana",
@@ -937,7 +1203,10 @@
     "ISO_3166_1_Numeric": "288",
     "STANAG": "GHA",
     "Internet": ".gh",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GH-flag.gif",
+    "AnthemFile": "GH.mp3",
+    "Datafile": "gh.json"
   },
   {
     "Name": "Gibraltar",
@@ -947,7 +1216,10 @@
     "ISO_3166_1_Numeric": "292",
     "STANAG": "GIB",
     "Internet": ".gi",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GI-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "gi.json"
   },
   {
     "Name": "Glorioso Islands",
@@ -957,7 +1229,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned"
+    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "Greece",
@@ -967,7 +1242,10 @@
     "ISO_3166_1_Numeric": "300",
     "STANAG": "GRC",
     "Internet": ".gr",
-    "Comment": "\"For its internal communications"
+    "Comment": "\"For its internal communications",
+    "Flagfile": "GR-flag.gif",
+    "AnthemFile": "GR.mp3",
+    "Datafile": "gr.json"
   },
   {
     "Name": "Greenland",
@@ -977,7 +1255,10 @@
     "ISO_3166_1_Numeric": "304",
     "STANAG": "GRL",
     "Internet": ".gl",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GL-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "gl.json"
   },
   {
     "Name": "Grenada",
@@ -987,7 +1268,10 @@
     "ISO_3166_1_Numeric": "308",
     "STANAG": "GRD",
     "Internet": ".gd",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GJ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "gj.json"
   },
   {
     "Name": "Guadeloupe",
@@ -997,7 +1281,10 @@
     "ISO_3166_1_Numeric": "312",
     "STANAG": "GLP",
     "Internet": ".gp",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "Guam",
@@ -1007,7 +1294,10 @@
     "ISO_3166_1_Numeric": "316",
     "STANAG": "GUM",
     "Internet": ".gu",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "gq.json"
   },
   {
     "Name": "Guatemala",
@@ -1017,7 +1307,10 @@
     "ISO_3166_1_Numeric": "320",
     "STANAG": "GTM",
     "Internet": ".gt",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GT-flag.gif",
+    "AnthemFile": "GT.mp3",
+    "Datafile": "gt.json"
   },
   {
     "Name": "Guernsey",
@@ -1027,7 +1320,10 @@
     "ISO_3166_1_Numeric": "831",
     "STANAG": "UK",
     "Internet": ".gg",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GK-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "gk.json"
   },
   {
     "Name": "Guinea",
@@ -1037,7 +1333,10 @@
     "ISO_3166_1_Numeric": "324",
     "STANAG": "GIN",
     "Internet": ".gn",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GV-flag.gif",
+    "AnthemFile": "GV.mp3",
+    "Datafile": "gv.json"
   },
   {
     "Name": "Guinea-Bissau",
@@ -1047,7 +1346,10 @@
     "ISO_3166_1_Numeric": "624",
     "STANAG": "GNB",
     "Internet": ".gw",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "PU-flag.gif",
+    "AnthemFile": "PU.mp3",
+    "Datafile": "pu.json"
   },
   {
     "Name": "Guyana",
@@ -1057,7 +1359,10 @@
     "ISO_3166_1_Numeric": "328",
     "STANAG": "GUY",
     "Internet": ".gy",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "GY-flag.gif",
+    "AnthemFile": "GY.mp3",
+    "Datafile": "gy.json"
   },
   {
     "Name": "Haiti",
@@ -1067,7 +1372,10 @@
     "ISO_3166_1_Numeric": "332",
     "STANAG": "HTI",
     "Internet": ".ht",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "HA-flag.gif",
+    "AnthemFile": "HA.mp3",
+    "Datafile": "ha.json"
   },
   {
     "Name": "Heard Island and McDonald Islands",
@@ -1077,7 +1385,10 @@
     "ISO_3166_1_Numeric": "334",
     "STANAG": "HMD",
     "Internet": ".hm",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "HM-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "hm.json"
   },
   {
     "Name": "Holy See (Vatican City)",
@@ -1087,7 +1398,10 @@
     "ISO_3166_1_Numeric": "336",
     "STANAG": "VAT",
     "Internet": ".va",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "VT-flag.gif",
+    "AnthemFile": "VT.mp3",
+    "Datafile": "vt.json"
   },
   {
     "Name": "Honduras",
@@ -1097,7 +1411,10 @@
     "ISO_3166_1_Numeric": "340",
     "STANAG": "HND",
     "Internet": ".hn",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "HO-flag.gif",
+    "AnthemFile": "HO.mp3",
+    "Datafile": "ho.json"
   },
   {
     "Name": "Hong Kong",
@@ -1107,7 +1424,10 @@
     "ISO_3166_1_Numeric": "344",
     "STANAG": "HKG",
     "Internet": ".hk",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "HK-flag.gif",
+    "AnthemFile": "HK.mp3",
+    "Datafile": "hk.json"
   },
   {
     "Name": "Howland Island",
@@ -1117,7 +1437,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "UMI",
     "Internet": "-",
-    "Comment": "ISO includes with the US Minor Outlying Islands"
+    "Comment": "ISO includes with the US Minor Outlying Islands",
+    "Flagfile": "HQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "hq.json"
   },
   {
     "Name": "Hungary",
@@ -1127,7 +1450,10 @@
     "ISO_3166_1_Numeric": "348",
     "STANAG": "HUN",
     "Internet": ".hu",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "HU-flag.gif",
+    "AnthemFile": "HU.mp3",
+    "Datafile": "hu.json"
   },
   {
     "Name": "Iceland",
@@ -1137,7 +1463,10 @@
     "ISO_3166_1_Numeric": "352",
     "STANAG": "ISL",
     "Internet": ".is",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "IC-flag.gif",
+    "AnthemFile": "IC.mp3",
+    "Datafile": "ic.json"
   },
   {
     "Name": "India",
@@ -1147,7 +1476,10 @@
     "ISO_3166_1_Numeric": "356",
     "STANAG": "IND",
     "Internet": ".in",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "IN-flag.gif",
+    "AnthemFile": "IN.mp3",
+    "Datafile": "in.json"
   },
   {
     "Name": "Indonesia",
@@ -1157,7 +1489,10 @@
     "ISO_3166_1_Numeric": "360",
     "STANAG": "IDN",
     "Internet": ".id",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "ID-flag.gif",
+    "AnthemFile": "ID.mp3",
+    "Datafile": "id.json"
   },
   {
     "Name": "Iran",
@@ -1167,7 +1502,10 @@
     "ISO_3166_1_Numeric": "364",
     "STANAG": "IRN",
     "Internet": ".ir",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "IR-flag.gif",
+    "AnthemFile": "IR.mp3",
+    "Datafile": "ir.json"
   },
   {
     "Name": "Iraq",
@@ -1177,7 +1515,10 @@
     "ISO_3166_1_Numeric": "368",
     "STANAG": "IRQ",
     "Internet": ".iq",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "IZ-flag.gif",
+    "AnthemFile": "IZ.mp3",
+    "Datafile": "iz.json"
   },
   {
     "Name": "Ireland",
@@ -1187,7 +1528,10 @@
     "ISO_3166_1_Numeric": "372",
     "STANAG": "IRL",
     "Internet": ".ie",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "EI-flag.gif",
+    "AnthemFile": "EI.mp3",
+    "Datafile": "ei.json"
   },
   {
     "Name": "Isle of Man",
@@ -1197,7 +1541,10 @@
     "ISO_3166_1_Numeric": "833",
     "STANAG": "UK",
     "Internet": ".im",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "IM-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "im.json"
   },
   {
     "Name": "Israel",
@@ -1207,7 +1554,10 @@
     "ISO_3166_1_Numeric": "376",
     "STANAG": "ISR",
     "Internet": ".il",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "IS-flag.gif",
+    "AnthemFile": "IS.mp3",
+    "Datafile": "is.json"
   },
   {
     "Name": "Italy",
@@ -1217,7 +1567,10 @@
     "ISO_3166_1_Numeric": "380",
     "STANAG": "ITA",
     "Internet": ".it",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "IT-flag.gif",
+    "AnthemFile": "IT.mp3",
+    "Datafile": "it.json"
   },
   {
     "Name": "Jamaica",
@@ -1227,7 +1580,10 @@
     "ISO_3166_1_Numeric": "388",
     "STANAG": "JAM",
     "Internet": ".jm",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "JM-flag.gif",
+    "AnthemFile": "JM.mp3",
+    "Datafile": "jm.json"
   },
   {
     "Name": "Jan Mayen",
@@ -1237,7 +1593,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "SJM",
     "Internet": "-",
-    "Comment": "ISO includes with Svalbard"
+    "Comment": "ISO includes with Svalbard",
+    "Flagfile": "JN-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "jn.json"
   },
   {
     "Name": "Japan",
@@ -1247,7 +1606,10 @@
     "ISO_3166_1_Numeric": "392",
     "STANAG": "JPN",
     "Internet": ".jp",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "JA-flag.gif",
+    "AnthemFile": "JA.mp3",
+    "Datafile": "ja.json"
   },
   {
     "Name": "Jarvis Island",
@@ -1257,7 +1619,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "UMI",
     "Internet": "-",
-    "Comment": "ISO includes with the US Minor Outlying Islands"
+    "Comment": "ISO includes with the US Minor Outlying Islands",
+    "Flagfile": "DQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "dq.json"
   },
   {
     "Name": "Jersey",
@@ -1267,7 +1632,10 @@
     "ISO_3166_1_Numeric": "832",
     "STANAG": "UK",
     "Internet": ".je",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "JE-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "je.json"
   },
   {
     "Name": "Johnston Atoll",
@@ -1277,7 +1645,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "UMI",
     "Internet": "-",
-    "Comment": "ISO includes with the US Minor Outlying Islands"
+    "Comment": "ISO includes with the US Minor Outlying Islands",
+    "Flagfile": "JQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "jq.json"
   },
   {
     "Name": "Jordan",
@@ -1287,7 +1658,10 @@
     "ISO_3166_1_Numeric": "400",
     "STANAG": "JOR",
     "Internet": ".jo",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "JO-flag.gif",
+    "AnthemFile": "JO.mp3",
+    "Datafile": "jo.json"
   },
   {
     "Name": "Juan de Nova Island",
@@ -1297,7 +1671,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned"
+    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "Kazakhstan",
@@ -1307,7 +1684,10 @@
     "ISO_3166_1_Numeric": "398",
     "STANAG": "KAZ",
     "Internet": ".kz",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "KZ-flag.gif",
+    "AnthemFile": "KZ.mp3",
+    "Datafile": "kz.json"
   },
   {
     "Name": "Kenya",
@@ -1317,7 +1697,10 @@
     "ISO_3166_1_Numeric": "404",
     "STANAG": "KEN",
     "Internet": ".ke",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "KE-flag.gif",
+    "AnthemFile": "KE.mp3",
+    "Datafile": "ke.json"
   },
   {
     "Name": "Kingman Reef",
@@ -1327,7 +1710,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "UMI",
     "Internet": "-",
-    "Comment": "ISO includes with the US Minor Outlying Islands"
+    "Comment": "ISO includes with the US Minor Outlying Islands",
+    "Flagfile": "KQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "kq.json"
   },
   {
     "Name": "Kiribati",
@@ -1337,27 +1723,36 @@
     "ISO_3166_1_Numeric": "296",
     "STANAG": "KIR",
     "Internet": ".ki",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "KR-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "kr.json"
   },
   {
-    "Name": "\"Korea",
-    "GEC": "North\"",
-    "ISO_3166_1_Alpha2": "KN",
-    "ISO_3166_1_Alpha3": "KP",
-    "ISO_3166_1_Numeric": "PRK",
-    "STANAG": "408",
-    "Internet": "PRK",
-    "Comment": ".kp"
+    "Name": "Korea, North",
+    "GEC": "KN",
+    "ISO_3166_1_Alpha2": "KP",
+    "ISO_3166_1_Alpha3": "PRK",
+    "ISO_3166_1_Numeric": "408",
+    "STANAG": "PRK",
+    "Internet": ".kp",
+    "Comment": "",
+    "Flagfile": "KN-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "kn.json"
   },
   {
-    "Name": "\"Korea",
-    "GEC": "South\"",
-    "ISO_3166_1_Alpha2": "KS",
-    "ISO_3166_1_Alpha3": "KR",
-    "ISO_3166_1_Numeric": "KOR",
-    "STANAG": "410",
-    "Internet": "KOR",
-    "Comment": ".kr"
+    "Name": "Korea, South",
+    "GEC": "KS",
+    "ISO_3166_1_Alpha2": "KR",
+    "ISO_3166_1_Alpha3": "KOR",
+    "ISO_3166_1_Numeric": "410",
+    "STANAG": "KOR",
+    "Internet": ".kr",
+    "Comment": "",
+    "Flagfile": "KS-flag.gif",
+    "AnthemFile": "KS.mp3",
+    "Datafile": "ks.json"
   },
   {
     "Name": "Kosovo",
@@ -1367,7 +1762,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": "XK and XKS are ISO 3166 user assigned codes; ISO 3166 Maintenace Authority has not assigned codes"
+    "Comment": "XK and XKS are ISO 3166 user assigned codes; ISO 3166 Maintenace Authority has not assigned codes",
+    "Flagfile": "KV-flag.gif",
+    "AnthemFile": "KV.mp3",
+    "Datafile": "kv.json"
   },
   {
     "Name": "Kuwait",
@@ -1377,7 +1775,10 @@
     "ISO_3166_1_Numeric": "414",
     "STANAG": "KWT",
     "Internet": ".kw",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "KU-flag.gif",
+    "AnthemFile": "KU.mp3",
+    "Datafile": "ku.json"
   },
   {
     "Name": "Kyrgyzstan",
@@ -1387,7 +1788,10 @@
     "ISO_3166_1_Numeric": "417",
     "STANAG": "KGZ",
     "Internet": ".kg",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "KG-flag.gif",
+    "AnthemFile": "KG.mp3",
+    "Datafile": "kg.json"
   },
   {
     "Name": "Laos",
@@ -1397,7 +1801,10 @@
     "ISO_3166_1_Numeric": "418",
     "STANAG": "LAO",
     "Internet": ".la",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "LA-flag.gif",
+    "AnthemFile": "LA.mp3",
+    "Datafile": "la.json"
   },
   {
     "Name": "Latvia",
@@ -1407,7 +1814,10 @@
     "ISO_3166_1_Numeric": "428",
     "STANAG": "LVA",
     "Internet": ".lv",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "LG-flag.gif",
+    "AnthemFile": "LG.mp3",
+    "Datafile": "lg.json"
   },
   {
     "Name": "Lebanon",
@@ -1417,7 +1827,10 @@
     "ISO_3166_1_Numeric": "422",
     "STANAG": "LBN",
     "Internet": ".lb",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "LE-flag.gif",
+    "AnthemFile": "LE.mp3",
+    "Datafile": "le.json"
   },
   {
     "Name": "Lesotho",
@@ -1427,7 +1840,10 @@
     "ISO_3166_1_Numeric": "426",
     "STANAG": "LSO",
     "Internet": ".ls",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "LT-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "lt.json"
   },
   {
     "Name": "Liberia",
@@ -1437,7 +1853,10 @@
     "ISO_3166_1_Numeric": "430",
     "STANAG": "LBR",
     "Internet": ".lr",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "LI-flag.gif",
+    "AnthemFile": "LI.mp3",
+    "Datafile": "li.json"
   },
   {
     "Name": "Libya",
@@ -1447,7 +1866,10 @@
     "ISO_3166_1_Numeric": "434",
     "STANAG": "LBY",
     "Internet": ".ly",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "LY-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "ly.json"
   },
   {
     "Name": "Liechtenstein",
@@ -1457,7 +1879,10 @@
     "ISO_3166_1_Numeric": "438",
     "STANAG": "LIE",
     "Internet": ".li",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "LS-flag.gif",
+    "AnthemFile": "LS.mp3",
+    "Datafile": "ls.json"
   },
   {
     "Name": "Lithuania",
@@ -1467,7 +1892,10 @@
     "ISO_3166_1_Numeric": "440",
     "STANAG": "LTU",
     "Internet": ".lt",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "LH-flag.gif",
+    "AnthemFile": "LH.mp3",
+    "Datafile": "lh.json"
   },
   {
     "Name": "Luxembourg",
@@ -1477,7 +1905,10 @@
     "ISO_3166_1_Numeric": "442",
     "STANAG": "LUX",
     "Internet": ".lu",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "LU-flag.gif",
+    "AnthemFile": "LU.mp3",
+    "Datafile": "lu.json"
   },
   {
     "Name": "Macau",
@@ -1487,7 +1918,10 @@
     "ISO_3166_1_Numeric": "446",
     "STANAG": "MAC",
     "Internet": ".mo",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MC-flag.gif",
+    "AnthemFile": "MC.mp3",
+    "Datafile": "mc.json"
   },
   {
     "Name": "Macedonia",
@@ -1497,7 +1931,10 @@
     "ISO_3166_1_Numeric": "807",
     "STANAG": "FYR",
     "Internet": ".mk",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MK-flag.gif",
+    "AnthemFile": "MK.mp3",
+    "Datafile": "mk.json"
   },
   {
     "Name": "Madagascar",
@@ -1507,7 +1944,10 @@
     "ISO_3166_1_Numeric": "450",
     "STANAG": "MDG",
     "Internet": ".mg",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MA-flag.gif",
+    "AnthemFile": "MA.mp3",
+    "Datafile": "ma.json"
   },
   {
     "Name": "Malawi",
@@ -1517,7 +1957,10 @@
     "ISO_3166_1_Numeric": "454",
     "STANAG": "MWI",
     "Internet": ".mw",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MI-flag.gif",
+    "AnthemFile": "MI.mp3",
+    "Datafile": "mi.json"
   },
   {
     "Name": "Malaysia",
@@ -1527,7 +1970,10 @@
     "ISO_3166_1_Numeric": "458",
     "STANAG": "MYS",
     "Internet": ".my",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MY-flag.gif",
+    "AnthemFile": "MY.mp3",
+    "Datafile": "my.json"
   },
   {
     "Name": "Maldives",
@@ -1537,7 +1983,10 @@
     "ISO_3166_1_Numeric": "462",
     "STANAG": "MDV",
     "Internet": ".mv",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MV-flag.gif",
+    "AnthemFile": "MV.mp3",
+    "Datafile": "mv.json"
   },
   {
     "Name": "Mali",
@@ -1547,7 +1996,10 @@
     "ISO_3166_1_Numeric": "466",
     "STANAG": "MLI",
     "Internet": ".ml",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "ML-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "ml.json"
   },
   {
     "Name": "Malta",
@@ -1557,7 +2009,10 @@
     "ISO_3166_1_Numeric": "470",
     "STANAG": "MLT",
     "Internet": ".mt",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MT-flag.gif",
+    "AnthemFile": "MT.mp3",
+    "Datafile": "mt.json"
   },
   {
     "Name": "Marshall Islands",
@@ -1567,7 +2022,10 @@
     "ISO_3166_1_Numeric": "584",
     "STANAG": "MHL",
     "Internet": ".mh",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "RM-flag.gif",
+    "AnthemFile": "RM.mp3",
+    "Datafile": "rm.json"
   },
   {
     "Name": "Martinique",
@@ -1577,7 +2035,10 @@
     "ISO_3166_1_Numeric": "474",
     "STANAG": "MTQ",
     "Internet": ".mq",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "Mauritania",
@@ -1587,7 +2048,10 @@
     "ISO_3166_1_Numeric": "478",
     "STANAG": "MRT",
     "Internet": ".mr",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MR-flag.gif",
+    "AnthemFile": "MR.mp3",
+    "Datafile": "mr.json"
   },
   {
     "Name": "Mauritius",
@@ -1597,7 +2061,10 @@
     "ISO_3166_1_Numeric": "480",
     "STANAG": "MUS",
     "Internet": ".mu",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MP-flag.gif",
+    "AnthemFile": "MP.mp3",
+    "Datafile": "mp.json"
   },
   {
     "Name": "Mayotte",
@@ -1607,7 +2074,10 @@
     "ISO_3166_1_Numeric": "175",
     "STANAG": "FRA",
     "Internet": ".yt",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "Mexico",
@@ -1617,17 +2087,23 @@
     "ISO_3166_1_Numeric": "484",
     "STANAG": "MEX",
     "Internet": ".mx",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MX-flag.gif",
+    "AnthemFile": "MX.mp3",
+    "Datafile": "mx.json"
   },
   {
-    "Name": "\"Micronesia",
-    "GEC": "Federated States of\"",
+    "Name": "Micronesia, Federated States of",
+    "GEC": "FM",
     "ISO_3166_1_Alpha2": "FM",
-    "ISO_3166_1_Alpha3": "FM",
-    "ISO_3166_1_Numeric": "FSM",
-    "STANAG": "583",
-    "Internet": "FSM",
-    "Comment": ".fm"
+    "ISO_3166_1_Alpha3": "FSM",
+    "ISO_3166_1_Numeric": "583",
+    "STANAG": "FSM",
+    "Internet": ".fm",
+    "Comment": "",
+    "Flagfile": "FM-flag.gif",
+    "AnthemFile": "FM.mp3",
+    "Datafile": "fm.json"
   },
   {
     "Name": "Midway Islands",
@@ -1637,7 +2113,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "UMI",
     "Internet": "-",
-    "Comment": "ISO includes with the US Minor Outlying Islands"
+    "Comment": "ISO includes with the US Minor Outlying Islands",
+    "Flagfile": "MQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "mq.json"
   },
   {
     "Name": "Moldova",
@@ -1647,7 +2126,10 @@
     "ISO_3166_1_Numeric": "498",
     "STANAG": "MDA",
     "Internet": ".md",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MD-flag.gif",
+    "AnthemFile": "MD.mp3",
+    "Datafile": "md.json"
   },
   {
     "Name": "Monaco",
@@ -1657,7 +2139,10 @@
     "ISO_3166_1_Numeric": "492",
     "STANAG": "MCO",
     "Internet": ".mc",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MN-flag.gif",
+    "AnthemFile": "MN.mp3",
+    "Datafile": "mn.json"
   },
   {
     "Name": "Mongolia",
@@ -1667,7 +2152,10 @@
     "ISO_3166_1_Numeric": "496",
     "STANAG": "MNG",
     "Internet": ".mn",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MG-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "mg.json"
   },
   {
     "Name": "Montenegro",
@@ -1677,7 +2165,10 @@
     "ISO_3166_1_Numeric": "499",
     "STANAG": "MNE",
     "Internet": ".me",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MJ-flag.gif",
+    "AnthemFile": "MJ.mp3",
+    "Datafile": "mj.json"
   },
   {
     "Name": "Montserrat",
@@ -1687,7 +2178,10 @@
     "ISO_3166_1_Numeric": "500",
     "STANAG": "MSR",
     "Internet": ".ms",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MH-flag.gif",
+    "AnthemFile": "MH.mp3",
+    "Datafile": "mh.json"
   },
   {
     "Name": "Morocco",
@@ -1697,7 +2191,10 @@
     "ISO_3166_1_Numeric": "504",
     "STANAG": "MAR",
     "Internet": ".ma",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MO-flag.gif",
+    "AnthemFile": "MO.mp3",
+    "Datafile": "mo.json"
   },
   {
     "Name": "Mozambique",
@@ -1707,7 +2204,10 @@
     "ISO_3166_1_Numeric": "508",
     "STANAG": "MOZ",
     "Internet": ".mz",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MZ-flag.gif",
+    "AnthemFile": "MZ.mp3",
+    "Datafile": "mz.json"
   },
   {
     "Name": "Namibia",
@@ -1717,7 +2217,10 @@
     "ISO_3166_1_Numeric": "516",
     "STANAG": "NAM",
     "Internet": ".na",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "WA-flag.gif",
+    "AnthemFile": "WA.mp3",
+    "Datafile": "wa.json"
   },
   {
     "Name": "Nauru",
@@ -1727,7 +2230,10 @@
     "ISO_3166_1_Numeric": "520",
     "STANAG": "NRU",
     "Internet": ".nr",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NR-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "nr.json"
   },
   {
     "Name": "Navassa Island",
@@ -1737,7 +2243,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "UMI",
     "Internet": "-",
-    "Comment": "ISO includes with the US Minor Outlying Islands"
+    "Comment": "ISO includes with the US Minor Outlying Islands",
+    "Flagfile": "BQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "bq.json"
   },
   {
     "Name": "Nepal",
@@ -1747,7 +2256,10 @@
     "ISO_3166_1_Numeric": "524",
     "STANAG": "NPL",
     "Internet": ".np",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NP-flag.gif",
+    "AnthemFile": "NP.mp3",
+    "Datafile": "np.json"
   },
   {
     "Name": "Netherlands",
@@ -1757,7 +2269,10 @@
     "ISO_3166_1_Numeric": "528",
     "STANAG": "NLD",
     "Internet": ".nl",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NL-flag.gif",
+    "AnthemFile": "NL.mp3",
+    "Datafile": "nl.json"
   },
   {
     "Name": "Netherlands Antilles",
@@ -1767,7 +2282,10 @@
     "ISO_3166_1_Numeric": "",
     "STANAG": "ANT",
     "Internet": ".an",
-    "Comment": "disestablished in October 2010 this entity no longer exists; ISO deleted the codes in December 2010"
+    "Comment": "disestablished in October 2010 this entity no longer exists; ISO deleted the codes in December 2010",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "New Caledonia",
@@ -1777,7 +2295,10 @@
     "ISO_3166_1_Numeric": "540",
     "STANAG": "NCL",
     "Internet": ".nc",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NC-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "nc.json"
   },
   {
     "Name": "New Zealand",
@@ -1787,7 +2308,10 @@
     "ISO_3166_1_Numeric": "554",
     "STANAG": "NZL",
     "Internet": ".nz",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NZ-flag.gif",
+    "AnthemFile": "NZ.mp3",
+    "Datafile": "nz.json"
   },
   {
     "Name": "Nicaragua",
@@ -1797,7 +2321,10 @@
     "ISO_3166_1_Numeric": "558",
     "STANAG": "NIC",
     "Internet": ".ni",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NU-flag.gif",
+    "AnthemFile": "NU.mp3",
+    "Datafile": "nu.json"
   },
   {
     "Name": "Niger",
@@ -1807,7 +2334,10 @@
     "ISO_3166_1_Numeric": "562",
     "STANAG": "NER",
     "Internet": ".ne",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NG-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "ng.json"
   },
   {
     "Name": "Nigeria",
@@ -1817,7 +2347,10 @@
     "ISO_3166_1_Numeric": "566",
     "STANAG": "NGA",
     "Internet": ".ng",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NI-flag.gif",
+    "AnthemFile": "NI.mp3",
+    "Datafile": "ni.json"
   },
   {
     "Name": "Niue",
@@ -1827,7 +2360,10 @@
     "ISO_3166_1_Numeric": "570",
     "STANAG": "NIU",
     "Internet": ".nu",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NE-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "ne.json"
   },
   {
     "Name": "Norfolk Island",
@@ -1837,7 +2373,10 @@
     "ISO_3166_1_Numeric": "574",
     "STANAG": "NFK",
     "Internet": ".nf",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NF-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "nf.json"
   },
   {
     "Name": "Northern Mariana Islands",
@@ -1847,7 +2386,10 @@
     "ISO_3166_1_Numeric": "580",
     "STANAG": "MNP",
     "Internet": ".mp",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CQ-flag.gif",
+    "AnthemFile": "CQ.mp3",
+    "Datafile": "cq.json"
   },
   {
     "Name": "Norway",
@@ -1857,7 +2399,10 @@
     "ISO_3166_1_Numeric": "578",
     "STANAG": "NOR",
     "Internet": ".no",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NO-flag.gif",
+    "AnthemFile": "NO.mp3",
+    "Datafile": "no.json"
   },
   {
     "Name": "Oman",
@@ -1867,7 +2412,10 @@
     "ISO_3166_1_Numeric": "512",
     "STANAG": "OMN",
     "Internet": ".om",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "MU-flag.gif",
+    "AnthemFile": "MU.mp3",
+    "Datafile": "mu.json"
   },
   {
     "Name": "Pakistan",
@@ -1877,7 +2425,10 @@
     "ISO_3166_1_Numeric": "586",
     "STANAG": "PAK",
     "Internet": ".pk",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "PK-flag.gif",
+    "AnthemFile": "PK.mp3",
+    "Datafile": "pk.json"
   },
   {
     "Name": "Palau",
@@ -1887,7 +2438,10 @@
     "ISO_3166_1_Numeric": "585",
     "STANAG": "PLW",
     "Internet": ".pw",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "PS-flag.gif",
+    "AnthemFile": "PS.mp3",
+    "Datafile": "ps.json"
   },
   {
     "Name": "Palmyra Atoll",
@@ -1897,7 +2451,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "UMI",
     "Internet": "-",
-    "Comment": "ISO includes with the US Minor Outlying Islands"
+    "Comment": "ISO includes with the US Minor Outlying Islands",
+    "Flagfile": "LQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "lq.json"
   },
   {
     "Name": "Panama",
@@ -1907,7 +2464,10 @@
     "ISO_3166_1_Numeric": "591",
     "STANAG": "PAN",
     "Internet": ".pa",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "PM-flag.gif",
+    "AnthemFile": "PM.mp3",
+    "Datafile": "pm.json"
   },
   {
     "Name": "Papua New Guinea",
@@ -1917,7 +2477,10 @@
     "ISO_3166_1_Numeric": "598",
     "STANAG": "PNG",
     "Internet": ".pg",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "PP-flag.gif",
+    "AnthemFile": "PP.mp3",
+    "Datafile": "pp.json"
   },
   {
     "Name": "Paracel Islands",
@@ -1927,7 +2490,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": "pf.json"
   },
   {
     "Name": "Paraguay",
@@ -1937,7 +2503,10 @@
     "ISO_3166_1_Numeric": "600",
     "STANAG": "PRY",
     "Internet": ".py",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "PA-flag.gif",
+    "AnthemFile": "PA.mp3",
+    "Datafile": "pa.json"
   },
   {
     "Name": "Peru",
@@ -1947,7 +2516,10 @@
     "ISO_3166_1_Numeric": "604",
     "STANAG": "PER",
     "Internet": ".pe",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "PE-flag.gif",
+    "AnthemFile": "PE.mp3",
+    "Datafile": "pe.json"
   },
   {
     "Name": "Philippines",
@@ -1957,7 +2529,10 @@
     "ISO_3166_1_Numeric": "608",
     "STANAG": "PHL",
     "Internet": ".ph",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "RP-flag.gif",
+    "AnthemFile": "RP.mp3",
+    "Datafile": "rp.json"
   },
   {
     "Name": "Pitcairn Islands",
@@ -1967,7 +2542,10 @@
     "ISO_3166_1_Numeric": "612",
     "STANAG": "PCN",
     "Internet": ".pn",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "PC-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "pc.json"
   },
   {
     "Name": "Poland",
@@ -1977,7 +2555,10 @@
     "ISO_3166_1_Numeric": "616",
     "STANAG": "POL",
     "Internet": ".pl",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "PL-flag.gif",
+    "AnthemFile": "PL.mp3",
+    "Datafile": "pl.json"
   },
   {
     "Name": "Portugal",
@@ -1987,7 +2568,10 @@
     "ISO_3166_1_Numeric": "620",
     "STANAG": "PRT",
     "Internet": ".pt",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "PO-flag.gif",
+    "AnthemFile": "PO.mp3",
+    "Datafile": "po.json"
   },
   {
     "Name": "Puerto Rico",
@@ -1997,7 +2581,10 @@
     "ISO_3166_1_Numeric": "630",
     "STANAG": "PRI",
     "Internet": ".pr",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "RQ-flag.gif",
+    "AnthemFile": "RQ.mp3",
+    "Datafile": "rq.json"
   },
   {
     "Name": "Qatar",
@@ -2007,7 +2594,10 @@
     "ISO_3166_1_Numeric": "634",
     "STANAG": "QAT",
     "Internet": ".qa",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "QA-flag.gif",
+    "AnthemFile": "QA.mp3",
+    "Datafile": "qa.json"
   },
   {
     "Name": "Reunion",
@@ -2017,7 +2607,10 @@
     "ISO_3166_1_Numeric": "638",
     "STANAG": "REU",
     "Internet": ".re",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "Romania",
@@ -2027,7 +2620,10 @@
     "ISO_3166_1_Numeric": "642",
     "STANAG": "ROU",
     "Internet": ".ro",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "RO-flag.gif",
+    "AnthemFile": "RO.mp3",
+    "Datafile": "ro.json"
   },
   {
     "Name": "Russia",
@@ -2037,7 +2633,10 @@
     "ISO_3166_1_Numeric": "643",
     "STANAG": "RUS",
     "Internet": ".ru",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "RS-flag.gif",
+    "AnthemFile": "RS.mp3",
+    "Datafile": "rs.json"
   },
   {
     "Name": "Rwanda",
@@ -2047,7 +2646,10 @@
     "ISO_3166_1_Numeric": "646",
     "STANAG": "RWA",
     "Internet": ".rw",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "RW-flag.gif",
+    "AnthemFile": "RW.mp3",
+    "Datafile": "rw.json"
   },
   {
     "Name": "Saint Barthelemy",
@@ -2057,17 +2659,23 @@
     "ISO_3166_1_Numeric": "652",
     "STANAG": "-",
     "Internet": ".bl",
-    "Comment": "ccTLD .fr and .gp may also be used"
+    "Comment": "ccTLD .fr and .gp may also be used",
+    "Flagfile": "TB-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "tb.json"
   },
   {
-    "Name": "\"Saint Helena",
-    "GEC": "Ascension",
-    "ISO_3166_1_Alpha2": "and Tristan da Cunha\"",
-    "ISO_3166_1_Alpha3": "SH",
-    "ISO_3166_1_Numeric": "SH",
+    "Name": "Saint Helena, Ascension, and Tristan da Cunha",
+    "GEC": "SH",
+    "ISO_3166_1_Alpha2": "SH",
+    "ISO_3166_1_Alpha3": "SHN",
+    "ISO_3166_1_Numeric": "654",
     "STANAG": "SHN",
-    "Internet": "654",
-    "Comment": "SHN"
+    "Internet": ".sh",
+    "Comment": "\"includes Saint Helena Island",
+    "Flagfile": "SH-flag.gif",
+    "AnthemFile": "SH.mp3",
+    "Datafile": "sh.json"
   },
   {
     "Name": "Saint Kitts and Nevis",
@@ -2077,7 +2685,10 @@
     "ISO_3166_1_Numeric": "659",
     "STANAG": "KNA",
     "Internet": ".kn",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SC-flag.gif",
+    "AnthemFile": "SC.mp3",
+    "Datafile": "sc.json"
   },
   {
     "Name": "Saint Lucia",
@@ -2087,7 +2698,10 @@
     "ISO_3166_1_Numeric": "662",
     "STANAG": "LCA",
     "Internet": ".lc",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "ST-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "st.json"
   },
   {
     "Name": "Saint Martin",
@@ -2097,7 +2711,10 @@
     "ISO_3166_1_Numeric": "663",
     "STANAG": "-",
     "Internet": ".mf",
-    "Comment": "ccTLD .fr and .gp may also be used"
+    "Comment": "ccTLD .fr and .gp may also be used",
+    "Flagfile": "RN-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "rn.json"
   },
   {
     "Name": "Saint Pierre and Miquelon",
@@ -2107,7 +2724,10 @@
     "ISO_3166_1_Numeric": "666",
     "STANAG": "SPM",
     "Internet": ".pm",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SB-flag.gif",
+    "AnthemFile": "SB.mp3",
+    "Datafile": "sb.json"
   },
   {
     "Name": "Saint Vincent and the Grenadines",
@@ -2117,7 +2737,10 @@
     "ISO_3166_1_Numeric": "670",
     "STANAG": "VCT",
     "Internet": ".vc",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "VC-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "vc.json"
   },
   {
     "Name": "Samoa",
@@ -2127,7 +2750,10 @@
     "ISO_3166_1_Numeric": "882",
     "STANAG": "WSM",
     "Internet": ".ws",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "WS-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "ws.json"
   },
   {
     "Name": "San Marino",
@@ -2137,7 +2763,10 @@
     "ISO_3166_1_Numeric": "674",
     "STANAG": "SMR",
     "Internet": ".sm",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SM-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "sm.json"
   },
   {
     "Name": "Sao Tome and Principe",
@@ -2147,7 +2776,10 @@
     "ISO_3166_1_Numeric": "678",
     "STANAG": "STP",
     "Internet": ".st",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TP-flag.gif",
+    "AnthemFile": "TP.mp3",
+    "Datafile": "tp.json"
   },
   {
     "Name": "Saudi Arabia",
@@ -2157,7 +2789,10 @@
     "ISO_3166_1_Numeric": "682",
     "STANAG": "SAU",
     "Internet": ".sa",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SA-flag.gif",
+    "AnthemFile": "SA.mp3",
+    "Datafile": "sa.json"
   },
   {
     "Name": "Senegal",
@@ -2167,7 +2802,10 @@
     "ISO_3166_1_Numeric": "686",
     "STANAG": "SEN",
     "Internet": ".sn",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SG-flag.gif",
+    "AnthemFile": "SG.mp3",
+    "Datafile": "sg.json"
   },
   {
     "Name": "Serbia",
@@ -2177,7 +2815,10 @@
     "ISO_3166_1_Numeric": "688",
     "STANAG": "-",
     "Internet": ".rs",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "RI-flag.gif",
+    "AnthemFile": "RI.mp3",
+    "Datafile": "ri.json"
   },
   {
     "Name": "Seychelles",
@@ -2187,7 +2828,10 @@
     "ISO_3166_1_Numeric": "690",
     "STANAG": "SYC",
     "Internet": ".sc",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SE-flag.gif",
+    "AnthemFile": "SE.mp3",
+    "Datafile": "se.json"
   },
   {
     "Name": "Sierra Leone",
@@ -2197,7 +2841,10 @@
     "ISO_3166_1_Numeric": "694",
     "STANAG": "SLE",
     "Internet": ".sl",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SL-flag.gif",
+    "AnthemFile": "SL.mp3",
+    "Datafile": "sl.json"
   },
   {
     "Name": "Singapore",
@@ -2207,7 +2854,10 @@
     "ISO_3166_1_Numeric": "702",
     "STANAG": "SGP",
     "Internet": ".sg",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SN-flag.gif",
+    "AnthemFile": "SN.mp3",
+    "Datafile": "sn.json"
   },
   {
     "Name": "Sint Maarten",
@@ -2217,7 +2867,10 @@
     "ISO_3166_1_Numeric": "534",
     "STANAG": "-",
     "Internet": ".sx",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NN-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "nn.json"
   },
   {
     "Name": "Slovakia",
@@ -2227,7 +2880,10 @@
     "ISO_3166_1_Numeric": "703",
     "STANAG": "SVK",
     "Internet": ".sk",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "LO-flag.gif",
+    "AnthemFile": "LO.mp3",
+    "Datafile": "lo.json"
   },
   {
     "Name": "Slovenia",
@@ -2237,7 +2893,10 @@
     "ISO_3166_1_Numeric": "705",
     "STANAG": "SVN",
     "Internet": ".si",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SI-flag.gif",
+    "AnthemFile": "SI.mp3",
+    "Datafile": "si.json"
   },
   {
     "Name": "Solomon Islands",
@@ -2247,7 +2906,10 @@
     "ISO_3166_1_Numeric": "90",
     "STANAG": "SLB",
     "Internet": ".sb",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "BP-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "bp.json"
   },
   {
     "Name": "Somalia",
@@ -2257,7 +2919,10 @@
     "ISO_3166_1_Numeric": "706",
     "STANAG": "SOM",
     "Internet": ".so",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SO-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "so.json"
   },
   {
     "Name": "South Africa",
@@ -2267,7 +2932,10 @@
     "ISO_3166_1_Numeric": "710",
     "STANAG": "ZAF",
     "Internet": ".za",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SF-flag.gif",
+    "AnthemFile": "SF.mp3",
+    "Datafile": "sf.json"
   },
   {
     "Name": "South Georgia and the Islands",
@@ -2277,7 +2945,10 @@
     "ISO_3166_1_Numeric": "239",
     "STANAG": "SGS",
     "Internet": ".gs",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SX-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "sx.json"
   },
   {
     "Name": "South Sudan",
@@ -2287,7 +2958,10 @@
     "ISO_3166_1_Numeric": "728",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": "\"IANA has designated .ss as the ccTLD for South Sudan"
+    "Comment": "\"IANA has designated .ss as the ccTLD for South Sudan",
+    "Flagfile": "OD-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "od.json"
   },
   {
     "Name": "Spain",
@@ -2297,7 +2971,10 @@
     "ISO_3166_1_Numeric": "724",
     "STANAG": "ESP",
     "Internet": ".es",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SP-flag.gif",
+    "AnthemFile": "SP.mp3",
+    "Datafile": "sp.json"
   },
   {
     "Name": "Spratly Islands",
@@ -2307,7 +2984,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": "pg.json"
   },
   {
     "Name": "Sri Lanka",
@@ -2317,7 +2997,10 @@
     "ISO_3166_1_Numeric": "144",
     "STANAG": "LKA",
     "Internet": ".lk",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "CE-flag.gif",
+    "AnthemFile": "CE.mp3",
+    "Datafile": "ce.json"
   },
   {
     "Name": "Sudan",
@@ -2327,7 +3010,10 @@
     "ISO_3166_1_Numeric": "729",
     "STANAG": "SDN",
     "Internet": ".sd",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SU-flag.gif",
+    "AnthemFile": "SU.mp3",
+    "Datafile": "su.json"
   },
   {
     "Name": "Suriname",
@@ -2337,7 +3023,10 @@
     "ISO_3166_1_Numeric": "740",
     "STANAG": "SUR",
     "Internet": ".sr",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NS-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "ns.json"
   },
   {
     "Name": "Svalbard",
@@ -2347,7 +3036,10 @@
     "ISO_3166_1_Numeric": "744",
     "STANAG": "SJM",
     "Internet": ".sj",
-    "Comment": "ISO includes Jan Mayen"
+    "Comment": "ISO includes Jan Mayen",
+    "Flagfile": "SV-flag.gif",
+    "AnthemFile": "SV.mp3",
+    "Datafile": "sv.json"
   },
   {
     "Name": "Swaziland",
@@ -2357,7 +3049,10 @@
     "ISO_3166_1_Numeric": "748",
     "STANAG": "SWZ",
     "Internet": ".sz",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "WZ-flag.gif",
+    "AnthemFile": "WZ.mp3",
+    "Datafile": "wz.json"
   },
   {
     "Name": "Sweden",
@@ -2367,7 +3062,10 @@
     "ISO_3166_1_Numeric": "752",
     "STANAG": "SWE",
     "Internet": ".se",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SW-flag.gif",
+    "AnthemFile": "SW.mp3",
+    "Datafile": "sw.json"
   },
   {
     "Name": "Switzerland",
@@ -2377,7 +3075,10 @@
     "ISO_3166_1_Numeric": "756",
     "STANAG": "CHE",
     "Internet": ".ch",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SZ-flag.gif",
+    "AnthemFile": "SZ.mp3",
+    "Datafile": "sz.json"
   },
   {
     "Name": "Syria",
@@ -2387,7 +3088,10 @@
     "ISO_3166_1_Numeric": "760",
     "STANAG": "SYR",
     "Internet": ".sy",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "SY-flag.gif",
+    "AnthemFile": "SY.mp3",
+    "Datafile": "sy.json"
   },
   {
     "Name": "Taiwan",
@@ -2397,7 +3101,10 @@
     "ISO_3166_1_Numeric": "158",
     "STANAG": "TWN",
     "Internet": ".tw",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TW-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "tw.json"
   },
   {
     "Name": "Tajikistan",
@@ -2407,7 +3114,10 @@
     "ISO_3166_1_Numeric": "762",
     "STANAG": "TJK",
     "Internet": ".tj",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TI-flag.gif",
+    "AnthemFile": "TI.mp3",
+    "Datafile": "ti.json"
   },
   {
     "Name": "Tanzania",
@@ -2417,7 +3127,10 @@
     "ISO_3166_1_Numeric": "834",
     "STANAG": "TZA",
     "Internet": ".tz",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TZ-flag.gif",
+    "AnthemFile": "TZ.mp3",
+    "Datafile": "tz.json"
   },
   {
     "Name": "Thailand",
@@ -2427,7 +3140,10 @@
     "ISO_3166_1_Numeric": "764",
     "STANAG": "THA",
     "Internet": ".th",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TH-flag.gif",
+    "AnthemFile": "TH.mp3",
+    "Datafile": "th.json"
   },
   {
     "Name": "Timor-Leste",
@@ -2437,7 +3153,10 @@
     "ISO_3166_1_Numeric": "626",
     "STANAG": "TLS",
     "Internet": ".tl",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TT-flag.gif",
+    "AnthemFile": "TT.mp3",
+    "Datafile": "tt.json"
   },
   {
     "Name": "Togo",
@@ -2447,7 +3166,10 @@
     "ISO_3166_1_Numeric": "768",
     "STANAG": "TGO",
     "Internet": ".tg",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TO-flag.gif",
+    "AnthemFile": "TO.mp3",
+    "Datafile": "to.json"
   },
   {
     "Name": "Tokelau",
@@ -2457,7 +3179,10 @@
     "ISO_3166_1_Numeric": "772",
     "STANAG": "TKL",
     "Internet": ".tk",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TL-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "tl.json"
   },
   {
     "Name": "Tonga",
@@ -2467,7 +3192,10 @@
     "ISO_3166_1_Numeric": "776",
     "STANAG": "TON",
     "Internet": ".to",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TN-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "tn.json"
   },
   {
     "Name": "Trinidad and Tobago",
@@ -2477,7 +3205,10 @@
     "ISO_3166_1_Numeric": "780",
     "STANAG": "TTO",
     "Internet": ".tt",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TD-flag.gif",
+    "AnthemFile": "TD.mp3",
+    "Datafile": "td.json"
   },
   {
     "Name": "Tromelin Island",
@@ -2487,7 +3218,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "-",
     "Internet": "-",
-    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned"
+    "Comment": "administered as part of French Southern and Antarctic Lands; no ISO codes assigned",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": ""
   },
   {
     "Name": "Tunisia",
@@ -2497,7 +3231,10 @@
     "ISO_3166_1_Numeric": "788",
     "STANAG": "TUN",
     "Internet": ".tn",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TS-flag.gif",
+    "AnthemFile": "TS.mp3",
+    "Datafile": "ts.json"
   },
   {
     "Name": "Turkey",
@@ -2507,7 +3244,10 @@
     "ISO_3166_1_Numeric": "792",
     "STANAG": "TUR",
     "Internet": ".tr",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TU-flag.gif",
+    "AnthemFile": "TU.mp3",
+    "Datafile": "tu.json"
   },
   {
     "Name": "Turkmenistan",
@@ -2517,7 +3257,10 @@
     "ISO_3166_1_Numeric": "795",
     "STANAG": "TKM",
     "Internet": ".tm",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TX-flag.gif",
+    "AnthemFile": "TX.mp3",
+    "Datafile": "tx.json"
   },
   {
     "Name": "Turks and Caicos Islands",
@@ -2527,7 +3270,10 @@
     "ISO_3166_1_Numeric": "796",
     "STANAG": "TCA",
     "Internet": ".tc",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TK-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "tk.json"
   },
   {
     "Name": "Tuvalu",
@@ -2537,7 +3283,10 @@
     "ISO_3166_1_Numeric": "798",
     "STANAG": "TUV",
     "Internet": ".tv",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "TV-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "tv.json"
   },
   {
     "Name": "Uganda",
@@ -2547,7 +3296,10 @@
     "ISO_3166_1_Numeric": "800",
     "STANAG": "UGA",
     "Internet": ".ug",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "UG-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "ug.json"
   },
   {
     "Name": "Ukraine",
@@ -2557,7 +3309,10 @@
     "ISO_3166_1_Numeric": "804",
     "STANAG": "UKR",
     "Internet": ".ua",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "UP-flag.gif",
+    "AnthemFile": "UP.mp3",
+    "Datafile": "up.json"
   },
   {
     "Name": "United Arab Emirates",
@@ -2567,7 +3322,10 @@
     "ISO_3166_1_Numeric": "784",
     "STANAG": "ARE",
     "Internet": ".ae",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "AE-flag.gif",
+    "AnthemFile": "AE.mp3",
+    "Datafile": "ae.json"
   },
   {
     "Name": "United Kingdom",
@@ -2577,7 +3335,10 @@
     "ISO_3166_1_Numeric": "826",
     "STANAG": "GBR",
     "Internet": ".uk",
-    "Comment": "\"for its internal communications"
+    "Comment": "\"for its internal communications",
+    "Flagfile": "UK-flag.gif",
+    "AnthemFile": "UK.mp3",
+    "Datafile": "uk.json"
   },
   {
     "Name": "United States",
@@ -2587,7 +3348,10 @@
     "ISO_3166_1_Numeric": "840",
     "STANAG": "USA",
     "Internet": ".us",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "US-flag.gif",
+    "AnthemFile": "US.mp3",
+    "Datafile": "us.json"
   },
   {
     "Name": "Uruguay",
@@ -2597,7 +3361,10 @@
     "ISO_3166_1_Numeric": "858",
     "STANAG": "URY",
     "Internet": ".uy",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "UY-flag.gif",
+    "AnthemFile": "UY.mp3",
+    "Datafile": "uy.json"
   },
   {
     "Name": "Uzbekistan",
@@ -2607,7 +3374,10 @@
     "ISO_3166_1_Numeric": "860",
     "STANAG": "UZB",
     "Internet": ".uz",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "UZ-flag.gif",
+    "AnthemFile": "UZ.mp3",
+    "Datafile": "uz.json"
   },
   {
     "Name": "Vanuatu",
@@ -2617,7 +3387,10 @@
     "ISO_3166_1_Numeric": "548",
     "STANAG": "VUT",
     "Internet": ".vu",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "NH-flag.gif",
+    "AnthemFile": "NH.mp3",
+    "Datafile": "nh.json"
   },
   {
     "Name": "Venezuela",
@@ -2627,7 +3400,10 @@
     "ISO_3166_1_Numeric": "862",
     "STANAG": "VEN",
     "Internet": ".ve",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "VE-flag.gif",
+    "AnthemFile": "VE.mp3",
+    "Datafile": "ve.json"
   },
   {
     "Name": "Vietnam",
@@ -2637,7 +3413,10 @@
     "ISO_3166_1_Numeric": "704",
     "STANAG": "VNM",
     "Internet": ".vn",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "VM-flag.gif",
+    "AnthemFile": "VM.mp3",
+    "Datafile": "vm.json"
   },
   {
     "Name": "Virgin Islands",
@@ -2647,7 +3426,10 @@
     "ISO_3166_1_Numeric": "850",
     "STANAG": "VIR",
     "Internet": ".vi",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "VQ-flag.gif",
+    "AnthemFile": "VQ.mp3",
+    "Datafile": "vq.json"
   },
   {
     "Name": "Wake Island",
@@ -2657,7 +3439,10 @@
     "ISO_3166_1_Numeric": "-",
     "STANAG": "UMI",
     "Internet": "-",
-    "Comment": "ISO includes with the US Minor Outlying Islands"
+    "Comment": "ISO includes with the US Minor Outlying Islands",
+    "Flagfile": "WQ-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "wq.json"
   },
   {
     "Name": "Wallis and Futuna",
@@ -2667,7 +3452,10 @@
     "ISO_3166_1_Numeric": "876",
     "STANAG": "WLF",
     "Internet": ".wf",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "WF-flag.gif",
+    "AnthemFile": "WF.mp3",
+    "Datafile": "wf.json"
   },
   {
     "Name": "West Bank",
@@ -2677,7 +3465,10 @@
     "ISO_3166_1_Numeric": "275",
     "STANAG": "PSE",
     "Internet": ".ps",
-    "Comment": "ISO identifies as Occupied Palestinian Territory"
+    "Comment": "ISO identifies as Occupied Palestinian Territory",
+    "Flagfile": "",
+    "AnthemFile": "",
+    "Datafile": "we.json"
   },
   {
     "Name": "Western Sahara",
@@ -2687,7 +3478,10 @@
     "ISO_3166_1_Numeric": "732",
     "STANAG": "ESH",
     "Internet": ".eh",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "WI-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "wi.json"
   },
   {
     "Name": "Yemen",
@@ -2697,7 +3491,10 @@
     "ISO_3166_1_Numeric": "887",
     "STANAG": "YEM",
     "Internet": ".ye",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "YM-flag.gif",
+    "AnthemFile": "YM.mp3",
+    "Datafile": "ym.json"
   },
   {
     "Name": "Zambia",
@@ -2707,7 +3504,10 @@
     "ISO_3166_1_Numeric": "894",
     "STANAG": "ZMB",
     "Internet": ".zm",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "ZA-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "za.json"
   },
   {
     "Name": "Zimbabwe",
@@ -2717,6 +3517,9 @@
     "ISO_3166_1_Numeric": "716",
     "STANAG": "ZWE",
     "Internet": ".zw",
-    "Comment": ""
+    "Comment": "",
+    "Flagfile": "ZI-flag.gif",
+    "AnthemFile": "",
+    "Datafile": "zi.json"
   }
 ]

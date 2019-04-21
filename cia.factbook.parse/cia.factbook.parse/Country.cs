@@ -23,5 +23,11 @@ namespace cia.factbook.parse
         /// <summary>Additional Comment</summary>        
         public string Comment { get; set; } = "";
 
+        /// <summary>Flag image file name</summary> 
+        public string Flagfile { get; set; } = "";
+        /// <summary>National anthem mp3 file name</summary> 
+        public string AnthemFile { get; set; } = "";
+        /// <summary>Json file (containing HTML data) name</summary> 
+        public string Datafile { get; set; } = "";
     }
 }

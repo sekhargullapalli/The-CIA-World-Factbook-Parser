@@ -6,8 +6,9 @@ namespace cia.factbook.parse
     {
         static void Main(string[] args)
         {
-            FactbookParser.CreateCountriesList();           
-            
+            FactbookParser.CreateCountriesList();
+
+
         }
     }
 }

@@ -1,41 +1,41 @@
 ENTITY,GEC,ISO 3166-1 Alpha-2,ISO 3166-1 Alpha-3,ISO 3166-1 Numeric,STANAG,INTERNET,COMMENT
-Afghanistan,AF,AF,AFG,004,AFG,.af,
+Afghanistan,AF,AF,AFG,4,AFG,.af,
 Akrotiri,AX,-,-,-,-,-,
-Albania,AL,AL,ALB,008,ALB,.al,
-Algeria,AG,DZ,DZA,012,DZA,.dz,
-American Samoa,AQ,AS,ASM,016,ASM,.as,
-Andorra,AN,AD,AND,020,AND,.ad,
-Angola,AO,AO,AGO,024,AGO,.ao,
+Albania,AL,AL,ALB,8,ALB,.al,
+Algeria,AG,DZ,DZA,12,DZA,.dz,
+American Samoa,AQ,AS,ASM,16,ASM,.as,
+Andorra,AN,AD,AND,20,AND,.ad,
+Angola,AO,AO,AGO,24,AGO,.ao,
 Anguilla,AV,AI,AIA,660,AIA,.ai,
-Antarctica,AY,AQ,ATA,010,ATA,.aq,ISO defines as the territory south of 60 degrees south latitude
-Antigua and Barbuda,AC,AG,ATG,028,ATG,.ag,
-Argentina,AR,AR,ARG,032,ARG,.ar,
-Armenia,AM,AM,ARM,051,ARM,.am,
+Antarctica,AY,AQ,ATA,10,ATA,.aq,ISO defines as the territory south of 60 degrees south latitude
+Antigua and Barbuda,AC,AG,ATG,28,ATG,.ag,
+Argentina,AR,AR,ARG,32,ARG,.ar,
+Armenia,AM,AM,ARM,51,ARM,.am,
 Aruba,AA,AW,ABW,533,ABW,.aw,
 Ashmore and Cartier Islands,AT,-,-,-,AUS,-,ISO includes with Australia
-Australia,AS,AU,AUS,036,AUS,.au,"ISO includes Ashmore and Cartier Islands, Coral Sea Islands"
-Austria,AU,AT,AUT,040,AUT,.at,
-Azerbaijan,AJ,AZ,AZE,031,AZE,.az,
-"Bahamas, The",BF,BS,BHS,044,BHS,.bs,
-Bahrain,BA,BH,BHR,048,BHR,.bh,
+Australia,AS,AU,AUS,36,AUS,.au,"ISO includes Ashmore and Cartier Islands, Coral Sea Islands"
+Austria,AU,AT,AUT,40,AUT,.at,
+Azerbaijan,AJ,AZ,AZE,31,AZE,.az,
+Bahamas$$ The,BF,BS,BHS,44,BHS,.bs,
+Bahrain,BA,BH,BHR,48,BHR,.bh,
 Baker Island,FQ,-,-,-,UMI,-,ISO includes with the US Minor Outlying Islands
-Bangladesh,BG,BD,BGD,050,BGD,.bd,
-Barbados,BB,BB,BRB,052,BRB,.bb,
+Bangladesh,BG,BD,BGD,50,BGD,.bd,
+Barbados,BB,BB,BRB,52,BRB,.bb,
 Bassas da India,BS,-,-,-,-,-,administered as part of French Southern and Antarctic Lands; no ISO codes assigned
 Belarus,BO,BY,BLR,112,BLR,.by,
-Belgium,BE,BE,BEL,056,BEL,.be,
-Belize,BH,BZ,BLZ,084,BLZ,.bz,
+Belgium,BE,BE,BEL,56,BEL,.be,
+Belize,BH,BZ,BLZ,84,BLZ,.bz,
 Benin,BN,BJ,BEN,204,BEN,.bj,
-Bermuda,BD,BM,BMU,060,BMU,.bm,
-Bhutan,BT,BT,BTN,064,BTN,.bt,
-Bolivia,BL,BO,BOL,068,BOL,.bo,
-Bosnia and Herzegovina,BK,BA,BIH,070,BIH,.ba,
-Botswana,BC,BW,BWA,072,BWA,.bw,
-Bouvet Island,BV,BV,BVT,074,BVT,.bv,
-Brazil,BR,BR,BRA,076,BRA,.br,
-British Indian Ocean Territory,IO,IO,IOT,086,IOT,.io,
-British Virgin Islands,VI,VG,VGB,092,VGB,.vg,
-Brunei,BX,BN,BRN,096,BRN,.bn,
+Bermuda,BD,BM,BMU,60,BMU,.bm,
+Bhutan,BT,BT,BTN,64,BTN,.bt,
+Bolivia,BL,BO,BOL,68,BOL,.bo,
+Bosnia and Herzegovina,BK,BA,BIH,70,BIH,.ba,
+Botswana,BC,BW,BWA,72,BWA,.bw,
+Bouvet Island,BV,BV,BVT,74,BVT,.bv,
+Brazil,BR,BR,BRA,76,BRA,.br,
+British Indian Ocean Territory,IO,IO,IOT,86,IOT,.io,
+British Virgin Islands,VI,VG,VGB,92,VGB,.vg,
+Brunei,BX,BN,BRN,96,BRN,.bn,
 Bulgaria,BU,BG,BGR,100,BGR,.bg,
 Burkina Faso,UV,BF,BFA,854,BFA,.bf,
 Burma,BM,MM,MMR,104,MMR,.mm,ISO uses the name Myanmar
@@ -54,8 +54,8 @@ Clipperton Island,IP,-,-,-,FYP,-,ISO includes with France
 Cocos (Keeling) Islands,CK,CC,CCK,166,AUS,.cc,
 Colombia,CO,CO,COL,170,COL,.co,
 Comoros,CN,KM,COM,174,COM,.km,
-"Congo, Democratic Republic of the",CG,CD,COD,180,COD,.cd,formerly Zaire
-"Congo, Republic of the",CF,CG,COG,178,COG,.cg,
+Congo$$ Democratic Republic of the,CG,CD,COD,180,COD,.cd,formerly Zaire
+Congo$$ Republic of the,CF,CG,COG,178,COG,.cg,
 Cook Islands,CW,CK,COK,184,COK,.ck,
 Coral Sea Islands,CR,-,-,-,AUS,-,ISO includes with Australia
 Costa Rica,CS,CR,CRI,188,CRI,.cr,
@@ -83,12 +83,12 @@ Faroe Islands,FO,FO,FRO,234,FRO,.fo,
 Fiji,FJ,FJ,FJI,242,FJI,.fj,
 Finland,FI,FI,FIN,246,FIN,.fi,
 France,FR,FR,FRA,250,FRA,.fr,"ISO includes metropolitan France along with the dependencies of Clipperton Island, French Guiana, French Polynesia, French Southern and Antarctic Lands, Guadeloupe, Martinique, Mayotte, New Caledonia, Reunion, Saint Pierre and Miquelon, Wallis and Futuna"
-"France, Metropolitan",-,FX,FXX,249,-,.fx,ISO limits to the European part of France
+France$$ Metropolitan,-,FX,FXX,249,-,.fx,ISO limits to the European part of France
 French Guiana,FG,GF,GUF,254,GUF,.gf,
 French Polynesia,FP,PF,PYF,258,PYF,.pf,
 French Southern and Antarctic Lands,FS,TF,ATF,260,ATF,.tf,GEC does not include the French-claimed portion of Antarctica (Terre Adelie)
 Gabon,GB,GA,GAB,266,GAB,.ga,
-"Gambia, The",GA,GM,GMB,270,GMB,.gm,
+Gambia$$ The,GA,GM,GMB,270,GMB,.gm,
 Gaza Strip,GZ,PS,PSE,275,PSE,.ps,ISO identifies as Occupied Palestinian Territory
 Georgia,GG,GE,GEO,268,GEO,.ge,
 Germany,GM,DE,DEU,276,DEU,.de,
@@ -133,8 +133,8 @@ Kazakhstan,KZ,KZ,KAZ,398,KAZ,.kz,
 Kenya,KE,KE,KEN,404,KEN,.ke,
 Kingman Reef,KQ,-,-,-,UMI,-,ISO includes with the US Minor Outlying Islands
 Kiribati,KR,KI,KIR,296,KIR,.ki,
-"Korea, North",KN,KP,PRK,408,PRK,.kp,
-"Korea, South",KS,KR,KOR,410,KOR,.kr,
+Korea$$ North,KN,KP,PRK,408,PRK,.kp,
+Korea$$ South,KS,KR,KOR,410,KOR,.kr,
 Kosovo,KV,XK,XKS,-,-,-,XK and XKS are ISO 3166 user assigned codes; ISO 3166 Maintenace Authority has not assigned codes
 Kuwait,KU,KW,KWT,414,KWT,.kw,
 Kyrgyzstan,KG,KG,KGZ,417,KGZ,.kg,
@@ -161,7 +161,7 @@ Mauritania,MR,MR,MRT,478,MRT,.mr,
 Mauritius,MP,MU,MUS,480,MUS,.mu,
 Mayotte,MF,YT,MYT,175,FRA,.yt,
 Mexico,MX,MX,MEX,484,MEX,.mx,
-"Micronesia, Federated States of",FM,FM,FSM,583,FSM,.fm,
+Micronesia$$ Federated States of,FM,FM,FSM,583,FSM,.fm,
 Midway Islands,MQ,-,-,-,UMI,-,ISO includes with the US Minor Outlying Islands
 Moldova,MD,MD,MDA,498,MDA,.md,
 Monaco,MN,MC,MCO,492,MCO,.mc,
@@ -206,7 +206,7 @@ Romania,RO,RO,ROU,642,ROU,.ro,
 Russia,RS,RU,RUS,643,RUS,.ru,
 Rwanda,RW,RW,RWA,646,RWA,.rw,
 Saint Barthelemy,TB,BL,BLM,652,-,.bl,ccTLD .fr and .gp may also be used
-"Saint Helena, Ascension, and Tristan da Cunha",SH,SH,SHN,654,SHN,.sh,"includes Saint Helena Island, Ascension Island, and the Tristan da Cunha archipelago"
+Saint Helena$$ Ascension$$ and Tristan da Cunha,SH,SH,SHN,654,SHN,.sh,"includes Saint Helena Island, Ascension Island, and the Tristan da Cunha archipelago"
 Saint Kitts and Nevis,SC,KN,KNA,659,KNA,.kn,
 Saint Lucia,ST,LC,LCA,662,LCA,.lc,
 Saint Martin,RN,MF,MAF,663,-,.mf,ccTLD .fr and .gp may also be used
