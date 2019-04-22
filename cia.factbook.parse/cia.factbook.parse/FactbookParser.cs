@@ -52,7 +52,11 @@ namespace cia.factbook.parse
                 }
             }
         }
-
+        /// <summary>
+        /// Reads print_notesanddefs.html in factbook and saves as json 
+        /// Json can be deserialized to a Dictionary<string,string>
+        /// </summary>
+        /// <param name="content">All text content of print_notesanddefs.html file</param>
         public static void GetDefinitionandNotes(string content)
         {
             var parser = new HtmlParser();
@@ -83,7 +87,51 @@ namespace cia.factbook.parse
             catch (Exception ex) { Console.WriteLine(ex.Message); }
             finally { tw.Close(); }
         }
+        /// <summary>
+        /// Reads print_rankorderguide.html in factbook and saves as json 
+        /// Json can be deserialized to a list of ComparableFieldType
+        /// </summary>
+        /// <param name="content">All text content of print_rankorderguide.html file</param>
+        public static void GetComparableFields(string content)
+        {
+            var parser = new HtmlParser();
+            var doc = parser.ParseDocument(content);
+            var bgelements = doc.QuerySelectorAll("li").Where(x =>
+            x.HasAttribute("id") && x.GetAttribute("id").EndsWith("-category-section-anchor")
+            );
+            List<ComparableField> comparablefields = new List<ComparableField>();
 
+            TextWriter tw = new StreamWriter("comparablefields.json", false);
+            try
+            {
+                foreach(var item in bgelements)
+                {
+                    string category = item.TextContent.Replace(":", "").Trim();
+                    string fieldcontainerid = item.GetAttribute("id").Replace("-anchor",string.Empty).Trim();
+                    var fields = doc.QuerySelectorAll("li").Where(x =>
+                    x.HasAttribute("id") && x.GetAttribute("id") == fieldcontainerid
+                    ).First().Children.Where(y => y.HasAttribute("class") &&
+                    y.GetAttribute("class") == "field_label");
+                    foreach (var field in fields)
+                    {
+                        string fieldname = field.TextContent.Replace(":", string.Empty).Trim();
+                        bool isdescending = fieldname != "Unemployment rate" &&
+                            !fieldname.StartsWith("Inflation rate");
+                        comparablefields.Add(new ComparableField()
+                        {
+                            FieldName=fieldname,
+                            Category=category,
+                            IsDescending=isdescending
+                        });
+                        Console.WriteLine($"{category}: {fieldname} [{isdescending}]");
+                    }
+                }         
+                string json = JsonConvert.SerializeObject(comparablefields, Formatting.Indented);
+                tw.WriteLine(json);
+            }
+            catch (Exception ex) { Console.WriteLine(ex.Message); }
+            finally { tw.Close(); }
+        }
         /// <summary>
         /// Create a JSON file for countries with a valid GEC value
         /// Use appropriate path for the factbook files
@@ -135,7 +183,6 @@ namespace cia.factbook.parse
             catch (Exception e) { Console.WriteLine(e.Message); }
             finally { tw.Close(); }
         }    
-
         /// <summary>
         /// Parses the HTML content of the country profile data and converts them to a list of profile entities
         /// </summary>
@@ -237,6 +284,16 @@ namespace cia.factbook.parse
             }
             Console.ForegroundColor = col;
         }
+
+
+
+
+
+
+
+
+
+
 
 
         /// <summary>

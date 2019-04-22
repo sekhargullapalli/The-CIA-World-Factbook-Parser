@@ -21,8 +21,13 @@ namespace cia.factbook.parse
             //string profileguidepath = @"C:/Users/sekha/Desktop/factbook/docs/print_profileguide.html";
             //FactbookParser.GetProfileSchema(File.ReadAllText(profileguidepath));
 
-            string notesanddefpath = @"C:/Users/sekha/Desktop/factbook/docs/print_notesanddefs.html";
-            FactbookParser.GetDefinitionandNotes(File.ReadAllText(notesanddefpath));
+            //string notesanddefpath = @"C:/Users/sekha/Desktop/factbook/docs/print_notesanddefs.html";
+            //FactbookParser.GetDefinitionandNotes(File.ReadAllText(notesanddefpath));
+
+            string rankorderpath = @"C:/Users/sekha/Desktop/factbook/docs/print_rankorderguide.html";
+            FactbookParser.GetComparableFields(File.ReadAllText(rankorderpath));
+
+
 
 
             Console.ReadLine();
