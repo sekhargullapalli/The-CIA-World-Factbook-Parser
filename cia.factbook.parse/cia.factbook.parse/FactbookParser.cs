@@ -53,6 +53,37 @@ namespace cia.factbook.parse
             }
         }
 
+        public static void GetDefinitionandNotes(string content)
+        {
+            var parser = new HtmlParser();
+            var doc = parser.ParseDocument(content);
+            var bgelements = doc.QuerySelectorAll("div").Where(x =>
+            x.HasAttribute("class") && x.GetAttribute("class").Contains("appendix-entry reference-content")            
+            );
+            Dictionary<string, string> notesanddefs = new Dictionary<string, string>();
+
+            TextWriter tw = new StreamWriter("notesanddefs.json", false);
+            try
+            {
+                foreach (var item in bgelements)
+                {
+                    string key = item.Children.Where(x => x.HasAttribute("class")
+                    && x.GetAttribute("class").Contains("appendix-entry-name")).First().TextContent.Trim();
+                    string val = item.Children.Where(x => x.HasAttribute("class")
+                    && x.GetAttribute("class").Contains("appendix-entry-text")).First().TextContent.Trim();
+                    if (key != string.Empty && val != string.Empty)
+                    {
+                        Console.WriteLine(key);
+                        notesanddefs.Add(key, val);
+                    }
+                }
+                string json = JsonConvert.SerializeObject(notesanddefs, Formatting.Indented);
+                tw.WriteLine(json);
+            }
+            catch (Exception ex) { Console.WriteLine(ex.Message); }
+            finally { tw.Close(); }
+        }
+
         /// <summary>
         /// Create a JSON file for countries with a valid GEC value
         /// Use appropriate path for the factbook files

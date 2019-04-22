@@ -14,7 +14,9 @@ namespace cia.factbook.parse
         public string Key { get; set; } = "";
         public string Value { get; set; } = "";        
         public List<ProfileEntity> Children { get; set; } = new List<ProfileEntity>();
-
+        /// <summary>
+        /// Represents if the entity contains historic data
+        /// </summary>
         public bool IsHistoric { get; set; } = false;
     }   
 }
