@@ -88,16 +88,50 @@ namespace cia.factbook.parse
             finally { tw.Close(); }
         }
 
-        public static void ListAllSections(string content)
+        /// <summary>
+        /// Reads print_profileguide.html in factbook and extracts the schema
+        /// </summary>
+        /// <param name="content">All text content of print_profileguide.html file</param>
+        public static void GetProfileSchema(string content)
         {
             var parser = new HtmlParser();
             var doc = parser.ParseDocument(content);
-            var bgelements = doc.QuerySelectorAll("div").Where(x => x.HasAttribute("sectiontitle"));
+            var bgelements = doc.QuerySelectorAll("div").Where(x =>
+            x.HasAttribute("class")
+            && 
+            (x.GetAttribute("class").Equals("question category")
+            || x.GetAttribute("class").Equals("field_label"))
+            );
+            ConsoleColor col = Console.ForegroundColor;
+            Console.Clear();
+            string currentcategory = string.Empty;
             foreach (var elem in bgelements)
             {
-                Console.WriteLine(elem.GetAttribute("sectiontitle"));
+                string title = elem.TextContent.Trim(new char[] { ':',' '}).Trim();
+                if(elem.GetAttribute("class").Equals("question category"))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;                    
+                    Console.WriteLine($"+ {title}");
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;                    
+                    Console.WriteLine($"    + {title}");
+                    var nxt = elem.NextElementSibling;
+                    do
+                    {
+                        if (nxt == null || nxt.HasAttribute("class") || nxt.LocalName.ToLower() != "div") break;
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"        + {nxt.TextContent.Trim(new char[] {':', ' '}).Trim()}");
+                        nxt = nxt.NextElementSibling;
+
+                    } while (true);
+                   
+                }
             }
         }
+
+
 
         public static void GetStructure(string content)
         {
@@ -150,7 +184,17 @@ namespace cia.factbook.parse
             }
             Console.ForegroundColor = col;
         }
-            
+
+        public static void ListAllSections(string content)
+        {
+            var parser = new HtmlParser();
+            var doc = parser.ParseDocument(content);
+            var bgelements = doc.QuerySelectorAll("div").Where(x => x.HasAttribute("sectiontitle"));
+            foreach (var elem in bgelements)
+            {
+                Console.WriteLine(elem.GetAttribute("sectiontitle"));
+            }
+        }
 
         public static void ListAllFields(string content)
         {
