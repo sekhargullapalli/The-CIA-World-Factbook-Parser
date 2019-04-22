@@ -1,14 +1,14 @@
 # Description
 
-The factbook/json (2018 archive) folder contains 269 json files, each containing HTML content of the corresponding country profiles. The schema for that data is listed below. The HTML content of all these files is parsed and the date is organized into json format (representing a collecton of ` cia.factbook.parse.ProfileEntity ` type).  
+The factbook/json (2018 archive) folder contains 269 json files, each containing HTML content of the corresponding country profiles. The schema for that data is listed below. The HTML content of all these files is parsed and the data is organized into json format (representing a collecton of ` cia.factbook.parse.ProfileEntity ` type).  
 
 
 
 # Schema Used for the Country Profiles in CIA Factbook
 
-### The information is origanized in the form of Category and Fields. The Fields can have Sub-Fields. Some of the fields are comparable and will be assosiated with a ranking. Note all fields/sub fields are not madatory for every country
+The information is origanized in the form of Category and Fields. The Fields can have Sub-Fields. Some of the fields are comparable and will be assosiated with a ranking. Note all fields/sub fields are not madatory for every country
 
-### This information is parsed from the factbook/docs/print_profileguide.html file (see ` cia.factbook.parse.FactbookParser.GetProfileSchema(string content) `)
+This information is parsed from the factbook/docs/print_profileguide.html file (see ` cia.factbook.parse.FactbookParser.GetProfileSchema(string content) `)
 
 
 + Introduction
