@@ -29,6 +29,7 @@ namespace cia.factbook.parse
             foreach (var elem in bgelements)
             {
                 string title = elem.TextContent.Trim(new char[] { ':', ' ' }).Trim();
+                title = title.Replace(":",string.Empty).Trim();
                 if (elem.GetAttribute("class").Equals("question category"))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -104,6 +105,107 @@ namespace cia.factbook.parse
             finally { tw.Close(); }
         }    
 
+        /// <summary>
+        /// Parses the HTML content of the country profile data and converts them to a list of profile entities
+        /// </summary>
+        /// <param name="content">HTML content of the country profile data</param>
+        /// <returns></returns>
+        public static List<ProfileEntity> ParseProfileData(string content)
+        {
+            List<ProfileEntity> entities = new List<ProfileEntity>();
+
+            throw new NotImplementedException();
+        }
+
+
+        public static void GetStructure(string content)
+        {
+            var parser = new HtmlParser();
+            var doc = parser.ParseDocument(content);
+            var bgelements = doc.QuerySelectorAll("div").Where(x =>
+            x.HasAttribute("sectiontitle") ||
+            (x.HasAttribute("id")
+            && x.GetAttribute("id").StartsWith("field-")
+            && x.GetAttribute("id").Contains("anchor")));
+
+            ConsoleColor col = Console.ForegroundColor;
+            Console.Clear();
+            string currentcategory = string.Empty;
+            foreach (var elem in bgelements)
+            {
+                string title = elem.TextContent.Trim(new char[] { ':' }).Trim();
+                if (elem.HasAttribute("sectiontitle"))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    currentcategory = elem.GetAttribute("sectiontitle").Trim();
+                    currentcategory = currentcategory.Replace(" ", "-").ToLower();
+                    Console.WriteLine($" + {elem.GetAttribute("sectiontitle").Trim()}");
+                }
+                else if (elem.GetAttribute("id").StartsWith($"field-anchor-{currentcategory}-"))
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    string fieldname = elem.GetAttribute("id");
+                    fieldname = fieldname.Replace($"anchor-{currentcategory}-", string.Empty).Trim();
+                    Console.WriteLine($" \t- {title}");
+                    //Check for sub-fields
+                    //var fieldContent = doc.QuerySelectorAll("div").Where(x => x.HasAttribute("id")
+                    //&& x.GetAttribute("id") == fieldname).First().Children
+                    //.Where(y => y.HasAttribute("class")
+                    //&& y.GetAttribute("class").Contains("category_data")
+                    //&& (y.GetAttribute("class").Contains("text") || y.GetAttribute("class").Contains("note") 
+                    //|| y.GetAttribute("class").Contains("numeric") || y.GetAttribute("class").Contains("historic")
+                    //));
+                    var fieldContent = doc.QuerySelectorAll("div").Where(x => x.HasAttribute("id")
+                    && x.GetAttribute("id") == fieldname).First().Children
+                    .Where(y => y.HasAttribute("class") && y.GetAttribute("class").Contains("subfield"));
+                    
+                    if (fieldContent.Count() != 0)
+                    {
+                        foreach (var item in fieldContent)
+                        {
+                            var subFields = item.Children.Where(x => x.HasAttribute("class") && x.GetAttribute("class") == "subfield-name");                            
+                            foreach (var subfield in subFields)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.WriteLine($" \t\t* {subfield.TextContent}");
+                            }
+                            if (item.GetAttribute("class").Contains("historic"))
+                            {
+                                subFields = item.Children.Where(x => x.HasAttribute("class") && x.GetAttribute("class") == "subfield-date");
+                                foreach (var subfield in subFields)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Green;
+                                    Console.WriteLine($" \t\t* {subfield.TextContent} [historic]");
+                                }
+                            }                           
+                        }
+                    }
+                    //Indentify additional notes
+                    var noteContent = doc.QuerySelectorAll("div").Where(x => x.HasAttribute("id")
+                    && x.GetAttribute("id") == fieldname).First().Children
+                    .Where(y => y.HasAttribute("class") && y.GetAttribute("class").Contains("note"));
+                    foreach (var noteelement in noteContent)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($" \t\t* note:");
+                    }
+                    //Identify comparison
+                    var compareContent = doc.QuerySelectorAll("div").Where(x => x.HasAttribute("id")
+                    && x.GetAttribute("id") == fieldname).First().Children
+                    .Where(y => y.TextContent.ToLower().Contains("country comparison to the world"));
+                    if (compareContent.Count() == 1)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($" \t\t* country comparison to the world:");
+                    }
+                    
+
+
+
+                }
+            }
+            Console.ForegroundColor = col;
+        }
 
 
         /// <summary>
@@ -134,67 +236,6 @@ namespace cia.factbook.parse
             catch (Exception e) { Console.WriteLine(e.Message); }
             finally { tw.Close(); }
         }
-
-       
-
-
-
-
-
-
-
-        public static void GetStructure(string content)
-        {
-            var parser = new HtmlParser();
-            var doc = parser.ParseDocument(content);
-            var bgelements = doc.QuerySelectorAll("div").Where(x =>
-            x.HasAttribute("sectiontitle") ||
-            (x.HasAttribute("id")
-            && x.GetAttribute("id").StartsWith("field-")
-            && x.GetAttribute("id").Contains("anchor")));
-
-            ConsoleColor col = Console.ForegroundColor;
-            Console.Clear();
-            string currentcategory = string.Empty;
-            foreach (var elem in bgelements)
-            {
-                string title = elem.TextContent.Trim(new char[] { ':' }).Trim();                 
-                if (elem.HasAttribute("sectiontitle"))
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    currentcategory = elem.GetAttribute("sectiontitle").Trim();
-                    currentcategory = currentcategory.Replace(" ", "-").ToLower();
-                    Console.WriteLine($" + {elem.GetAttribute("sectiontitle").Trim()}");
-                }
-                else if (elem.GetAttribute("id").StartsWith($"field-anchor-{currentcategory}-"))
-                {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    string fieldname = elem.GetAttribute("id");
-                    fieldname=fieldname.Replace($"anchor-{currentcategory}-", string.Empty).Trim();
-                    Console.WriteLine($" \t- {title}");
-                    //Check for sub-fields
-                    var fieldContent = doc.QuerySelectorAll("div").Where(x => x.HasAttribute("id")
-                    && x.GetAttribute("id") == fieldname).First().Children
-                    .Where(y => y.HasAttribute("class")
-                    && y.GetAttribute("class").Contains("category_data")
-                    && (y.GetAttribute("class").Contains("text") || y.GetAttribute("class").Contains("note") || y.GetAttribute("class").Contains("numeric")));
-                    if (fieldContent.Count() != 0)
-                    {
-                        foreach (var item in fieldContent)
-                        {
-                            var subFields = item.Children.Where(x => x.HasAttribute("class") && x.GetAttribute("class") == "subfield-name");
-                            foreach(var subfield in subFields)
-                            {
-                                Console.ForegroundColor = ConsoleColor.Green;
-                                Console.WriteLine($" \t\t* {subfield.TextContent}");
-                            }                            
-                        }
-                    }
-                }
-            }
-            Console.ForegroundColor = col;
-        }
-
         public static void ListAllSections(string content)
         {
             var parser = new HtmlParser();
@@ -205,7 +246,6 @@ namespace cia.factbook.parse
                 Console.WriteLine(elem.GetAttribute("sectiontitle"));
             }
         }
-
         public static void ListAllFields(string content)
         {
             var parser = new HtmlParser();
@@ -218,7 +258,6 @@ namespace cia.factbook.parse
                 Console.WriteLine(elem.GetAttribute("id"));
             }
         }
-
         public static void ParseHTMLContent(string content)
         {
             var parser = new HtmlParser();          
