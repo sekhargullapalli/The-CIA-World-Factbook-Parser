@@ -10,7 +10,51 @@ namespace cia.factbook.parse
     public class FactbookParser
     {
         /// <summary>
+        /// Reads print_profileguide.html in factbook and extracts the schema
+        /// </summary>
+        /// <param name="content">All text content of print_profileguide.html file</param>
+        public static void GetProfileSchema(string content)
+        {
+            var parser = new HtmlParser();
+            var doc = parser.ParseDocument(content);
+            var bgelements = doc.QuerySelectorAll("div").Where(x =>
+            x.HasAttribute("class")
+            &&
+            (x.GetAttribute("class").Equals("question category")
+            || x.GetAttribute("class").Equals("field_label"))
+            );
+            ConsoleColor col = Console.ForegroundColor;
+            Console.Clear();
+            string currentcategory = string.Empty;
+            foreach (var elem in bgelements)
+            {
+                string title = elem.TextContent.Trim(new char[] { ':', ' ' }).Trim();
+                if (elem.GetAttribute("class").Equals("question category"))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"+ {title}");
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine($"    + {title}");
+                    var nxt = elem.NextElementSibling;
+                    do
+                    {
+                        if (nxt == null || nxt.HasAttribute("class") || nxt.LocalName.ToLower() != "div") break;
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"        + {nxt.TextContent.Trim(new char[] { ':', ' ' }).Trim()}");
+                        nxt = nxt.NextElementSibling;
+
+                    } while (true);
+
+                }
+            }
+        }
+
+        /// <summary>
         /// Create a JSON file for countries with a valid GEC value
+        /// Use appropriate path for the factbook files
         /// </summary>
         public static void CreateCountriesList()
         {
@@ -59,6 +103,9 @@ namespace cia.factbook.parse
             catch (Exception e) { Console.WriteLine(e.Message); }
             finally { tw.Close(); }
         }    
+
+
+
         /// <summary>
         /// Collect data from factbook json folder into one json file
         /// </summary>
@@ -88,48 +135,11 @@ namespace cia.factbook.parse
             finally { tw.Close(); }
         }
 
-        /// <summary>
-        /// Reads print_profileguide.html in factbook and extracts the schema
-        /// </summary>
-        /// <param name="content">All text content of print_profileguide.html file</param>
-        public static void GetProfileSchema(string content)
-        {
-            var parser = new HtmlParser();
-            var doc = parser.ParseDocument(content);
-            var bgelements = doc.QuerySelectorAll("div").Where(x =>
-            x.HasAttribute("class")
-            && 
-            (x.GetAttribute("class").Equals("question category")
-            || x.GetAttribute("class").Equals("field_label"))
-            );
-            ConsoleColor col = Console.ForegroundColor;
-            Console.Clear();
-            string currentcategory = string.Empty;
-            foreach (var elem in bgelements)
-            {
-                string title = elem.TextContent.Trim(new char[] { ':',' '}).Trim();
-                if(elem.GetAttribute("class").Equals("question category"))
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;                    
-                    Console.WriteLine($"+ {title}");
-                }
-                else
-                {
-                    Console.ForegroundColor = ConsoleColor.Yellow;                    
-                    Console.WriteLine($"    + {title}");
-                    var nxt = elem.NextElementSibling;
-                    do
-                    {
-                        if (nxt == null || nxt.HasAttribute("class") || nxt.LocalName.ToLower() != "div") break;
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine($"        + {nxt.TextContent.Trim(new char[] {':', ' '}).Trim()}");
-                        nxt = nxt.NextElementSibling;
+       
 
-                    } while (true);
-                   
-                }
-            }
-        }
+
+
+
 
 
 
