@@ -24,8 +24,10 @@ namespace cia.factbook.parse
             //string notesanddefpath = @"C:/Users/sekha/Desktop/factbook/docs/print_notesanddefs.html";
             //FactbookParser.GetDefinitionandNotes(File.ReadAllText(notesanddefpath));
 
-            string rankorderpath = @"C:/Users/sekha/Desktop/factbook/docs/print_rankorderguide.html";
-            FactbookParser.GetComparableFields(File.ReadAllText(rankorderpath));
+            //string rankorderpath = @"C:/Users/sekha/Desktop/factbook/docs/print_rankorderguide.html";
+            //FactbookParser.GetComparableFields(File.ReadAllText(rankorderpath));
+
+            Utilities.CreateFlagsReadMe();
 
 
 
