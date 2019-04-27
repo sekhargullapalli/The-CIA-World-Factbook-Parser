@@ -7,7 +7,7 @@ The main data files created (in cia.factbook.data folder) are:
 + countrieslist.json: The list of the countries with country codes and link to flag files, national anthems etc
 + notesanddefs.json: A decription of the various fields, categories 
 + comparablefields.json: A list of the fields in country details that are comparable, e.g., Area, Population etc
-+ countrydetails.json: All the details of the countries organized as categories, fields and sub-fields in JSON format.
++ countrydetails.json (compressed as countrydetails.zip): All the details of the countries organized as categories, fields and sub-fields in JSON format.
 
 
 The parser used for this is a .net core console application and is included in this repository.

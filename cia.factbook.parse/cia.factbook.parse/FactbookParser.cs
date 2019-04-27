@@ -278,8 +278,8 @@ namespace cia.factbook.parse
                                 {
                                     SubField.Key = "*";
                                 }
-                                SubField.IsHistoricEntity = true;                                
-                                SubField.Value = subfield.Children.Where(x => x.HasAttribute("class") && x.GetAttribute("class") == "subfield-number").First().TextContent;
+                                SubField.IsHistoricEntity = true;
+                                SubField.Value = subfield.Children.Where(x => x.HasAttribute("class") && x.GetAttribute("class") == "subfield-number").FirstOrDefault()?.TextContent ?? "";
                                 SubField.Note = subfield.Children.Where(x => x.HasAttribute("class") && x.GetAttribute("class") == "subfield-note").FirstOrDefault()?.TextContent ?? "";
                                 SubField.Date = subfield.Children.Where(x => x.HasAttribute("class") && x.GetAttribute("class") == "subfield-date").FirstOrDefault()?.TextContent ?? "";                                
                             }

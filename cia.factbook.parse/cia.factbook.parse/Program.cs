@@ -31,14 +31,33 @@ namespace cia.factbook.parse
 
             //FactbookParser.CreateCountryDataList();
 
-            List<CountryData> CountryDataList =
-                JsonConvert.DeserializeObject<List<CountryData>>(File.ReadAllText(@"countrydetailslist.json"));
-            CountryData data = CountryDataList.Where(x => x.code == "SW").First();
-            Console.WriteLine(data);
-            List<ProfileEntity> entities = FactbookParser.ParseProfileData(data.html);
-            foreach (var entity in entities)
-                entity.PrintEntity();
+            //List<CountryData> CountryDataList =
+            //    JsonConvert.DeserializeObject<List<CountryData>>(File.ReadAllText(@"countrydetailslist.json"));
+            //CountryData data = CountryDataList.Where(x => x.code == "SW").First();
+            //Console.WriteLine(data);
+            //List<ProfileEntity> entities = FactbookParser.ParseProfileData(data.html);
+            //foreach (var entity in entities)
+            //    entity.PrintEntity();
 
+            //Creating country details!
+            Dictionary<string, List<ProfileEntity>> CountryDetails = new Dictionary<string, List<ProfileEntity>>();
+            List<CountryData> CountryDataList =
+               JsonConvert.DeserializeObject<List<CountryData>>(File.ReadAllText(@"countrydetailslist.json"));
+            Console.WriteLine($"Total Countries: {CountryDataList.Count}");
+            int index = 1;
+            foreach(var data in CountryDataList)
+            {
+                Console.WriteLine($"[ {index} of {CountryDataList.Count}] - {data.code} - {data.name}");
+                List<ProfileEntity> entities = FactbookParser.ParseProfileData(data.html);
+                foreach (var entity in entities)
+                    entity.CheckEntity();
+                CountryDetails.Add(data.code, entities);
+                index++;
+            }
+            TextWriter tw = new StreamWriter("countrydetails.json");
+            string json = JsonConvert.SerializeObject(CountryDetails, Formatting.Indented);
+            tw.WriteLine(json);
+            Console.WriteLine("Done!");
 
             Console.ReadLine();
         }

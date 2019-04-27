@@ -88,5 +88,14 @@ namespace cia.factbook.parse
                     Console.WriteLine($"      +{entity.Key}: {entity.Value} {entity.Note} {entity.Date}");
             }
         }
+
+        public static void CheckEntity(this ProfileEntity entity)
+        {
+            if (entity.Key.Trim() == string.Empty) throw new Exception("Empty Key!");
+            if (entity.EntityType != ProfileEntityType.Category &&  entity.Value.Trim() == string.Empty && entity.Note.Trim() == string.Empty && entity.Children.Count == 0)
+                throw new Exception("No value not child entities!");            
+        }
+
+
     }
 }

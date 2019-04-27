@@ -1,6 +1,8 @@
 # Description
 
-The factbook/json (2018 archive) folder contains 269 json files, each containing HTML content of the corresponding country profiles. The schema for that data is listed below. The HTML content of all these files is parsed and the data is organized into json format (representing a collecton of ` cia.factbook.parse.ProfileEntity ` type).  
+The factbook/json (2018 archive) folder contains 269 json files, each containing HTML content of the corresponding country profiles. The schema for that data is listed below. The HTML content of all these files is parsed and the data is organized into json format (representing ` Dictionary<string, List<ProfileEntity>> ` type).  
+
+The resulting json is 33.5 MB in raw format, but is only 3.15 MB when compressed.
 
 
 
