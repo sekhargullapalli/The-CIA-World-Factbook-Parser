@@ -13,10 +13,18 @@ namespace cia.factbook.parse
         public ProfileEntityType EntityType { get; set; } = ProfileEntityType.None;  
         public string Key { get; set; } = "";
         public string Value { get; set; } = "";        
-        public List<ProfileEntity> Children { get; set; } = new List<ProfileEntity>();
+        public string Note { get; set; }="";
+        public string Date { get; set; } = "";
+                
+        public bool IsHistoricEntity { get; set; } = false;       
+        public bool IsNumericEntity{ get; set; } = false;        
+        public bool IsGroupedEntity { get; set; } = false;
+
         /// <summary>
-        /// Represents if the entity contains historic data
+        /// Comparison rank in case of comparable entity
         /// </summary>
-        public bool IsHistoric { get; set; } = false;
+        public int? ComparisonRank { get; set; } = null;
+
+        public List<ProfileEntity> Children { get; set; } = new List<ProfileEntity>();
     }   
 }

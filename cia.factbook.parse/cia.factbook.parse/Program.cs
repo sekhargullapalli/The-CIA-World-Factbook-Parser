@@ -27,9 +27,17 @@ namespace cia.factbook.parse
             //string rankorderpath = @"C:/Users/sekha/Desktop/factbook/docs/print_rankorderguide.html";
             //FactbookParser.GetComparableFields(File.ReadAllText(rankorderpath));
 
-            Utilities.CreateFlagsReadMe();
+            //Utilities.CreateFlagsReadMe();
 
+            //FactbookParser.CreateCountryDataList();
 
+            List<CountryData> CountryDataList =
+                JsonConvert.DeserializeObject<List<CountryData>>(File.ReadAllText(@"countrydetailslist.json"));
+            CountryData data = CountryDataList.Where(x => x.code == "SW").First();
+            Console.WriteLine(data);
+            List<ProfileEntity> entities = FactbookParser.ParseProfileData(data.html);
+            foreach (var entity in entities)
+                entity.PrintEntity();
 
 
             Console.ReadLine();

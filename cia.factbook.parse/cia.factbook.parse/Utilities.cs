@@ -6,8 +6,11 @@ using Newtonsoft.Json;
 
 namespace cia.factbook.parse
 {
-    public class Utilities
+    public static class Utilities
     {
+        /// <summary>
+        /// Create the string for Flags of the world mark down file and writes to console.
+        /// </summary>
         public static void CreateFlagsReadMe()
         {
             Console.Clear();
@@ -24,8 +27,7 @@ namespace cia.factbook.parse
                     Console.WriteLine(pattern.Replace("PATH",filename).Replace("TITLE",data.name));
             }
             Console.WriteLine("</div>");
-            //Following css is used
-            
+            //Following css is used            
             //< style type = "text/css" >
             //div.flagcontainer {
             //float: left;
@@ -37,7 +39,54 @@ namespace cia.factbook.parse
             //text - align: center;
             //}
             //</ style >
+        }
 
+        public static void PrintEntity(this ProfileEntity entity)
+        {
+            if (entity.Key.Trim() == string.Empty) throw new Exception("Empty Key!");
+            if (entity.Value.Trim() == string.Empty && entity.Note.Trim()==string.Empty && entity.Children.Count == 0)
+                throw new Exception("No value not child entities!");
+
+            if (entity.EntityType== ProfileEntityType.Category)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("\n================================================================");
+                Console.WriteLine(entity.Key);
+                Console.WriteLine("==================================================================\n");
+                foreach (var child in entity.Children)
+                    child.PrintEntity();
+            }            
+            else if (entity.EntityType == ProfileEntityType.Field)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("\n----------------------------------------------------------------");
+                Console.WriteLine($"  +{entity.Key}");
+                Console.WriteLine("------------------------------------------------------------------\n");
+                
+                if (entity.Value.Trim()!=string.Empty)
+                    Console.WriteLine($"  {entity.Value}\n");
+                foreach (var child in entity.Children)
+                    child.PrintEntity();
+
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+
+
+                if (entity.Note.Trim() != string.Empty)
+                    Console.WriteLine($"  note: {entity.Note}");
+                if (entity.Date.Trim() != string.Empty)
+                    Console.WriteLine($"  date: {entity.Date}");
+                if (entity.ComparisonRank.HasValue)
+                    Console.WriteLine($"  country comparison to the world:: {entity.ComparisonRank}");
+            }
+            else if (entity.EntityType == ProfileEntityType.SubField)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                if (entity.Key=="*")
+                    Console.WriteLine($"      * {entity.Value} {entity.Note} {entity.Date}");
+                else
+                    Console.WriteLine($"      +{entity.Key}: {entity.Value} {entity.Note} {entity.Date}");
+            }
         }
     }
 }
