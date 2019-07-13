@@ -54,9 +54,11 @@ namespace cia.factbook.parse
                 CountryDetails.Add(data.code, entities);
                 index++;
             }
-            TextWriter tw = new StreamWriter("countrydetails.json");
-            string json = JsonConvert.SerializeObject(CountryDetails, Formatting.Indented);
+            TextWriter tw = new StreamWriter("countrydetails.json");     
+            string json = JsonConvert.SerializeObject(CountryDetails, Formatting.None);
             tw.WriteLine(json);
+            tw.Flush();
+            tw.Close();
             Console.WriteLine("Done!");
 
             Console.ReadLine();
