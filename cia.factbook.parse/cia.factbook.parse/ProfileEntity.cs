@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,6 +12,7 @@ namespace cia.factbook.parse
     /// </summary>
     public class ProfileEntity
     {
+        [JsonConverter(typeof(StringEnumConverter))]
         public ProfileEntityType EntityType { get; set; } = ProfileEntityType.None;  
         public string Key { get; set; } = "";
         public string Value { get; set; } = "";        
